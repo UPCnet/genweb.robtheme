@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<layers>
+  <layer
+    name="genweb.robtheme"
+    interface="genweb.robtheme.interfaces.IGenwebRobthemeLayer"
+  />
+</layers>
