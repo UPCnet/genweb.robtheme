@@ -83,7 +83,7 @@ strong {
     display: block;
     position: relative;
     transition: all 1s ease;
-    padding: 18px 0;
+    padding: 30px 0 18px 0;
 }
 
 .list-sections li.primera {
@@ -391,7 +391,7 @@ strong {
 }
 
 
-/* Imatge mÃ©s text fitxa */
+/* Imatge més text fitxa */
 
 .destacat {
     height: 400px;
@@ -407,11 +407,11 @@ strong {
 
 .destacat-contingut {
     width: 340px;
-    padding: 0px 20px;
+    padding: 20px;
     position: absolute;
     z-index: 1;
     background: #F2F5F6;
-    height: 100%;
+    height: calc(100% - 40px);
 }
 
 .destacat-contingut h2 {
@@ -628,7 +628,7 @@ div#llegenda {
 /*Adaptacions dins la graella de porlets */
 
 .portlet h2 {
-    border-bottom: 0px solid #0077C8;
+    border-bottom: 0px solid #0077C8 !important;
 }
 
 
@@ -715,10 +715,10 @@ input[type="text"] {
     width: 95%;
 }
 
-input[type="submit"] {
+/*input[type="submit"] {
     width: 100%;
     padding: 10px;
-}
+}*/
 
 .infoform {
     margin-bottom: 0px;
@@ -1014,9 +1014,9 @@ input[type="submit"] {
     clear: both;
 }
 
-.gris {
+/*.gris {
     background: #edefef;
-}
+}*/
 
 .padd {
     padding: 20px 20px 0px 20px;
@@ -1177,15 +1177,15 @@ input[type="submit"] {
 
 @font-face {
     font-family: 'upc-icones';
-    src: url("ca/fonts/upc-icones.woff?y6zlm7") format("woff"), url("ca/fonts/upc-icones.ttf?y6zlm7") format("truetype"), url("ca/fonts/upc-icones.svg?y6zlm7#upc-icones") format("svg");
+    src: url("++genweb++robtheme/fonts/upc-icones.woff?y6zlm7") format("woff"), url("++genweb++robtheme/fonts/upc-icones.ttf?y6zlm7") format("truetype"), url("++genweb++robtheme/fonts/upc-icones.svg?y6zlm7#upc-icones") format("svg");
     font-weight: normal;
     font-style: normal;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     @font-face {
-        font-family: ‘chunk-webfont’;
-        src: url("ca/fonts/upc-icones.svg?y6zlm7#upc-icones") format("svg");
+        font-family: 'chunk-webfont';
+        src: url("++genweb++robtheme/fonts/upc-icones.svg?y6zlm7#upc-icones") format("svg");
         -webkit-font-smoothing: subpixel-antialiased;
         text-rendering: optimizeLegibility;
     }
@@ -1261,11 +1261,6 @@ input[type="submit"] {
     transition: all .25s ease-out;
     border-radius: 2px;
     padding-right: 72px;
-}
-
-.link-banner {
-    background: #F2F5F6;
-    padding: 30px 24px;
 }
 
 .link-bannerblau {
@@ -1542,12 +1537,10 @@ ol.list-links-upc {
     font-weight: 500;
     background: #F2F5F6;
     display: block;
-    padding: 30px 24px;
     color: #636363;
     position: relative;
     transition: all .25s ease-out;
     border-radius: 2px;
-    padding-right: 72px;
 }
 
 .btn-banner {

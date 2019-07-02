@@ -3,11 +3,6 @@ module.exports = function (grunt) {
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-        // we could just concatenate everything, really
-        // but we like to have it the complex way.
-        // also, in this way we do not have to worry
-        // about putting files in the correct order
-        // (the dependency tree is walked by r.js)
 
         compass: {
             robtheme: {
@@ -54,7 +49,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-browser-sync');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-compass');
-    grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
 
     // CWD to theme folder

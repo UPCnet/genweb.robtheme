@@ -41,4 +41,11 @@
         name="robtheme"
         />
 
+    <genericsetup:importStep
+      name="genweb.robtheme"
+      title="Setup Rob Theme"
+      description="Setup Rob Theme"
+      handler="genweb.robtheme.setuphandlers.setupRobTheme"
+    />
+
 </configure>
