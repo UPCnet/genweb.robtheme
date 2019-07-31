@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* Cabezal */
+/* line 4, ../../../scss/Dropbox/sharedRobtheme/compartido.scss */
+header#portal-header .container {
+  border-top: 0px;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+/* line 9, ../../../scss/Dropbox/sharedRobtheme/compartido.scss */
+header#portal-header .clearfix {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+/* Breadcrum  */
+/* line 17, ../../../scss/Dropbox/sharedRobtheme/compartido.scss */
+nav#portal-breadcrumbs {
+  background-color: #F2F5F6;
+  margin-bottom: 40px;
+  height: 60px;
+  padding: 20px;
+}
+/* line 23, ../../../scss/Dropbox/sharedRobtheme/compartido.scss */
+nav#portal-breadcrumbs .container {
+  width: 1170px;
+  padding: 15px;
+}
+/* line 27, ../../../scss/Dropbox/sharedRobtheme/compartido.scss */
+nav#portal-breadcrumbs ol.breadcrumb li a {
+  font-weight: 300;
+  line-height: 1.25;
+  color: #636363;
+}
+/* line 32, ../../../scss/Dropbox/sharedRobtheme/compartido.scss */
+nav#portal-breadcrumbs li.active a {
+  color: #007BC1;
+}
+/* line 35, ../../../scss/Dropbox/sharedRobtheme/compartido.scss */
+nav#portal-breadcrumbs .breadcrumb .active {
+  font-weight: 300;
+}
+
+/* Menú superior secundario*/
+/* line 42, ../../../scss/Dropbox/sharedRobtheme/compartido.scss */
+nav#portal-globalnav .container {
+  max-width: 100%;
+  width: 100%;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */

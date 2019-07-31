@@ -11,19 +11,36 @@ module.exports = function (grunt) {
                     cssDir: 'stylesheets/',
                 },
             },
+            sharedRobtheme: {
+                options: {
+                    sassDir: 'scss/Dropbox/sharedRobtheme',
+                    cssDir: 'stylesheets/',
+                }
+            }
+        },
+        concat: {
+            options: {
+                separator: '',
+            },
+            robtheme: {
+                src: ['stylesheets/robtheme.css',
+                      'stylesheets/sharedRobtheme.css'],
+                dest: 'stylesheets/robtheme-concat.css',
+            }
         },
         cssmin: {
             target : {
-                src : ["stylesheets/robtheme.css"],
-                dest : "stylesheets/robtheme.min.css"
+                src : ["stylesheets/robtheme-concat.css"],
+                dest : "stylesheets/robtheme.min.css",
             }
         },
         watch: {
             ulearn: {
                 files: [
-                    'scss/*.scss'
+                    'scss/*.scss',
+                    'scss/Dropbox/sharedRobtheme/*.scss'
                 ],
-                tasks: ['compass:robtheme', 'cssmin']
+                tasks: ['compass:robtheme', 'compass:sharedRobtheme', 'concat:robtheme', 'cssmin']
             }
         },
         browserSync: {
@@ -49,6 +66,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-browser-sync');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-compass');
+    grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
 
     // CWD to theme folder

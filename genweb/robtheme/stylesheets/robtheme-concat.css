@@ -1,0 +1,1361 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Roboto Light Italic"), local("Roboto-LightItalic"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TjASc3CsTKlA.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Roboto Light Italic"), local("Roboto-LightItalic"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TjASc-CsTKlA.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Roboto Light Italic"), local("Roboto-LightItalic"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TjASc2CsTKlA.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Roboto Light Italic"), local("Roboto-LightItalic"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TjASc5CsTKlA.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Roboto Light Italic"), local("Roboto-LightItalic"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TjASc1CsTKlA.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Roboto Light Italic"), local("Roboto-LightItalic"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TjASc0CsTKlA.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Roboto Light Italic"), local("Roboto-LightItalic"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TjASc6CsQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Roboto Medium Italic"), local("Roboto-MediumItalic"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51S7ACc3CsTKlA.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Roboto Medium Italic"), local("Roboto-MediumItalic"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51S7ACc-CsTKlA.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Roboto Medium Italic"), local("Roboto-MediumItalic"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51S7ACc2CsTKlA.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Roboto Medium Italic"), local("Roboto-MediumItalic"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51S7ACc5CsTKlA.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Roboto Medium Italic"), local("Roboto-MediumItalic"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51S7ACc1CsTKlA.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Roboto Medium Italic"), local("Roboto-MediumItalic"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51S7ACc0CsTKlA.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Roboto Medium Italic"), local("Roboto-MediumItalic"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51S7ACc6CsQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TzBic3CsTKlA.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TzBic-CsTKlA.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TzBic2CsTKlA.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TzBic5CsTKlA.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TzBic1CsTKlA.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TzBic0CsTKlA.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url(https://fonts.gstatic.com/s/roboto/v19/KFOjCnqEu92Fr1Mu51TzBic6CsQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Roboto Medium"), local("Roboto-Medium"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Roboto Medium"), local("Roboto-Medium"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Roboto Medium"), local("Roboto-Medium"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Roboto Medium"), local("Roboto-Medium"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Roboto Medium"), local("Roboto-Medium"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Roboto Medium"), local("Roboto-Medium"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Roboto Medium"), local("Roboto-Medium"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@charset "UTF-8";
+/* Rasgos generales */
+/* line 2, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+body {
+  font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.25;
+  color: #636363;
+  background-color: #fff;
+}
+
+/* line 10, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+a {
+  color: #007BC1;
+  text-decoration: none;
+}
+
+/* line 15, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+h1.documentFirstHeading {
+  font-size: 2.25rem;
+  color: #4A4A4A;
+  background: transparent;
+  border-bottom: 3px solid #B8C6C8;
+  margin: 0px 0px 12px 0;
+  padding: 0 0 12px 0;
+  font-weight: 500;
+}
+
+/* line 24, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+h2.row-fluid, h2.liniaDalt {
+  font-size: 1.5rem;
+  color: #636363;
+  position: relative;
+  overflow: hidden;
+  padding: 6px 0;
+  margin-top: 0;
+}
+
+/* line 32, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.documentDescription {
+  font-size: 107.692308%;
+  font-weight: 400;
+  color: #616161;
+  margin-bottom: 18px;
+}
+
+/* line 38, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+[class^="span"] {
+  margin-bottom: 0px;
+}
+
+/* Cabezal */
+/* line 45, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+header#portal-header .container {
+  border-top: 0px;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+/* line 50, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+header#portal-header .clearfix {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 10px 20px;
+}
+
+/* Breadcrum  */
+/* line 58, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+div#viewlet-above-content {
+  display: none;
+}
+
+/* line 62, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+nav#portal-breadcrumbs {
+  background-color: #F2F5F6;
+  padding: 5px;
+}
+/* line 65, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+nav#portal-breadcrumbs .container {
+  width: 1170px;
+  padding: 15px;
+}
+/* line 69, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+nav#portal-breadcrumbs ol.breadcrumb li a {
+  font-weight: 300;
+  line-height: 1.25;
+  color: #636363;
+}
+/* line 74, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+nav#portal-breadcrumbs li.active a {
+  color: #007BC1;
+}
+/* line 77, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+nav#portal-breadcrumbs .breadcrumb .active {
+  font-weight: 300;
+}
+
+/* Menú superior secundario*/
+/* line 84, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+nav#portal-globalnav {
+  background-color: #ffffff;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+/* line 88, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+nav#portal-globalnav .container {
+  margin: auto;
+}
+/* line 91, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+nav#portal-globalnav #portal-header:not(.no-image) + #portal-globalnav .navbar-inner {
+  margin-top: 0px;
+  margin: auto;
+}
+
+/* Títulos de Portlet */
+/* line 98, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.portletWrapper .portlet h2:after {
+  content: "";
+  position: absolute;
+  margin-left: 12px;
+  background: #d1d1d1;
+  height: 1px;
+  box-shadow: 1000px 0 0 -1000px #d1d1d1;
+  width: 85%;
+  top: 50%;
+}
+/* line 108, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.portletWrapper .portlet h2:after :after {
+  content: "";
+  position: absolute;
+  margin-left: 12px;
+  background: #d1d1d1;
+  height: 1px;
+  box-shadow: 1000px 0 0 -1000px #d1d1d1;
+  width: 85%;
+  top: 50%;
+}
+
+/* line 119, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.large-icon.icon-news, .large-icon.icon-news-item {
+  font-size: 1rem;
+  top: .4rem;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  background-position: -37px -252px;
+}
+
+/* line 129, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.titling-line-container .titling-line::after {
+  content: "";
+  position: absolute;
+  margin-left: 12px;
+  background: #d1d1d1;
+  height: 1px;
+  box-shadow: 1000px 0 0 -1000px #d1d1d1;
+  width: 100%;
+  top: 50%;
+}
+
+/*  Noticias*/
+/* line 148, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.portletWrapper .portlet > .pad {
+  border-bottom: 0px;
+}
+/* line 151, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.portletWrapper .portlet > .pad h2 {
+  width: 100%;
+  border-bottom: 0px;
+}
+/* line 154, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.portletWrapper .portlet > .pad h2::after {
+  content: "";
+  position: absolute;
+  margin-left: 12px;
+  margin-right: 12px;
+  background: #d1d1d1;
+  height: 1px;
+  box-shadow: 1000px 0 0 -1000px #d1d1d1;
+  top: 50%;
+}
+/* line 167, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.portletWrapper .noticies-full + h3 {
+  font-size: 1.125rem;
+  color: #4a4a4a;
+  font-weight: 300;
+  margin-top: 15px;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+/* line 177, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.portletWrapper .content-noticies p {
+  margin: 10px;
+  font-weight: 300;
+  font-size: .8125rem;
+  color: #636363;
+}
+/* line 183, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.portletWrapper .content-noticies hr {
+  border-top: 0px solid #b2b2b2;
+  border-bottom: 0px solid #fff;
+}
+/* line 189, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.portletWrapper a:hover {
+  text-decoration: none;
+}
+/* line 193, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.portletWrapper .noticia-full-2cols {
+  background-color: #F2F5F6;
+  margin-bottom: 20px;
+}
+/* line 196, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.portletWrapper .noticia-full-2cols .noticies-full {
+  padding: 0px;
+}
+/* line 199, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.portletWrapper .noticia-full-2cols:hover {
+  transform: perspective(1px) scale(1.00775, 1.00775) translateZ(0px);
+}
+/* line 202, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.portletWrapper .noticia-full-2cols:active {
+  transform: perspective(1px) scale(1.00775, 1.00775) translateZ(0px);
+}
+
+/* Header */
+/* line 211, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#portal-header {
+  border-top: 0px !Important;
+}
+/* line 215, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#portal-header h1.pull-left img {
+  height: 100%;
+  width: 320px;
+}
+/* line 220, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#portal-header + #portal-globalnav #menu-1 ul {
+  border: 0px !important;
+}
+/* line 223, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#portal-header .clearfix {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 20px;
+}
+
+/* line 231, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+nav#portal-globalnav .container {
+  max-width: 1140px !important;
+}
+
+/* line 238, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#portal-globalnav .state-published {
+  border-bottom: 0px;
+}
+/* line 241, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#portal-globalnav #portal-header.no-image + #portal-globalnav #menu-1 ul {
+  border-top: 0px;
+}
+
+/* line 246, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+ul.nav li {
+  border: 0px !important;
+}
+
+/* line 251, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+nav#portal-globalnav .container {
+  max-width: 1200px !important;
+}
+
+/* Porlet de navegación del sidebar */
+/* line 261, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+ul#portlet-navigation-tree li a {
+  padding: 15px 20px !important;
+  border: 0px !important;
+  background-color: #F2F5F6 !important;
+  margin-bottom: 5px !important;
+}
+/* line 269, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+ul#portlet-navigation-tree li.navTreeItem a:hover:after,
+ul#portlet-navigation-tree li.navTreeItem a.active > div > a:after,
+ul#portlet-navigation-tree li.navTreeItem a.selected > div > a:after {
+  top: 18px;
+  right: 20px;
+}
+
+/* line 279, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.subnavbar .nav-list a:hover:after,
+.subnavbar .nav-list .active > div > a:after,
+.subnavbar .nav-list .selected > div > a:after {
+  right: 20px;
+  top: 18px;
+}
+
+/* line 286, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.subnavbar .nav-list .active ul a:before,
+.subnavbar .nav-list .selected ul a:before {
+  top: 13px;
+  left: 5px;
+}
+
+/* line 292, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.subnavbar .nav-list .active ul a[class^="contenttype-"] span:after,
+.subnavbar .nav-list .selected ul a[class^="contenttype-"] span:after,
+.subnavbar .nav-list .active ul a[class*=" contenttype-"] span:after,
+.subnavbar .nav-list .selected ul a[class*=" contenttype-"] span:after {
+  right: 50px;
+  top: 20px;
+}
+
+/* line 299, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+a.state-published span {
+  padding-right: 20px !important;
+  display: block;
+}
+
+/* line 303, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+ul#portlet-navigation-tree li.navTreeItem a.active > div > a:after,
+ul#portlet-navigation-tree li.navTreeItem a.selected > div > a:after,
+ul#portlet-navigation-tree li.navTreeItem a:hover:after {
+  top: 18px;
+  right: 10px !important;
+}
+
+/* line 309, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.subnavbar .nav-list .active > div > a:after,
+.subnavbar .nav-list .selected > div > a:after,
+.subnavbar .nav-list a:hover:after,
+ul#portlet-navigation-tree li a {
+  right: 10px !important;
+  top: 18px !important;
+}
+
+/* line 316, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.subnavbar .nav-list .active ul a.state-visible {
+  color: #666666;
+}
+
+/* line 319, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.subnavbar .nav-list a.state-visible:hover:after,
+.subnavbar .nav-list .active .visible-draft:after,
+.subnavbar .nav-list .selected .visible-draft:after {
+  background-color: #007bc0;
+}
+
+/* footer */
+/* line 327, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#bandaLogos {
+  border-top: 0px !important;
+  background: #F6F7F7;
+}
+/* line 331, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#bandaLogos .container {
+  border-top: 0px !important;
+}
+/* line 334, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#bandaLogos .llistatLogos img {
+  max-height: 100px;
+  border-radius: 50px !important;
+}
+
+/* line 339, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#peu {
+  background: #F6F7F7;
+  border-top: 0px !important;
+  padding: 20px;
+}
+/* line 344, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#peu .container {
+  border-top: 0px !important;
+}
+
+/* Més notícies */
+/* line 353, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+ul.list-portlet {
+  border-bottom: 0px;
+}
+/* line 356, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+ul.list-portlet li:first-child {
+  width: 98%;
+  margin-right: 0px;
+  float: left;
+  height: auto;
+}
+/* line 362, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+ul.list-portlet li {
+  width: 48%;
+  margin: 0px 8px !important;
+  padding-top: 20px !important;
+  float: left;
+}
+/* line 368, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+ul.list-portlet img.image-noticies {
+  max-width: 170px !important;
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+/* line 374, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+ul.list-portlet span.summary {
+  color: #007BC1;
+  font-weight: 400;
+  font-size: 1.125rem;
+  text-transform: inherit;
+}
+/* line 380, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+ul.list-portlet .content-noticies p {
+  font-size: .8125rem;
+  color: #636363;
+  font-weight: 300;
+}
+
+/* paginación */
+/* line 389, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.listingBar a:hover {
+  background-color: #fff;
+}
+
+/* line 392, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.pagination a,
+.listingBar a,
+.pagination span,
+.listingBar span {
+  position: relative;
+  padding: 10px 10px;
+  line-height: 1.25;
+  text-decoration: none;
+  color: #007BC1;
+  background-color: #fff;
+  border: 0px !important;
+  margin-left: -1px;
+  font-size: 16px;
+}
+
+/* line 408, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.listingBar .active span {
+  background-color: white;
+  font-weight: 400;
+  border-bottom: 2px solid #7F7F7F !important;
+}
+/* line 414, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.listingBar ul {
+  width: 100%;
+}
+/* line 418, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.listingBar ul li span {
+  background-color: white;
+  border: 0px !important;
+}
+
+/* line 426, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.nav > li > a:hover, .contentViews > li > a:hover, .configlets > li > a:hover, .formTabs > li > a:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  border-color: #f2f2f2 #f2f2f2 #ccc;
+}
+
+/* botones */
+/* line 435, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.btn-warning {
+  border: 0px;
+  color: #fff;
+  text-shadow: none !important;
+  background-color: #e58906;
+  background-image: none !important;
+  border-radius: 4px !important;
+  filter: none !important;
+  box-shadow: none !important;
+  margin: 10px 0px;
+}
+
+/* line 446, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+a.btn.btn-warning:hover {
+  background-color: #d07a00;
+}
+
+/* line 450, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.btn-warning:hover {
+  border: 0px;
+  color: #fff;
+  text-shadow: none !important;
+  background-color: #e58906;
+  background-image: none !important;
+  border-radius: 4px !important;
+  filter: none !important;
+  box-shadow: none !important;
+  margin: 10px 0px;
+}
+
+/* line 462, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+a.btn.btn-small.btn-block {
+  background: white;
+  border: 1px solid #007bc0;
+  font-size: 14px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px !important;
+}
+
+/* line 471, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.btn-primary, .context {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #007bc0;
+  background-image: none;
+  background-repeat: repeat-x;
+  border-color: transparent;
+  padding: 8px;
+  margin-right: 8px;
+  border-radius: 4px !important;
+}
+
+/* line 482, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.btn-group button.dropdown-toggle {
+  background-color: white !IMPORTANT;
+  background: none;
+  padding: 15px;
+  border-radius: 4px !important;
+}
+
+/* line 488, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.btn-info, .link-parent {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.25);
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 10px 20px;
+  font-size: 16px;
+  line-height: 1.25;
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  color: #fff;
+  background-color: #007BC1;
+}
+
+/* line 511, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.btn-info:hover,
+.link-parent:hover,
+.btn-info:active,
+.link-parent:active,
+.btn-info.active,
+.btn-info.selected,
+.selected.link-parent,
+.contentViews .btn-info.selected:hover,
+.contentViews .selected.link-parent:hover,
+.active.link-parent,
+.btn-info.disabled,
+.disabled.link-parent,
+.btn-info[disabled],
+[disabled].link-parent {
+  color: #fff;
+  background-color: #00639a;
+  border-bottom-color: #ffffff;
+}
+
+/* line 529, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+input.context.btn {
+  border: 0px !important;
+}
+
+/* line 532, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.btn-group a.btn {
+  color: #313131;
+  background-color: #f6f7f7;
+  background-image: none;
+  background-repeat: repeat-x;
+  border-color: transparent;
+  padding: 8px;
+  margin-right: 8px;
+  border-radius: 4px !important;
+}
+
+/* line 542, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.btn-group a.btn:hover {
+  background-color: #e0e0e0;
+}
+
+/* line 545, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.btn-success, button.pfg-draft-save {
+  border-color: #007bc0;
+  color: #ffffff;
+  border-bottom: #007bc0;
+  background-color: #67931a;
+  background-image: none;
+  border-radius: 4px !important;
+  margin: 10px 0;
+  text-shadow: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* line 559, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.btn-success:hover {
+  border: 0px;
+  color: #fff;
+  text-shadow: none !important;
+  background-color: #67931a;
+  background-image: none !important;
+  border-radius: 4px !important;
+  filter: none !important;
+  box-shadow: none !important;
+  margin: 10px 0px;
+}
+
+/* Tablas */
+/* line 572, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+a.link-parent {
+  margin: 20px 0px 10px;
+}
+
+/* line 576, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.table-striped tbody tr:nth-child(odd) td,
+.listing tbody tr:nth-child(odd) td,
+.taulaRegistres tbody tr:nth-child(odd) td,
+.portaltype-packet .estudis table.minimal tbody tr:nth-child(odd) td,
+.table-striped tbody tr:nth-child(odd) th,
+.listing tbody tr:nth-child(odd) th,
+.taulaRegistres tbody tr:nth-child(odd) th,
+.portaltype-packet .estudis table.minimal tbody tr:nth-child(odd) th {
+  background-color: #ffffff;
+}
+
+/* line 586, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+tfoot {
+  background-color: #ffffff;
+}
+
+/* line 589, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.table-bordered th,
+.listing th,
+.table-bordered td,
+.listing td {
+  vertical-align: middle;
+  padding: 0px;
+}
+
+/* line 597, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.btn-group button.dropdown-toggle {
+  background-color: transparent !important;
+  background: 0 0;
+  padding: 15px;
+  border-radius: 4px !important;
+  border: 0px;
+}
+
+/* line 605, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+th, td {
+  border-left: 0px !important;
+  border-right: 0px !important;
+}
+
+/* line 609, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+th.nosort {
+  padding: 10px 5px 10px 5px;
+  border: 0px;
+}
+
+/* line 613, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+td.nosort {
+  padding: 10px !important;
+}
+
+/* line 616, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.table-bordered, .listing {
+  border-right: 0px !important;
+}
+
+/* line 619, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+table th {
+  background-color: #ffffff;
+}
+
+/* line 622, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+tr th .btn-group button {
+  padding: 0px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  color: #636363;
+}
+
+/* line 628, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+table#listing-table {
+  border-top: 0px !important;
+}
+
+/* Contacto */
+/* line 634, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.box {
+  padding: 18px;
+  background-color: #F2F5F6;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  margin-bottom: 40px;
+  border: 0px;
+}
+/* line 642, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.box label {
+  color: #4A4A4A;
+  font-size: .875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .25s all ease;
+}
+/* line 649, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.box .box-gradient {
+  background-image: none;
+}
+/* line 652, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.box .field, .box .box input.textline-field {
+  width: 100% !important;
+  margin: auto;
+  float: left !important;
+}
+/* line 657, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.box .field {
+  margin: 0px 5px 15px 0px !important;
+  width: 100% !important;
+}
+/* line 661, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.box #form-widgets-from_address,
+.box #form-widgets-nombre {
+  width: 97% !important;
+}
+/* line 665, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.box input {
+  display: block;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #636363;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d1d1d1;
+  border-radius: 2px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+  padding: 10px 10px !important;
+}
+/* line 678, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.box #form-buttons-send {
+  width: auto !important;
+  min-width: auto !important;
+  color: #fff;
+  background-color: #7f7f7f;
+  border-color: #7f7f7f;
+  border-radius: 2px !important;
+  float: right;
+  padding: 10px 20px !important;
+}
+/* line 688, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.box input, .box textarea {
+  border-radius: 4px !important;
+}
+/* line 691, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.box .btn, .box .standalone, .box input[value^="Cancel"], .box [type="submit"], .box .context, .box .searchButton, .box button.pfg-draft-save, .box .link-parent {
+  text-shadow: none;
+}
+/* line 695, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.box span.label {
+  background-color: transparent;
+}
+/* line 698, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.box .formHelp {
+  display: block;
+  font-weight: 300;
+}
+/* line 702, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.box input#form-widgets-privacidad-0 {
+  float: left;
+}
+
+/* line 706, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.box-gradient {
+  background-image: none !important;
+}
+
+/* iframe */
+/* line 711, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+iframe {
+  border: 0 !important;
+  display: block !important;
+  width: 100% !important;
+}
+
+/* Login */
+/* line 720, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.template-login_form #portal-column-content #content {
+  width: 300px;
+  border: 0px solid #e5e5e5;
+  background: #fcfcfd;
+  max-width: 650px;
+  margin: 0px auto;
+  padding: 0;
+  margin-bottom: 40px !important;
+}
+/* line 729, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.template-login_form #portal-column-content #content #accordionLogin {
+  margin: 0 auto !important;
+}
+/* line 733, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.template-login_form #portal-column-content #content #accordionLogin .form-horizontal .controls {
+  margin-left: 0px !IMPORTANT;
+}
+/* line 736, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.template-login_form #portal-column-content #content #accordionLogin .form-horizontal .control-label {
+  float: left;
+  width: 100%;
+  text-align: left;
+  color: #4A4A4A;
+  font-size: .875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .25s all ease;
+}
+/* line 748, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.template-login_form #portal-column-content #content #accordionLogin .controls input {
+  width: 94%;
+}
+/* line 752, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.template-login_form #portal-column-content #content #accordionLogin button.btn.btn-primary {
+  width: 100%;
+}
+/* line 755, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.template-login_form #portal-column-content #content #accordionLogin .control-group {
+  padding: 10px;
+  border: 1px solid #b2b2b2;
+  border-radius: 6px !important;
+}
+/* line 760, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.template-login_form #portal-column-content #content #accordionLogin .control-group.margin0 {
+  border: 0px;
+  padding: 0px;
+}
+/* line 764, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.template-login_form #portal-column-content #content #accordionLogin .accordion-group {
+  margin-bottom: 10px;
+  border: 1px solid #b2b2b2;
+  background: #fcfcfc;
+  margin-top: 20px;
+}
+/* line 770, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.template-login_form #portal-column-content #content #accordionLogin .accordion-inner {
+  padding: 9px 15px;
+  border-top: 0px solid;
+}
+/* line 774, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.template-login_form #portal-column-content #content #accordionLogin .accordion-heading .accordion-toggle {
+  display: block;
+  padding: 15px 15px;
+}
+
+/* Buscador */
+/* line 786, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+fieldset#search-field {
+  margin: 20px 0px 50px 0px;
+  width: 100%;
+  max-width: 100%;
+}
+/* line 791, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+fieldset#search-field input.searchPage {
+  width: calc(100% - 146px);
+  border: 2px solid #d9d9d9;
+  border-radius: 4px !important;
+  padding: 10px 0px;
+  transition: .25s all ease;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 10px;
+}
+/* line 801, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+fieldset#search-field input.searchPage.searchButton.allowMultiSubmit {
+  width: 80px !important;
+  background: #007bc0;
+  border-radius: 2px !important;
+  margin-left: 10px;
+  text-shadow: none;
+  color: #fff;
+  border: 0;
+  text-align: center;
+  border: 2px solid #007bc0;
+}
+
+/* Mapa del sitio */
+/* line 817, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#portal-sitemap ul {
+  padding-left: 20px;
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+}
+/* line 821, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#portal-sitemap ul ul.navTree.navTreeLevel2 ul, #portal-sitemap ul ul.navTree.navTreeLevel2 ol {
+  padding-left: 24px;
+}
+/* line 829, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#portal-sitemap ul li {
+  list-style-type: disc;
+}
+/* line 832, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#portal-sitemap ul li li {
+  padding: 0px;
+}
+/* line 835, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#portal-sitemap ul span {
+  width: 100%;
+  display: block !important;
+  max-width: 100% !important;
+  font-size: 14px;
+  font-weight: 200;
+  list-style-type: disc;
+}
+/* line 843, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#portal-sitemap ul .navTreeLevel3 > li {
+  list-style-type: circle;
+}
+/* line 846, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#portal-sitemap ul a img {
+  display: none;
+}
+/* line 849, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#portal-sitemap ul #portal-sitemap ul > li {
+  font-size: 18px;
+  line-height: 18px;
+}
+/* line 853, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#portal-sitemap ul ul.navTreeLevel3 li.navTreeItem a span {
+  margin-left: 5px !important;
+}
+/* line 856, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#portal-sitemap ul a {
+  color: #007BC1 !important;
+}
+/* line 859, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#portal-sitemap ul ul.navTree.navTreeLevel3 {
+  padding-left: 20px;
+}
+/* line 862, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#portal-sitemap ul ul.navTree.navTreeLevel2 {
+  padding-left: 20px;
+}
+
+/* manage */
+/* line 871, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.template-manage-homeportlets .portletHeader strong:hover {
+  background-color: transparent !important;
+  border: 0px;
+}
+/* line 875, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.template-manage-homeportlets .portletHeader strong:hover strong {
+  color: #686563 !important;
+  display: block;
+}
+
+/* line 881, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.portletHeader.clearfix.box.box-gradient.padding0 {
+  background-color: transparent !important;
+}
+
+/* line 884, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.portletAssignments .managedPortlet .box {
+  padding: 18px;
+  background-color: #f2f5f6;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  margin-bottom: 10px;
+  border: 0;
+}
+
+/* alerta */
+/* line 896, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.alert-info, .portalMessage.info {
+  border-color: #007bc0;
+  color: #ffffff;
+  border-bottom: #007bc0;
+  background-color: #007bc0;
+  background-image: none;
+  border-radius: 4px !important;
+  margin: 10px 0 20px 0;
+  text-shadow: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* line 908, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.alert .close, .portalMessage .close {
+  position: relative;
+  top: 0px;
+  right: -25px;
+  line-height: 18px;
+  text-shadow: none;
+  color: white;
+  opacity: 1;
+}
+
+/* line 918, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+h2.portletHeader {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+/* line 923, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.span4 .portletWrapper .portlet h2:after {
+  display: none;
+}
+
+/* IMG del header, icono */
+/* line 940, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.logoPropi {
+  height: 67px;
+  display: table-cell;
+  vertical-align: middle;
+  min-width: 49px;
+  padding: 5px 0;
+}

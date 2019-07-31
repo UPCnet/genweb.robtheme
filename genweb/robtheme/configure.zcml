@@ -21,6 +21,8 @@
     <!-- Register all components defined with grok -->
     <grok:grok package="." />
 
+    <cmf:registerDirectory name="robtheme_images" recursive="True" />
+
     <browser:jbot
         directory="templates"
         layer=".interfaces.IGenwebRobthemeLayer"

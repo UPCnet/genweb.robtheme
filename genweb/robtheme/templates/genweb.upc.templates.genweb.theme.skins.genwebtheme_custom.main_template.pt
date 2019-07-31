@@ -74,7 +74,7 @@
 
         <tal:splittedCSS4IE tal:replace="structure string:&lt;!--[if lt IE 10]&gt;&lt;link rel='stylesheet' href='${portal_url}/++genwebupc++stylesheets/genwebupc-ie.css'&gt;&lt;![endif]--&gt;" />
 
-        <link rel="stylesheet" tal:attributes="href string:${portal_url}/++genweb++robtheme/robtheme.css">
+        <link rel="stylesheet" tal:attributes="href string:${portal_url}/++genweb++robtheme/robtheme.min.css">
         <link rel="stylesheet" tal:attributes="href string:${portal_url}/dynamic.css">
     </tal:notajax>
 </head>
