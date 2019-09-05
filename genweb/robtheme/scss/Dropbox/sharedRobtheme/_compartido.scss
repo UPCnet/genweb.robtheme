@@ -1,4 +1,5 @@
 /* Rasgos generales */
+
 body{
     font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
@@ -7,17 +8,81 @@ body{
     color: #636363;
     background-color: #fff;
 }
+label {
+    font-weight: 500;
+}
 a {
     color: #007BC1;
     text-decoration: none;
 }
-
+select {
+    border: 1px solid #b2b2b2;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 4px !important;
+    margin-top: 6px;
+}
+li.active a {
+    color: #007bc0 !important;
+    font-weight: 600;
+}
+ul.nav-tabs li a {
+    border-left: 0px !important;
+    border-top: 0px !important;
+    border-right: 0px !important;
+    background-color: white !important;
+    background: none !important;
+}
+ul.nav-tabs li.active {
+    border-bottom: 2px solid #007ac1 !IMPORTANT;
+}
+li#contentview-view a {
+    border: 0px;
+    font-weight: bold;
+    background-color: white;
+    background-image: none;
+}
+body.template-homepage nav#portal-breadcrumbs {
+    display: none;
+}
+.documentEditable p.lead-small {
+    color: #ffffff;
+    text-shadow: none;
+    background-color: #007bc0;
+    border: 0px;
+    padding: 20px !important;
+}
+.configlets>li>a:hover, 
+.contentViews>li>a:hover, 
+.formTabs>li>a:hover, 
+.nav>li>a:hover {
+    text-decoration: none;
+    border: 0px;
+    color: #007ac1;
+}
+.configlets>li>a, 
+.contentViews>li>a, 
+.formTabs>li>a, 
+.nav>li>a{
+    text-decoration: none;
+    border: 0px;
+    color: #4a4a4a;
+}
+#edit-bar {
+    border-bottom: 0px;
+}
+.document-heading {
+    margin: 0px 0 36px 0;
+}
+button#contacte_submit {
+    margin-top: 20px;
+}
 h1.documentFirstHeading {
-    font-size: 2.25rem;
-    color: #4A4A4A;
-    background: transparent;
-    border-bottom: 3px solid #B8C6C8;
-    margin: 0px 0px 12px 0;
+    font-size: 1.5rem;
+    color: #4a4a4a;
+    background: 0 0;
+    border-bottom: 3px solid #b8c6c8;
+    margin: 32px 0 12px 0;
     padding: 0 0 12px 0;
     font-weight: 500;
 }
@@ -37,6 +102,169 @@ h2.row-fluid, h2.liniaDalt {
 }
 [class^="span"] {
     margin-bottom: 0px;
+}
+
+ul.investigadors.pull-left li {
+    margin-bottom: 10px;
+}
+
+a.btn.btn-small.btn-block {
+    display: inline-block;
+    background: none !important;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px !important;
+    background-color: #efefef !important;
+    width: 240px;
+    text-align: center;
+    margin: auto !important;
+}
+input#form-buttons-save {
+    background-color: #007bc0;
+    padding: 5px;
+    color: white;
+}
+.btn, 
+.context, 
+.link-parent, 
+.searchButton, 
+.standalone, 
+[type=submit], 
+button.pfg-draft-save, 
+input[value^=Cancel] {
+    text-shadow: none;
+    background-image: none!important;
+    border-radius: 4px!important;
+    background-color: #f2f5f6;
+    padding: 5px;
+}
+
+.contentViews .nav-list>.selected:hover>a, 
+.formTabs>li>a.selected, 
+.formTabs>li>a.selected:hover, 
+.nav-list>.active>a, 
+.nav-list>.active>a:hover, 
+.nav-list>.selected>a, 
+.nav-list>.selected>a:hover {
+    color: #4a4a4a;
+    background-color: #ffffff;
+    border-radius: 0px !important;
+    text-shadow: none!important;
+    font-size: 14px;
+    border-bottom: 2px solid #007bc0;
+}
+.nav-tabs > li > a, 
+.contentViews > li > a, 
+.configlets > li > a, 
+.nav-pills > li > a, 
+.formTabs > li > a{
+    margin-right: 4px !important;
+}
+.selected.required:after {
+    color: #a62e1f;
+    margin-left: 5px;
+}
+.subnavbar .nav-list .active ul a[class^="contenttype-"] span:after, 
+.subnavbar .nav-list .selected ul a[class^="contenttype-"] span:after, 
+.subnavbar .nav-list .active ul a[class*=" contenttype-"] span:after, 
+.subnavbar .nav-list .selected ul a[class*=" contenttype-"] span:after{
+    right: 30px !important;
+}
+body.template-folder_contents{
+    table.table.table-condensed tbody td, 
+    table.table.table-condensed tbody tr, 
+    table.table.table-condensed thead.hide_mobile td, 
+    table.table.table-condensed thead.hide_mobile tr{
+        padding: 0px 10px!important;
+    }
+}
+
+.event_listing section article.vevent:first-child {
+    border-top: 0px !important;
+}
+
+.subnavbar .nav-list .active ul a:before, .subnavbar .nav-list .selected ul a:before{
+    display: none;
+}
+
+.anyipsum-form-header {
+    font-size: 1.125rem;
+    color: #7F7F7F;
+}
+
+body.template-news_listing ul.list-portlet img.image-noticies {
+    max-width: 25%!important;
+}
+
+body.template-newsitem_view .documentEditable p {
+    font-size: 1.125rem;
+    color: #7F7F7F;
+    font-weight: inherit;
+    padding: 0px 0!important;
+    margin: 0px !important;
+
+}
+dd.margin0 {
+    padding-top: 0px !important;
+}
+div#content div#content-core {
+    width: 100%;
+}
+.subnavbar .nav-list .active ul, 
+.subnavbar .nav-list .selected ul {
+    border-top: 0px solid #b2b2b2;
+}
+
+.subnavbar .nav-list {
+    border: 0px !important;
+}
+body.portaltype-packet .tab-content .hide_mobile a .hide_pdf img {
+    width: 100%;
+}
+
+th#foldercontents-order-column {
+    width: 100px;
+}
+a.link-parent {
+    color: grey;
+}
+.link-parent:before {
+    filter: brightness(0.5);
+}
+.link-parent:before {
+    filter: brightness(0.5);
+}
+.multipleSelectionWidget dt {
+    width: 170px;
+    height: 1.5em;
+    overflow: hidden;
+    padding: 0px !important;
+}
+.documentEditable .QueryWidget dt {
+    padding: 0px!important;
+}
+dl.multipleSelectionWidget, #content dl.multipleSelectionWidget {
+    margin: 0;
+    display: block;
+    width: 175px;
+    float: left;
+    margin-right: 0.5em;
+    border: 1px solid #b2b2b2;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 4px!important;
+    margin-top: 6px;
+}
+.ploneSkin table.mceToolbar, 
+.ploneSkin tr.mceFirst .mceToolbar tr td, 
+.ploneSkin tr.mceLast .mceToolbar tr td {
+    border: none !important;
+    padding: 0 !important;
+}
+/* ADMINISTRAR PORLET DEBAJO DE LA BARRA DE NAVEGACIÓN VERTICAL */
+a.btn.btn-small.btn-block {
+    width: 100%;
 }
 
 /* Cabezal */
@@ -96,14 +324,15 @@ nav#portal-globalnav{
 
 /* Títulos de Portlet */
 .portletWrapper .portlet h2:after {
+/*    
     content: "";
     position: absolute;
-    margin-left: 12px;
     background: #d1d1d1;
     height: 1px;
     box-shadow: 1000px 0 0 -1000px #d1d1d1;
-    width: 85%;
+    width: 120px !important;
     top: 50%;
+    margin-left: 20px;
 
     :after {
         content: "";
@@ -115,6 +344,7 @@ nav#portal-globalnav{
         width: 85%;
         top: 50%;
     }
+*/
 }
 .large-icon.icon-news, .large-icon.icon-news-item {
     font-size: 1rem;
@@ -144,26 +374,26 @@ nav#portal-globalnav{
 
 /*  Noticias*/
 .portletWrapper{
-	.portlet {
+    .portlet {
         > .pad {
             border-bottom: 0px;
 
-    		h2{
-    			width: 100%;
-    	    	border-bottom: 0px;
-    	    	&::after {
-    				content: "";
-    				position: absolute;
-    				margin-left: 12px;
-    				margin-right: 12px;
-    				background: #d1d1d1;
-    				height: 1px;
-    				box-shadow: 1000px 0 0 -1000px #d1d1d1;
-    				top: 50%;
-    			}
-    		}
+            h2{
+                width: 100%;
+                border-bottom: 0px;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    margin-left: 12px;
+                    margin-right: 12px;
+                    background: #d1d1d1;
+                    height: 1px;
+                    box-shadow: 1000px 0 0 -1000px #d1d1d1;
+                    top: 50%;
+                }
+            }
         }
-	}
+    }
     .noticies-full + h3 {
         font-size: 1.125rem;
         color: #4a4a4a;
@@ -270,7 +500,7 @@ ul#portlet-navigation-tree{
         a.active > div > a:after, 
         a.selected > div > a:after {
             top: 18px;
-            right: 20px;
+            right: 10px;
         }
     }
 }
@@ -279,7 +509,7 @@ ul#portlet-navigation-tree{
 .subnavbar .nav-list a:hover:after, 
 .subnavbar .nav-list .active > div > a:after, 
 .subnavbar .nav-list .selected > div > a:after {
-    right: 20px;
+    right: 10px;
     top: 18px;
 }
 
@@ -303,15 +533,7 @@ a.state-published span {
 ul#portlet-navigation-tree li.navTreeItem a.active>div>a:after,
 ul#portlet-navigation-tree li.navTreeItem a.selected>div>a:after, 
 ul#portlet-navigation-tree li.navTreeItem a:hover:after {
-    top: 18px;
     right: 10px !important;
-}
-.subnavbar .nav-list .active>div>a:after, 
-.subnavbar .nav-list .selected>div>a:after,
-.subnavbar .nav-list a:hover:after,
-ul#portlet-navigation-tree li a{
-    right: 10px !important;
-    top: 18px !important;
 }
 .subnavbar .nav-list .active ul a.state-visible {
     color: #666666;
@@ -322,7 +544,12 @@ ul#portlet-navigation-tree li a{
     background-color: #007bc0;
 }
 
-
+.subnavbar .nav-list .active>div>a:after, 
+.subnavbar .nav-list .selected>div>a:after, 
+.subnavbar .nav-list a:hover:after {
+    top: 20px !important;
+    right: 10px !important;
+}
 /* footer */
 #bandaLogos {
     border-top: 0px !important;
@@ -431,12 +658,14 @@ ul.list-portlet {
 
 
 /* botones */
-
+.managePortletsLink {
+    margin-top: 40px !important;
+}
 .btn-warning {
     border: 0px;
     color: #fff;
     text-shadow: none!important;
-    background-color: #e58906;
+    background-color: #e58906 !important;
     background-image: none!important;
     border-radius: 4px !important;
     filter: none!important;
@@ -459,17 +688,8 @@ a.btn.btn-warning:hover {
     margin: 10px 0px;
 }
 
-a.btn.btn-small.btn-block {
-    background: white;
-    border: 1px solid #007bc0;
-    font-size: 14px;
-    padding: 10px;
-    margin-top:10px;
-    border-radius: 4px !important;
-}
-
 .btn-primary, .context {
-    color: #fff;
+    color: #313131;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
     background-color: #007bc0;
     background-image: none;
@@ -531,7 +751,7 @@ input.context.btn {
 }
 .btn-group a.btn {
     color: #313131;
-    background-color: #f6f7f7;
+    background-color: #e4e4e4;
     background-image: none;
     background-repeat: repeat-x;
     border-color: transparent;
@@ -554,8 +774,9 @@ input.context.btn {
     font-weight: 600;
     font-size: 14px;
 }
-
-
+#viewlet-below-content {
+    margin: 20px 0px;
+}
 .btn-success:hover {
     border: 0px;
     color: #fff;
@@ -567,12 +788,51 @@ input.context.btn {
     box-shadow: none !important;
     margin: 10px 0px;
 }
+a.btn.btn-success {
+    color: #ffffff;
+    border: 1px solid #007ac0;
+    font-weight: 400;
+    margin: 0px 10px;
+    background-color: #007ac1;
+}
 
 /* Tablas */
+body.template-sharing table td {
+    padding: 5px !important;
+}
+#portlet-navigation-tree {
+    width: 100%;
+    max-width: 235px;
+}
+dl.portalMessage.info a {
+    text-decoration: underline;
+    color: #004871;
+}
+td.mceToolbar.mceLeft.mceFirst.mceLast {
+    padding-left: 0px !important;
+}
+.ploneSkin .mceIframeContainer {
+    padding-left: 0px !important;
+}
+.QueryWidget .previewresults {
+    padding: 10px;
+}
+td select.list-field {
+    width: 100%;
+}
+.alert strong, .alert {
+    padding: 20px;
+}
 a.link-parent {
     margin: 20px 0px 10px;
 }
-
+dl.querywidget.radioWidget {
+    width: 150px !important;
+    margin-top: 10px;
+}
+input#form-widgets-IRelatedItems-relatedItems-widgets-query {
+    margin-bottom: 0px;
+}
 .table-striped tbody tr:nth-child(odd) td, 
 .listing tbody tr:nth-child(odd) td, 
 .taulaRegistres tbody tr:nth-child(odd) td, 
@@ -593,18 +853,15 @@ tfoot {
     vertical-align: middle;
     padding: 0px;
 }
-
+a.btn.btn-danger {
+    background-color: #da0000;
+}
 .btn-group button.dropdown-toggle {
     background-color: transparent !important;
     background: 0 0;
     padding: 15px;
     border-radius: 4px!important;
     border: 0px;
-}
-
-th, td {
-    border-left: 0px !important;
-    border-right: 0px !important;
 }
 th.nosort {
     padding: 10px 5px 10px 5px;
@@ -628,7 +885,13 @@ tr th .btn-group button {
 table#listing-table {
     border-top: 0px !important;
 }
-
+th, td {
+    border: 1px solid #ddd !important;
+    padding: 0px 0px 0px 15px !important;
+}
+.table tr:first-child td {
+    border-top: 5px solid gray !important;
+}
 /* Contacto */
 
 .box{
@@ -895,23 +1158,22 @@ fieldset#search-field {
 /* alerta */
 .alert-info, .portalMessage.info {
     border-color: #007bc0;
-    color: #ffffff;
-    border-bottom: #007bc0;
-    background-color: #007bc0;
-    background-image: none;
+    color: #007bc0!important;
+    background-color: #ffffff!important;
     border-radius: 4px!important;
-    margin: 10px 0 20px 0;
+    margin: 20px 0px !important;
+    padding: 10px 10px !important;
     text-shadow: none;
     font-weight: 600;
     font-size: 14px;
 }
 .alert .close, .portalMessage .close {
     position: relative;
-    top: 0px;
-    right: -25px;
+    top: 0;
+    right: 5px;
     line-height: 18px;
     text-shadow: none;
-    color: white;
+    color: #007ac0;
     opacity: 1;
 }
 
@@ -923,17 +1185,20 @@ h2.portletHeader {
 .span4 .portletWrapper .portlet h2:after {
     display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
+.listing tbody tr:nth-child(odd) td, 
+.listing tbody tr:nth-child(odd) th, 
+.portaltype-packet .estudis table.minimal tbody tr:nth-child(odd) td, 
+.portaltype-packet .estudis table.minimal tbody tr:nth-child(odd) th, 
+.table-striped tbody tr:nth-child(odd) td, 
+.table-striped tbody tr:nth-child(odd) th, 
+.taulaRegistres tbody tr:nth-child(odd) td, 
+.taulaRegistres tbody tr:nth-child(odd) th {
+    background-color: #f9f9f9;
+}
+th.nosort {
+    border: 0px !important;
+    padding: 10px !important;
+}
 
 /* IMG del header, icono */
 
@@ -943,4 +1208,653 @@ h2.portletHeader {
     vertical-align: middle;
     min-width: 49px;
     padding: 5px 0;
+}
+
+/* Listado Eventos */
+article.vevent {
+    list-style: none;
+    border-top: 1px solid #D1D1D1;
+    border-bottom: 1px solid #D1D1D1;
+    margin-bottom: -1px;
+    display: block;
+    position: relative;
+    transition: all 1s ease;
+    padding: 18px 0;
+
+    .event_listing section {
+        float: left;
+        width: 100%;
+    }
+
+    p.description, 
+    ul.horizontal.metadata {
+        font-weight: 300;
+        margin: 0 0 10px;
+        color: #4A4A4A;
+        font-size: 16px;
+    }
+    .documentByLine {
+        font-weight: bolder;
+        color: #636363;
+        font-size: 16px;
+    }
+    span.summary {
+        color: #007BC1;
+        margin-top: 12px;
+        font-size: 1.125rem;
+        font-weight: 500;
+        padding-right: 36px;
+    }
+    abbr[title] {
+        border-bottom: 0px;
+    }
+    ul.horizontal.metadata {
+        padding-left: 20px;
+    }
+}
+
+/* Eventos */
+
+.documentEditable{
+    dl.event.summary.details {
+        border: 0px;
+        width: 100%;
+        max-width: 100%;
+        background-color: #F2F5F6;
+    }
+    dt, dd {
+        padding: 20px !important;
+        border-bottom: 2px solid white;
+    }
+}
+
+/* Listado de Noticias */
+
+ul.list-portlet {
+    img.image-noticies {
+        display: none;
+    }
+    li{
+        width: 100%;
+        min-width: 100%;
+        margin: 20px;
+        border-bottom: 1px solid #D1D1D1;
+        border-top: 1px solid #D1D1D1;
+    }
+    span.summary {
+        color: #007bc1;
+        font-weight: 500;
+        font-size: 1.125rem;
+        text-transform: inherit;
+    }
+    .content-noticies p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.25;
+        color: #636363;
+    }
+}
+
+/* Noticias */
+.documentEditable{
+    #content-core {
+        border-top: 1px dotted #ccc;
+        padding-top: 20px;
+        -webkit-columns: 350px 1;
+        -moz-columns: 350px 1;
+        columns: 350px 1;
+        -webkit-column-gap: 2em;
+        -moz-column-gap: 2em;
+        column-gap: 2em;
+        color: #4a4a4a;
+        float: left;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    figure.newsImageContainer {
+        float: left;
+        width: 33.33% !important;
+        margin: 0px 20px 0px 0px!important;
+        border: 0px;
+    }
+
+    img.newsImage {
+        max-height: 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    div#content-core {
+        float: left;
+        padding: 0px;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+.box, 
+.box-inverse, 
+.template-manage-homeportlets .portletHeader:hover, 
+.portaltype-packet .estudis .caixa3, 
+#category.documentByLine, 
+#relatedItemBox {
+    padding: 18px !important;
+    margin-bottom: 20px;
+    background-color: #f6f7f7;
+    border: 0px;
+}
+
+/* Archivo */
+div#plone-document-byline {
+    margin: 10px 0px;
+}
+.documentEditable{
+    #content-core {
+        margin: 10px 0px;
+        padding: 10px 0px !important;
+    }
+}
+/* Collage */
+.portaltype-collage{
+    td, th {
+        border: 0px;
+        padding: 0 0 0 15px!important;
+    }
+    .documentEditable p.m {
+        font-size: 16px !important;
+    }
+}
+/* Ficha de grado */
+.section-recerca{
+    .lead-small {
+        border: 0px  !important;
+        background-color: #007ac1;
+        text-shadow: none;
+        color: white;
+        font-weight: 500 !important;
+        padding: 20px;
+    }
+    .well, 
+    .well-inverse {
+        background-color: #f2f5f6;
+        border: 0px;
+        padding-bottom: 40px;
+    }
+    form#solicita-informacio {
+        background-image: none;
+    }
+    .beautytab li.formTab.active a {
+        border-bottom: 2px solid;
+        background: none;
+    }
+    .beautytab li.formTab a {
+        border-style: solid none solid solid;
+        border-color: #D9D9D9;
+        display: -webkit-box;
+        padding: 0;
+        height: 45px;
+        background-color: #f7f7f7;
+        border-width: 1px 0 0 0;
+        background: none;
+        text-decoration: none;
+        line-height: 12px;
+        border-bottom: 2px solid #d9d9d9;
+    }
+    .beautytab > ul li:first-child a span {
+        border: 1px;
+    }
+    #tab-academic-information {
+        padding: 0px !important;
+    }
+    #contacte_submit {
+        background-image: none;
+        width: 30% !important;
+        float: right !important;
+        padding: 4px 6px !important;
+        margin-bottom: 4px !important;
+        border-radius: 4px !important;
+        font-size: 16px;
+    }
+    .beautytab li.formTab.active a {
+        background: 0 0;
+        border: 1px solid #cccccc;
+        border-bottom: 2px solid;
+    }
+    .beautytab li.formTab a:hover {
+        background: none;
+        background-color: #f2f5f6;
+    }
+    .documentEditable dd, .documentEditable dt {
+        padding: 10px!important;
+    }
+    dt:first-child {
+        margin-top: 40px !important;
+    }
+    a#tab-anchor-organization {
+        border: 1px solid;
+        border-color: #d9d9d9;
+    }
+}
+
+
+/* Plan de estudio de grado */
+table.table.table-condensed thead.hide_mobile tr, 
+table.table.table-condensed thead.hide_mobile td, 
+table.table.table-condensed tbody tr,
+table.table.table-condensed tbody td{
+    padding: 10px !important;
+}
+.documentEditable p {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 0px !important;
+}
+#div-tabs.div-studies, #div-tabs.studies {
+    border-width: 0px !important;
+    margin-top: 0px;
+}
+.section-recerca .lead-small {
+    border: 0!important;
+    background-color: #007ac1;
+    text-shadow: none;
+    color: #fff;
+    font-weight: 500!important;
+    padding: 20px !important;
+}
+th.nivell {
+    background-color: #666;
+    border-right: 0 !important;
+    color: #fff;
+    padding: 15px !important;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+#titols-columnes th{
+    padding: 15px !important;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+table.table.table-condensed tr td {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+#tab-academic-information {
+    margin-top: -20px !important;
+    border: 1px solid #cccccc;
+}
+.btn, .standalone, input[value^="Cancel"], [type="submit"], .context, .searchButton, button.pfg-draft-save, .link-parent {
+    text-shadow: none;
+    background-image: none !important;
+    border-radius: 4px !important;
+    background-color: #f2f5f6;
+}
+#content-nucli {
+    font-size: 14px;
+}
+td.legendColorBox {
+    width: 20px !important;
+    min-width: 0px !important;
+    max-width: 20px !IMPORTANT;
+} 
+/* Formulari */
+body.template-quickedit.portaltype-formfolder{
+    .header h3 {
+        font-size: 17px;
+        height: 20px;
+        margin: 0px;
+        overflow: hidden;
+        padding: 8px 0px;
+        color: #4a4a4a;
+        background-color: white;
+    }
+    #pfgWidgetWrapper {
+        background: #fff !important;
+    }
+    #allWidgets h2.current,
+    #pfgWidgetWrapper .fields-header, 
+    #pfgWidgetWrapper .fieldset-header, 
+    #pfgWidgetWrapper .actions-header {
+        cursor: default;
+        font-size: 14px;
+        text-align: left;
+        color: #4a4a4a;
+        font-weight: 400;
+        padding-top: 7px;
+        padding-bottom: 0px;
+    }
+    h4.widget-header, 
+    h4.widget-header-helper, 
+    .draggable .dragginghook {
+        background-color: #cccccc;
+    }
+    #fieldWidgets, #fieldsetWidgets, 
+    #actionWidgets {
+        padding: 5px 0px;
+    }
+    div.widget {
+        width: 100%;
+    }
+    .draggable.draggingHook.editHook.qechild {
+        padding: 0px !important;
+        text-align: center;
+    }
+    div.theader div, tr.theader th {
+        background-color: #fff;
+        width: 90% !important;
+    }
+    .pfg-form.formid-formulari-autoritzacio-imp .theader div:first-child,
+    .pfg-form.formid-formulari-autoritzacio-imp .theader div:last-child,
+    .editHook.qechild:last-child {
+        width: 5% !important;
+    }
+    #archetypes-fieldname-dades-del-curs {
+        width: 80%;
+        font-size: 10px;
+    }
+    div.theader div, tr.theader th {
+        border: 0px;
+        color: #666;
+        text-align: left;
+        line-height: 2em;
+        padding: 0px;
+        vertical-align: top;
+        font-weight: bold;
+        background-color: #fff;
+        width: 80% !important;
+    }
+    .pfg-form {
+        width: 80%;
+        float: left;
+    }
+    .field.fsbegin,
+    .field.ArchetypesStringWidget,
+    .field.ArchetypesSelectionWidget,
+    .field.ArchetypesBooleanWidget,
+    .qechild.action,
+    .field.ArchetypesCalendarWidget,
+    .field.PFG-RichLabel,
+    .field.ArchetypesCaptchaWidget{
+        width: 80%;
+        margin: 0px !important;
+    }
+    .draggable.qechild {
+        width: 4% !important;
+    }
+    #pfgThanksEdit th, #pfgThanksEdit td {
+        padding: 0.5em 1em !important;
+    }
+    .editHook.qechild:last-child, 
+    .pfg-form.formid-formulari-autoritzacio-imp div#pfg-fieldwrapper .theader div:first-child, 
+    .pfg-form.formid-formulari-autoritzacio-imp div#pfg-fieldwrapper .theader div:last-child{
+
+    }
+}
+
+/* Vista estándar */
+
+.template-listing_view{
+
+    #content dt {
+        font-weight: normal !important;
+        margin-top: 0px;
+    }
+    .documentEditable dt {
+        padding: 10px 0px !important;
+    }
+}
+
+/* Álbum */
+
+body.template-album_view{ 
+    div.photoAlbumEntry {
+        text-align: center;
+        float: left;
+        height: auto !important;
+        border: 0px;
+        display: block;
+        line-height: 18px;
+        margin: 5px;
+        padding: 0px !important;
+    }
+}
+
+/* VISTA DE RESUMEN  */
+
+body.template-summary_view{
+    article.tileItem.visualIEFloatFix{
+        h2.tileHeadline a {
+            font-weight: 400;
+            font-size: 16px;
+        }
+    }
+}
+
+/* VISTA TUBULAR */ 
+
+body.template-tabular_view{
+    #content-core {
+        width: 100%;
+    }
+    .listing tbody tr, 
+    .listing tbody td {
+        padding: 20px !important;
+    }
+}
+
+/* VISTA TUBULAR */ 
+body.template-view{
+
+    .nav-tabs, 
+    .contentViews, .configlets {
+        border-bottom: 0px;
+    }
+}
+
+
+/* VISTA TUBULAR */ 
+body.template-edit{
+    #content-core {
+        width: 100%;
+    }
+}
+
+/* Categorías noticias */ 
+
+#portlet-navigation-tree {
+    border-width: 0px 0 1px 0;
+}
+
+ul#portlet-navigation-tree li{
+    width: 100%;
+}
+
+/* NOTÍCIAS */ 
+
+.portlet-noticies{
+    .noticia-full-2cols{
+        .content-noticies{
+            padding-bottom: 10px !important;
+        }
+        h3,p {
+            margin: 10px !important;
+        }
+    }
+    .row-fluid{
+        margin-top: 10px;
+    }
+    .portlet-footer {
+        background: #f2f2f200;
+        display: block;
+        padding: 5px 10px 7px;
+        border-top: 1px solid #fff;
+        position: initial;
+        font-size: 92.3076923%;
+    }
+    ul.list-portlet {
+        li {
+            margin-bottom: 5px !important;
+            border-top: 0px !important;
+            margin-top: -5px !important;
+            margin-left: 0px !important;
+
+            .smaller {
+                color: #666;
+                white-space: nowrap;
+                width: 100% !important;
+                display: inherit;
+            }
+        }
+    }
+}
+
+/* Noticias ampliado, imagenes, etc*/ 
+
+.portlet-ampliat{
+    li.clearfix {         
+        h3:first-child {
+            margin-top: 20px;
+        }
+        h3{
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+    .smaller {
+        font-size: 85%;
+        margin: 10px;
+    }
+    .content-noticies p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.25;
+        color: #636363;
+        padding: 0px !important;
+    }
+    .noticies-full+h3 {
+        margin-top: 0px;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}  
+
+ul.list-portlet {
+    img.image-noticies {
+        display: block;
+        max-width: 50% !important;
+    }
+    .content-noticies p {
+        font-size: 14px;
+    }
+}
+
+.portlet.portletRecent{
+    .portlet-footer{
+        display: unset !important;
+    }
+    time.smaller {
+        display: block;
+    }
+    li.portletItem.odd, 
+    li.portletItem.even {
+        margin-left: 0px !important;
+    }
+}
+
+/* Calendario */ 
+
+.portletCalendar{
+    .ploneCalendar td,
+    .ploneCalendar tr,
+    .ploneCalendar th{
+        background: #ffffff;
+        border: 0px !important;
+    }
+    h2 {
+        border-bottom: 0px;
+        color: #023470;
+    }
+    table th {
+        font-weight: 300;
+        font-size: 16px;
+    }
+    td.event {
+        color: #007BC1 !important;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    th {
+        text-transform: uppercase;
+    }
+    td.event.cal_prev_month,
+    td.event.cal_next_month {
+        font-size: 0px !important;
+    }
+    .ploneCalendar td.today {
+        font-weight: bold;
+        color: white !important;
+        background-color: #007BC1 !important;
+        text-shadow: none;
+        width: 28px;
+        height: 21px;
+        position: relative;
+        display: inline-block;
+        border-radius: 50% !important;
+        margin-left: 0px;
+        padding-left: 0px !important;
+        padding-top: 6px !important; 
+        padding-bottom: 0px !important;
+    }
+}
+
+/* Encuesta */ 
+
+.votePortlet.vote-container {
+    .documentEditable dd, .documentEditable dt {
+        border-bottom: 2px solid #fff;
+        width: 100%;
+        padding: 20px !important;
+        min-width: 300px !important;
+    }
+}
+
+/* Encuesta */ 
+
+.legend{
+    table {
+        td.legendColorBox {
+            border: 0px;
+        }
+        td.legendLabel {
+            border: 0px;
+        }
+    }
+}
+
+/* Porlet general */ 
+
+.portlet{
+
+    a.portlet-footer {
+        display: table;
+        position: inherit;
+    }
+    ul.list-portlet li {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+.portlet.portletStaticText.portlet-static-portlet-estatico-con-contorno{
+    .documentEditable {
+        p{
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
 }
