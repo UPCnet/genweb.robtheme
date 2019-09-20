@@ -37,8 +37,8 @@ ul.nav-tabs li.active {
 }
 .portlet h2 {
     overflow: hidden;
-    
-    &::after{
+
+/*    &::after{
         content: "";
         position: absolute;
         margin-left: 12px;
@@ -47,12 +47,16 @@ ul.nav-tabs li.active {
         box-shadow: 1000px 0 0 -1000px #d1d1d1;
         width: 100%;
         top: 50%;
-    }
+    }*/
 }
 li#contentview-view a {
     border: 0px;
     background-color: white;
     background-image: none;
+}
+
+.span3 .noborder .field select {
+    max-width: 245px;
 }
 body.template-homepage nav#portal-breadcrumbs {
     display: none;
@@ -64,7 +68,6 @@ body.template-homepage nav#portal-breadcrumbs {
     border: 0px;
     padding: 20px !important;
 }
-.configlets>li>a:hover,
 .contentViews>li>a:hover,
 .formTabs>li>a:hover,
 .nav>li>a:hover {
@@ -72,7 +75,6 @@ body.template-homepage nav#portal-breadcrumbs {
     border: 0px;
     color: #007ac1;
 }
-.configlets>li>a,
 .contentViews>li>a,
 .formTabs>li>a,
 .nav>li>a{
@@ -80,8 +82,18 @@ body.template-homepage nav#portal-breadcrumbs {
     border: 0px;
     color: #4a4a4a;
 }
+fieldset#search-field input.searchPage.searchButton.allowMultiSubmit {
+    padding: 10px !important;
+}
+.portaltype-collage table.plain td, 
+.portaltype-collage table.plain th {
+    border: 0px !important;
+}
 #edit-bar {
     border-bottom: 0px;
+}
+#content-core .well ul {
+    margin: 0px 20px;
 }
 .document-heading {
     margin: 0px 0 36px 0;
@@ -89,17 +101,26 @@ body.template-homepage nav#portal-breadcrumbs {
 button#contacte_submit {
     margin-top: 20px;
 }
+#content-core dl dd.margin0 {
+    margin-bottom: 20px !important;
+}
+.tab-pane.hide_only_curriculum {
+    margin-top: 0;
+    border: 1px solid #ccc !important;
+    border-top: 0;
+    padding: 0!important;
+}
 h1.documentFirstHeading {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #4a4a4a;
     background: 0 0;
     border-bottom: 3px solid #b8c6c8;
-    margin: 32px 0 12px 0;
+    margin: 0px 0 12px 0;
     padding: 0 0 12px 0;
     font-weight: 500;
 }
 h2.row-fluid, h2.liniaDalt {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #636363;
     position: relative;
     overflow: hidden;
@@ -168,7 +189,6 @@ input[value^=Cancel] {
 }
 .nav-tabs > li > a,
 .contentViews > li > a,
-.configlets > li > a,
 .nav-pills > li > a,
 .formTabs > li > a{
     margin-right: 4px !important;
@@ -192,6 +212,9 @@ body.template-folder_contents{
     }
 }
 
+#folder-index-view h3 {
+    margin-bottom: 20px !important;
+}
 .event_listing section article.vevent:first-child {
     border-top: 0px !important;
     padding-top: 0px;
@@ -220,6 +243,9 @@ body.template-newsitem_view .documentEditable p {
 }
 dd.margin0 {
     padding-top: 0px !important;
+}
+body.template-document_view #parent-fieldname-text table.table.table-no-heading-border td {
+    padding: 10px !important;
 }
 div#content div#content-core {
     width: 100%;
@@ -606,7 +632,7 @@ ul#portlet-navigation-tree{
 .subnavbar .nav-list .active ul a[class*=" contenttype-"] span:after,
 .subnavbar .nav-list .selected ul a[class*=" contenttype-"] span:after {
     right: 50px;
-    top: 20px;
+    top: 15px;
 }
 a.state-published span {
     padding-right: 20px !important;
@@ -629,10 +655,10 @@ ul#portlet-navigation-tree li.navTreeItem a:hover:after {
 .subnavbar .nav-list .active>div>a:after,
 .subnavbar .nav-list .selected>div>a:after,
 .subnavbar .nav-list a:hover:after {
-    top: 20px !important;
+    top: 15px !important;
     right: 10px !important;
 }
-.subnavbar .nav-list a.state-draft,
+.subnavbar .nav-list a.states-draft,
 .subnavbar .nav-list a#workflow-transition-reject,
 .subnavbar .nav-list a#workflow-transition-retiraaesborrany,
 .subnavbar .nav-list a#workflow-transition-show,
@@ -740,7 +766,9 @@ ul.list-portlet {
     }
 }
 
-.nav > li > a:hover, .contentViews > li > a:hover, .configlets > li > a:hover, .formTabs > li > a:hover {
+.nav > li > a:hover,
+.contentViews > li > a:hover,
+.formTabs > li > a:hover {
     text-decoration: none;
     background-color: #ffffff;
     border-color: #f2f2f2 #f2f2f2 #ccc;
@@ -1287,7 +1315,7 @@ th.nosort {
 /* IMG del header, icono */
 
 .logoPropi {
-    height: 67px;
+    height: 50px;
     display: table-cell;
     vertical-align: middle;
     min-width: 49px;
@@ -1338,6 +1366,55 @@ article.vevent {
 }
 
 /* Eventos */
+.list-agenda{
+    ol.row .card {
+        height: 300px;
+        margin-bottom: 24px;
+        
+         .event-title {
+            font-weight: 300;
+            margin-bottom: 20px;
+            color: #4a4a4a;
+            font-size: 1.125rem;
+            padding: 30px 20px!important;
+            margin: 0!important;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            display: block;
+        }
+        .event-time {
+            background-image: linear-gradient(89deg, #00BCD4 0%, #007bc1 100%) !important;
+        }
+    }
+    a.card:hover {
+        box-shadow: 0 1px 2px rgba(0,0,0,0.05), 0 5px 10px rgba(0,0,0,0.1), 0 10px 20px rgba(0,0,0,0.05);
+        text-decoration: none;
+        background-color: #F6F7F7;
+        transform: perspective(1px) scale(1.00775, 1.00775) translateZ(0px);
+        -webkit-font-smoothing: subpixel-antialiased;
+    }
+    a.card:hover span.event-time--wrap::after {
+        opacity: .9;
+        content: "\e902";
+        font-family: upc-icones;
+        border: 1.5px solid #007bc1;
+        position: absolute;
+        font-size: 1.125rem;
+        left: calc(50% - 20px);
+        margin-top: 4px!important;
+        width: 38px;
+        height: 28px;
+        text-align: center;
+        color: #007bc1;
+        background: rgba(255,255,255,.8);
+        z-index: 0;
+        transition: all .5s ease;
+        border-radius: 50%!important;
+        padding-top: 10px;
+        top: 60px;
+    }
+}
 
 .documentEditable{
     dl.event.summary.details {
@@ -1490,9 +1567,6 @@ div#plone-document-byline {
     .beautytab > ul li:first-child a span {
         border: 1px;
     }
-    #tab-academic-information {
-        padding: 0px !important;
-    }
     #contacte_submit {
         background-image: none;
         width: 30% !important;
@@ -1512,10 +1586,7 @@ div#plone-document-byline {
         background-color: #f2f5f6;
     }
     .documentEditable dd, .documentEditable dt {
-        padding: 10px!important;
-    }
-    dt:first-child {
-        margin-top: 40px !important;
+        padding: 0px!important;
     }
     a#tab-anchor-organization {
         border: 1px solid;
@@ -1525,6 +1596,10 @@ div#plone-document-byline {
 
 
 /* Plan de estudio de grado */
+.div-studies .tab-content .table-bordered {
+    border-right: 0!important;
+    border-top: 0px !important;
+}
 table.table.table-condensed thead.hide_mobile tr,
 table.table.table-condensed thead.hide_mobile td,
 table.table.table-condensed tbody tr,
@@ -1539,6 +1614,7 @@ table.table.table-condensed tbody td{
 #div-tabs.div-studies, #div-tabs.studies {
     border-width: 0px !important;
     margin-top: 0px;
+    width: calc(100% - 1px) !important;
 }
 .section-recerca .lead-small {
     border: 0!important;
@@ -1567,16 +1643,23 @@ table.table.table-condensed tr td {
     padding-left: 15px !important;
     padding-right: 15px !important;
 }
-#tab-academic-information {
-    margin-top: 0px;
-    border: 1px solid #ccc;
-    border-top: 0px;
+.section-recerca .beautytab li.formTab a {
+    border-style: solid;
+}
+#pla-estudis,
+.tab-pane.hide_only_curriculum {
+    border: 1px solid #ccc !important;
+    border-top: 0 !important;
+    padding: 20px 10px 10px 10px !important;
 }
 .btn, .standalone, input[value^="Cancel"], [type="submit"], .context, .searchButton, button.pfg-draft-save, .link-parent {
     text-shadow: none;
     background-image: none !important;
     border-radius: 4px !important;
     background-color: #f2f5f6;
+}
+a#tab-anchor-academic-information {
+    border-left: 1px solid #cccccc !important;
 }
 #content-nucli {
     font-size: 14px !important;
@@ -1828,7 +1911,7 @@ ul#portlet-navigation-tree li{
     }
     .smaller {
         font-size: 85%;
-        margin: 10px;
+        margin: 2px 0px;
     }
     .content-noticies p {
         font-size: 14px;
@@ -1875,6 +1958,9 @@ ul.list-portlet {
     .ploneCalendar th{
         background: #ffffff;
         border: 0px !important;
+    }
+    .ploneCalendar td:not(:empty){
+        background: #ffffff !important;
     }
     h2 {
         border-bottom: 0px;
@@ -1980,4 +2066,146 @@ input[type="submit"] {
 input#sharing-search-button {
     margin-left: 5px;
     padding: 4px !important;
+}
+
+/* vista rota manage home porlets */
+body.template-manage-homeportlets{
+    .portletHeader.clearfix.box.box-gradient.padding0:hover{
+        margin-bottom: 10px !important;
+    }
+    button.btn.btn-mini.btn-success,
+    button.btn.btn-mini.btn-danger,
+    button.btn.btn-mini {
+        border: 0px;
+        margin: 5px;
+    }
+    button.btn.btn-mini.btn-success:hover,
+    button.btn.btn-mini.btn-danger:hover,
+    button.btn.btn-mini:hover{
+        border: 0px;
+    }
+    .portletHeader strong:hover + span {
+        display: block;
+    }
+    .portletHeader strong {
+        display: inline-block;
+        padding: 2px 0 0 4px;
+        overflow: hidden;
+        text-overflow: unset;
+        white-space: nowrap;
+        width: 100%;
+    }
+    .portletHeader strong:hover {
+        padding: 0px !important;
+        margin: 0px !important;
+        
+        .clearfix.box.box-gradient.padding0:hover strong {
+            color: #636363 !important;
+        }
+    }
+    .portletHeader strong {
+        padding: 0px;
+        display: block;
+        color: #007bc1!important;
+    }
+    .box:hover{
+        margin-bottom: 10px !important;
+    }
+    .portletHeader.clearfix.box.box-gradient.padding0 {
+        background-color: transparent!important;
+        padding: 5px 10px !important;
+        border: 1px solid #b8c6c8;
+        border-radius: 4px !important;
+        margin-bottom: 10px !important;
+    }
+    button.btn.dropdown-toggle {
+        width: 100%;
+        text-align: left;
+        border: 1px solid #b8c6c8;
+    }
+    span.caret {
+        position: absolute;
+        right: 10px;
+    }
+    .btn-group.open ul.dropdown-menu {
+        width: 100%;
+    }
+    h2.liniaDalt {
+        padding-top: 20px;
+    }
+    button.btn.btn-mini.btn-success {
+        background-color: #5e8618 !important;
+    }
+    button.btn.btn-mini.btn-danger {
+        background-color: #ff2c2c !important;
+    }
+    .input-prepend.pull-right.clearfix input.editable {
+        text-align: center;
+        width: 20px !important;
+        padding: 4px 2px;
+    }
+    form.portlet-action button.btn.btn-mini{
+        background-color: #d4d4d4;
+    }
+    .container {
+        width: 100% !important;
+    }
+}
+.portletAssignments .managedPortlet .box{
+    margin-bottom: 0px !important;
+}
+
+/* vista de serveis externs tabla */
+body.template-document_view{
+    td, th {
+        border: 0px !important;
+        padding: 0px !important;
+    }
+    .box{
+        padding: 18px;
+        margin-bottom: 20px;
+        background-color: #ffffff;
+    }
+}
+
+/* responsive */
+
+@media only screen and (max-width: 979px){
+    nav#portal-breadcrumbs {
+        background-color: #f2f5f6;
+        padding: 5px;
+        margin: 15px 0px;
+    }
+    #titol-menu-2-boto {
+        width: 40px;
+        float: right;
+        margin-bottom: 30px !important;
+    }
+    #eines-menu-boto {
+        width: 40px;
+    }
+    ul#portlet-navigation-tree li a {
+        padding: 10px 40px !important;
+        margin-bottom: 0px;
+        max-width: 100%;
+    }
+    .subnavbar .nav-list .active>div>a:after, .subnavbar .nav-list .selected>div>a:after, .subnavbar .nav-list a:hover:after {
+        top: 10px!important;
+        right: 40px!important;
+    }
+    #portlet-navigation-tree.in {
+        margin-bottom: 60px;
+    }
+    #eines-mov {
+        text-align: left;
+    }
+}
+
+
+table.amarillo {
+    color: #000000 !important;
+    background-color: #ffe2d4 !important;
+    padding: 20px !important;
+    border: 1px solid #d75a20 !important;
+    border-radius: 4px !important;
 }
