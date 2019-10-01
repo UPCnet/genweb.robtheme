@@ -59,7 +59,13 @@ li#contentview-view a {
     max-width: 245px;
 }
 body.template-homepage nav#portal-breadcrumbs {
-    display: none;
+    display: block;
+    padding: 0px;
+    background-color: white;
+    margin: 0px;
+}
+body.template-homepage #content-area {
+    margin-top: 0px;
 }
 .documentEditable p.lead-small {
     color: #ffffff;
@@ -465,6 +471,8 @@ nav#portal-globalnav{
 .titling-line-container{
      .titling-line{
          &::after {
+            display: none;
+            /*
             content: "";
             position: absolute;
             margin-left: 12px;
@@ -473,6 +481,7 @@ nav#portal-globalnav{
             box-shadow: 1000px 0 0 -1000px #d1d1d1;
             width: 100%;
             top: 50%;
+            */
         }
     }
 }
@@ -552,11 +561,7 @@ nav#portal-globalnav{
     h1.pull-left {
         img {
             height: 100%;
-            width: 320px;
         }
-    }
-    + #portal-globalnav #menu-1 ul {
-        border: 0px !important;
     }
     .clearfix {
         margin: 0 auto;
@@ -565,31 +570,24 @@ nav#portal-globalnav{
     }
 }
 
-nav#portal-globalnav{
-    .container {
-        max-width: 1140px !important;
-    }
-}
-
 #portal-globalnav {
-
-    .state-published {
-        border-bottom: 0px;
-    }
     #portal-header.no-image + #portal-globalnav #menu-1 ul {
         border-top: 0px;
     }
 }
-ul.nav{
-    li {
-        border: 0px !important;
-    }
-}
 nav#portal-globalnav {
     .container {
-        max-width: 1200px !important;
+        max-width: 1170px !important;
     }
 }
+nav#portal-breadcrumbs {
+    background-color: #ffffff;
+    padding: 0px;
+}
+nav#portal-breadcrumbs .container {
+    padding: 10px 0px 0px !important;
+}
+
 
 
 /* Porlet de navegación del sidebar */
@@ -1009,7 +1007,6 @@ th, td {
 .box{
     padding: 18px;
     background-color: #F2F5F6;
-    border: 0;
     border-radius: 4px;
     box-shadow: none;
     margin-bottom: 40px;
@@ -1167,7 +1164,6 @@ fieldset#search-field {
         width: calc(100% - 146px);
         border: 2px solid #d9d9d9;
         border-radius: 4px!important;
-        padding: 10px 0px;
         transition: .25s all ease;
         font-weight: 300;
         font-size: 16px;
@@ -1180,7 +1176,6 @@ fieldset#search-field {
         margin-left: 10px;
         text-shadow: none;
         color: #fff;
-        border: 0;
         text-align: center;
         border: 2px solid #007bc0;
 
@@ -1263,7 +1258,6 @@ fieldset#search-field {
     border-radius: 4px;
     box-shadow: none;
     margin-bottom: 10px;
-    border: 0;
 }
 
 
@@ -1372,17 +1366,20 @@ article.vevent {
         margin-bottom: 24px;
         
          .event-title {
-            font-weight: 300;
-            margin-bottom: 20px;
-            color: #4a4a4a;
             font-size: 1.125rem;
-            padding: 20px 20px!important;
-            margin: 0!important;
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-            display: block;
-            height: 60px;
+            color: #4a4a4a;
+            height: 84px;
+            background: rgba(255,255,255,0.9);
+            position: absolute;
+            width: 100%;
+            margin: 0;
+            bottom: 0;
+            padding: 12px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 300;
         }
         .event-time {
             background-image: linear-gradient(89deg, #00BCD4 0%, #007bc1 100%) !important;
@@ -1417,7 +1414,7 @@ article.vevent {
     }
 }
 .list-agenda ol.row .card .event-time {
-    top: calc(50% - 67px - 29px);
+    top: calc(50% - 67px - 45px);
 }
 
 .documentEditable{
@@ -1464,7 +1461,6 @@ ul.list-portlet {
 .documentEditable{
     #content-core {
         border-top: 1px dotted #ccc;
-        padding-top: 20px;
         -webkit-columns: 350px 1;
         -moz-columns: 350px 1;
         columns: 350px 1;
@@ -1760,11 +1756,6 @@ body.template-quickedit.portaltype-formfolder{
     #pfgThanksEdit th, #pfgThanksEdit td {
         padding: 0.5em 1em !important;
     }
-    .editHook.qechild:last-child,
-    .pfg-form.formid-formulari-autoritzacio-imp div#pfg-fieldwrapper .theader div:first-child,
-    .pfg-form.formid-formulari-autoritzacio-imp div#pfg-fieldwrapper .theader div:last-child{
-
-    }
 }
 
 /* Vista estándar */
@@ -1996,7 +1987,6 @@ ul.list-portlet {
         position: relative;
         display: inline-block;
         border-radius: 50% !important;
-        margin-left: 0px;
         padding-left: 0px !important;
         padding-top: 6px !important;
         padding-bottom: 0px !important;
@@ -2151,13 +2141,11 @@ body.template-manage-homeportlets{
     form.portlet-action button.btn.btn-mini{
         background-color: #d4d4d4;
     }
-    .container {
-        width: 100% !important;
-    }
 }
 .portletAssignments .managedPortlet .box{
     margin-bottom: 0px !important;
 }
+
 
 /* vista de serveis externs tabla */
 body.template-document_view{
@@ -2175,6 +2163,9 @@ body.template-document_view{
 /* responsive */
 
 @media only screen and (max-width: 979px){
+    body {
+        font-size: 20px !important;
+    }
     nav#portal-breadcrumbs {
         background-color: #f2f5f6;
         padding: 5px;
@@ -2203,8 +2194,158 @@ body.template-document_view{
     #eines-mov {
         text-align: left;
     }
-}
+    #portal-personaltools-wrapper .navbar-inner,
+    .navbar-fixed-top .navbar-inner,
+    .navbar-fixed-bottom .navbar-inner {
+        height: 50px !important;
+        padding: 10px !important;
+    }
+    #content-area {
+        margin-top: 0.5em;
+        padding: 10px 30px !important;
+    }
+    ul#portlet-navigation-tree {
+        max-width: 100%;
+        width: 100%;
+    }
+    ul#portlet-navigation-tree li a {
+        padding: 10px 20px!important;
+        max-width: 92%;
+    }
+    #portlet-navigation-tree.in {
+        margin-bottom: 00px;
+    }
+    .documentEditable p {
+        font-size: 18px;
+        font-weight: 300;
+        padding: 5px 0!important;
+    }
+    .managePortletsLink {
+        margin-top: 10px!important;
+        margin-bottom: 20px !important;
+    }
+    ul#content-views {
+        font-size: 20px;
+    }
+    #contentview-SEOProperties a {
+        width: 45px;
+    }
+    ul#contentActionMenus {
+        margin: 10px 0px !important;
+        font-size: 18px;
+        width: 100%;
+        font-weight: 400;
+    }
+    footer#peu, footer#canvia-vista {
+        padding: 0px 30px 10px 30px !important;
+        font-size: 20px;
+    }
+    #cookies{
+        font-size: 18px;
+        line-height: normal;
+    }
+    ul.dropdown-menu.pull-right.actionMenuContent{
+        left: 0px !important;
+    }
+    .dropdown-menu.pull-right, .dropdown-menu.newsImageContainer {
+        right: auto;
+    }
+    #cookies {
+        font-size: 18px;
+    }
+    .row-fluid .span8 p, 
+    .row-fluid .span8 address {
+        font-size: 18px;
+        line-height: 35px;
+    }
+    #eines-menu-boto,
+    #titol-menu-2-boto {
+        width: auto;
+    }
+    .image-noticies-full {
+        border: 0;
+        padding: 0px;
+        max-width: 100%;
+        width: 100%;
+    }
+    li.portletItem {
+        padding: 15px 0px !important;
+    }
+    .noticies-full  .image-noticies-full {
+        width: 100%;
+    }
+    .container {
+        width: 100% !important;
+    }
+    #titol-menu-2-text {
+        display: none;
+    }
+    #viewlet-above-content-title, 
+    .documentFirstHeading, 
+    #viewlet-below-content-title, 
+    #viewlet-above-content-body {
+        display: block;
+    }
+    .alert-info, .portalMessage.info {
+        border-color: #007bc0;
+        color: #007bc0!important;
+        background-color: #fff!important;
+        border-radius: 4px!important;
+        margin: 25px 0!important;
+        padding: 10px 15px!important;
+        text-shadow: none;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .alert-info a.btn.btn-success,
+    .alert-info .btn-warning,
+    .portalMessage.info a.btn.btn-success,
+    .portalMessage.info .btn-warning{
+        font-weight: 400;
+        font-size: 16px;
+        margin: 0px;
 
+    }
+    li {
+        line-height: normal;
+    }
+    body.template-newsitem_view .documentEditable p {
+        font-size: 20px;
+        color: #7f7f7f;
+        font-weight: inherit;
+        padding: 0 0!important;
+        margin: 10px 0px !important;
+    }
+    .subnavbar .nav-list .active>div>a:after, 
+    .subnavbar .nav-list .selected>div>a:after, 
+    .subnavbar .nav-list a:hover:after {
+        top: 10px!important;
+        right: 10px!important;
+    }
+    #portal-column-one, 
+    #portal-column-content {
+        position: relative;
+    }
+    .managePortletsLink a.btn.btn-small.btn-block {
+        width: calc(100% - 42px);
+        position: absolute;
+        top: 0px;
+        border: 0px;
+    }
+    div#content-core a.link-parent {
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 979px) and (orientation: portrait), only screen and (max-width: 768px) and (orientation: landscape){
+    .nav-collapse-eines.nav-collapse .nav > li > a{
+        padding: 0;
+        font-weight: 400;
+        color: #fff;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+}
 
 table.amarillo {
     color: #000000 !important;
@@ -2214,7 +2355,17 @@ table.amarillo {
     border-radius: 4px !important;
 }
 
-
+.portlet h2 {
+    margin: 0;
+    color: #666;
+    line-height: 18px;
+    position: relative;
+    font-family: "Roboto",Arial,sans-serif;
+    font-weight: 300 !important;
+    font-size: 130% !important;
+    padding: 10px 0 !important;
+    border-bottom: 0px !important;
+}
 
 
 /* REVISAR */
@@ -2224,8 +2375,35 @@ dl.portlet.votePortlet.vote-container{
         margin-top: 0px;
     }
 }
-
-
 .portlet-ampliat .smaller {
     margin: 2px 10px;
+}
+video {
+    max-width: 100% !important;
+}
+.accordion-heading .accordion-toggle {
+    display: block;
+    padding: 8px 15px;
+    line-height: 2.8em;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+h2#loginModalLabel {
+    color: #0077C8;
+    font-weight: 300;
+}
+.modal-body .documentDescription {
+    font-size: 107.692308%;
+    font-weight: bold;
+    color: #aaa;
+    margin-bottom: 18px;
+}
+
+
+/* */
+#menu-1 ul li {
+    border-bottom: 3px solid #007bc0;
+}
+#portal-globalnav .state-visible {
+    border-bottom: 3px solid #004a74;
 }
