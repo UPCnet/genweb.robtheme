@@ -3132,3 +3132,13 @@ h2#loginModalLabel {
 #portal-globalnav .state-visible {
   border-bottom: 3px solid #004a74;
 }
+
+/* line 2410, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+ul.list-portlet li {
+  padding-top: 10px !important;
+}
+
+/* line 2413, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.portlet h2 {
+  margin-top: 15px;
+}
