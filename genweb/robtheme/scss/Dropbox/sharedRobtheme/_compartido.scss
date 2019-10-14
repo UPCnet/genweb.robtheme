@@ -15,7 +15,6 @@ p {
 }
 h1 {
     font-weight: 500;
-    color: #fff;
 }
 h2 {
     font-weight: 500;
@@ -2740,4 +2739,7 @@ nav.subnavbar ul a.state-visible.navTreeFolderish.contenttype-folder:after,
 }
 li.plain a.state-private {
     color: #a62e1f;
+}
+.nav-collapse ul.nav li.plain a, .nav-collapse ul.nav li.active a {
+    float: left !important;
 }
