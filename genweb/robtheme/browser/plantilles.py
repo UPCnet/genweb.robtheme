@@ -39,267 +39,146 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text amb link - fons GRIS"
+    titol = u"Rob Theme - Banner Text Link - Icona Info - fons GRIS"
     resum = u""
     cos = u"""
-<div class="row-fluid">
-    <div class="span12">
-        <a class="link-banner-minimal" href="../" data-linktype="internal">
-            <i class="fa fa-archive fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
-        </a>
-    </div>
-</div>
-<div class="row-fluid">
-    <div class="span12">
+
+
         <a class="link-banner-minimal" href="../" data-linktype="internal">
             <i class="fa fa-info-circle fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
-    </div>
-</div>
-<p></p>
+        <p></p>
+     """
+    plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
+
+    titol = u"Rob Theme - Banner Text Link - Icona Arxiu - fons GRIS"
+    resum = u""
+    cos = u"""
+
+        <a class="link-banner-minimal" href="../" data-linktype="internal">
+            <i class="fa fa-archive fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
+        </a>
+        <p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text amb link - fons BLAU"
+    titol = u"Rob Theme - Banner Text Link - Icona Info - fons BLAU"
     resum = u""
     cos = u"""
-<div class="row-fluid">
-    <div class="span12">
+        <a class="link-banner-minimal-blue" href="../" data-linktype="internal">
+            <i class="fa fa-info-circle fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
+        </a>
+        <p></p>
+    """
+    plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
+
+    titol = u"Rob Theme - Banner Text Link - Icona Arxiu - fons BLAU"
+    resum = u""
+    cos = u"""
         <a class="link-banner-minimal-blue" href="../" data-linktype="internal">
             <i class="fa fa-archive fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
-    </div>
-</div>
-<div class="row-fluid">
-    <div class="span12">
-        <a class="link-banner-minimal-blue" href="../" data-linktype="internal">
-            <i class="fa fa-info-circle fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
-        </a>
-    </div>
-</div>
-<p></p>
+        <p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text sense link - fons GRIS"
+    titol = u"Rob Theme - Banner Text No Link - Icona Info - fons GRIS"
     resum = u""
     cos = u"""
-<div class="row-fluid">
-    <div class="span12">
-        <a class="link-banner-minimal-nolink" data-linktype="internal">
-            <i class="fa fa-archive fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
-        </a>
-    </div>
-</div>
-<div class="row-fluid">
-    <div class="span12">
         <a class="link-banner-minimal-nolink" data-linktype="internal">
             <i class="fa fa-info-circle fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
-    </div>
-</div>
-<p></p>
+        <p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text sense link - fons BLAU"
+    titol = u"Rob Theme - Banner Text No Link - Icona Arxiu - fons GRIS"
     resum = u""
     cos = u"""
-<div class="row-fluid">
-    <div class="span12">
-        <a class="link-banner-minimal-nolink-blue" data-linktype="internal">
+        <a class="link-banner-minimal-nolink" data-linktype="internal">
             <i class="fa fa-archive fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
-    </div>
-</div>
-<div class="row-fluid">
-    <div class="span12">
+        <p></p>
+    """
+    plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
+
+    titol = u"Rob Theme - Banner Text No Link - Icona Info - fons BLAU"
+    resum = u""
+    cos = u"""
         <a class="link-banner-minimal-nolink-blue" data-linktype="internal">
             <i class="fa fa-info-circle fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
-    </div>
-</div>
-<p></p>
+        <p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Botó Destacats BLAU"
+    titol = u"Rob Theme - Banner Text No Link - Icona Arxiu - fons BLAU"
     resum = u""
     cos = u"""
-<div class="row-fluid">
-    <div class="span4">
-        <p>
-          <a class="link-bannerblau" href="../" target="_blank">
-            <span class="btntitolblau">Lorem Ipsum</span>
-            <br />
-            <span class="btnsubtitolblau">It is a long established fact that a reader will ...</span>
-          </a>
-      </p>
-    </div>
-    <div class="span4">
-        <p>
-          <a class="link-bannerblau" href="../">
-            <span class="btntitolblau">Lorem Ipsum</span>
-            <br />
-            <span class="btnsubtitolblau">It is a long established fact that a reader will ...</span>
-          </a>
-      </p>
-    </div>
-    <div class="span4">
-        <p>
-          <a class="link-bannerblau" href="../" target="_blank">
-            <span class="btntitolblau">Lorem Ipsum</span>
-            <br />
-            <span class="btnsubtitolblau">It is a long established fact that a reader will ...</span>
-          </a>
-      </p>
-    </div>
-</div>
-<p></p>
+        <a class="link-banner-minimal-nolink-blue" data-linktype="internal">
+            <i class="fa fa-archive fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
+        </a>
+        <p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Botó Destacats GRIS"
+    titol = u"Rob Theme - Botó Destacat BLAU"
     resum = u""
     cos = u"""
-<div class="row-fluid">
-    <div class="span4">
-        <p>
-          <a class="link-banner" href="../" target="_blank">
+        <a class="link-bannerblau" href="../">
+            <span class="btntitolblau">Lorem Ipsum</span>
+            <br />
+            <span class="btnsubtitolblau">It is a long established fact that a reader will ...</span>
+          </a>
+          <p></p>
+    """
+    plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
+
+    titol = u"Rob Theme - Botó Destacat GRIS"
+    resum = u""
+    cos = u"""
+         <a class="link-banner" href="../">
             <span class="btntitol">Lorem Ipsum</span>
             <br />
             <span class="btnsubtitol">It is a long established fact that a reader will ...</span>
           </a>
-      </p>
-    </div>
-    <div class="span4">
-        <p>
-          <a class="link-banner" href="../">
-            <span class="btntitol">Lorem Ipsum</span>
-            <br />
-            <span class="btnsubtitol">It is a long established fact that a reader will ...</span>
-          </a>
-      </p>
-    </div>
-    <div class="span4">
-        <p>
-          <a class="link-banner" href="../" target="_blank">
-            <span class="btntitol">lorem Ipsum</span>
-            <br />
-            <span class="btnsubtitol">It is a long established fact that a reader will ...</span>
-          </a>
-      </p>
-    </div>
-</div>
-<p></p>
+      <p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Botó Destacats DANGER"
+    titol = u"Rob Theme - Botó Destacat DANGER"
     resum = u""
     cos = u"""
-<div class="row-fluid">
-    <div class="span4">
-        <p>
-          <a class="link-bannerdanger" href="../" target="_blank">
-            <span class="btntitoldanger">Lorem Ipsum</span>
-            <br />
-            <span class="btnsubtitoldanger">It is a long established fact that a reader will ...</span>
-          </a>
-      </p>
-    </div>
-    <div class="span4">
-        <p>
           <a class="link-bannerdanger" href="../">
             <span class="btntitoldanger">Lorem Ipsum</span>
             <br />
             <span class="btnsubtitoldanger">It is a long established fact that a reader will ...</span>
           </a>
-      </p>
-    </div>
-    <div class="span4">
-        <p>
-          <a class="link-bannerdanger" href="../" target="_blank">
-            <span class="btntitoldanger">Lorem Ipsum</span>
-            <br />
-            <span class="btnsubtitoldanger">It is a long established fact that a reader will ...</span>
-          </a>
-      </p>
-    </div>
-</div>
-<p></p>
+        <p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Botó Destacats WARNING"
+    titol = u"Rob Theme - Botó Destacat WARNING"
     resum = u""
     cos = u"""
-<div class="row-fluid">
-    <div class="span4">
-        <p>
-          <a class="link-bannerwarning" href="../" target="_blank">
-            <span class="btntitolwarning">Lorem Ipsum</span>
-            <br />
-            <span class="btnsubtitolwarning">It is a long established fact that a reader will ...</span>
-          </a>
-      </p>
-    </div>
-    <div class="span4">
-        <p>
           <a class="link-bannerwarning" href="../">
             <span class="btntitolwarning">Lorem Ipsum</span>
             <br />
             <span class="btnsubtitolwarning">It is a long established fact that a reader will ...</span>
           </a>
-      </p>
-    </div>
-    <div class="span4">
-        <p>
-          <a class="link-bannerwarning" href="../" target="_blank">
-            <span class="btntitolwarning">Lorem Ipsum</span>
-            <br />
-            <span class="btnsubtitolwarning">It is a long established fact that a reader will ...</span>
-          </a>
-      </p>
-    </div>
-</div>
-<p></p>
+      <p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Botó Destacats SUCCESS"
+    titol = u"Rob Theme - Botó Destacat SUCCESS"
     resum = u""
     cos = u"""
-<div class="row-fluid">
-    <div class="span4">
-        <p>
-          <a class="link-bannersuccess" href="../" target="_blank">
-            <span class="btntitolsuccess">Lorem Ipsum</span>
-            <br />
-            <span class="btnsubtitolsuccess">It is a long established fact that a reader will ...</span>
-          </a>
-      </p>
-    </div>
-    <div class="span4">
-        <p>
           <a class="link-bannersuccess" href="../">
             <span class="btntitolsuccess">Lorem Ipsum</span>
             <br />
             <span class="btnsubtitolsuccess">It is a long established fact that a reader will ...</span>
           </a>
-      </p>
-    </div>
-    <div class="span4">
-        <p>
-          <a class="link-bannersuccess" href="../" target="_blank">
-            <span class="btntitolsuccess">Lorem Ipsum</span>
-            <br />
-            <span class="btnsubtitolsuccess">It is a long established fact that a reader will ...</span>
-          </a>
-      </p>
-    </div>
-</div>
-<p></p>
+      <p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -353,7 +232,6 @@ def get_plantilles():
     titol = u"Rob Theme - Caixa amb llista - UPC GRIS"
     resum = u""
     cos = u"""
-<div class="row-fluid">
     <div class="boxbg-gray">
         <h3>Lorem Ipsum</h3>
         <ul class="list-links-upc">
@@ -376,15 +254,13 @@ def get_plantilles():
             <strong>lorem ipcum</strong> there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
         </p>
     </div>
-</div>
-<p></p>
+    <p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
     titol = u"Rob Theme - Caixa amb llista - VERD"
     resum = u""
     cos = u"""
-<div class="row-fluid">
     <div class="boxbg-green">
         <h3>Lorem Ipsum</h3>
         <ul class="list-links-upc">
@@ -407,8 +283,7 @@ def get_plantilles():
             <strong>lorem ipcum</strong> there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
         </p>
     </div>
-</div>
-<p></p>
+    <p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -464,7 +339,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - llistat opcions amb lletres"
+    titol = u"Rob Theme - llistat opcions- icones lletres - 2 cols"
     resum = u""
     cos = u"""
 <div class="row-fluid">
@@ -544,7 +419,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Imatge amb llista opcions"
+    titol = u"Rob Theme - Conjunt Imatge amb llista opcions - 3 cols"
     resum = u""
     cos = u"""
 <div class="row-fluid">
