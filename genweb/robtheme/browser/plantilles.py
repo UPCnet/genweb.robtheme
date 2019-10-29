@@ -35,30 +35,27 @@ def get_plantilles():
         </div>
     </div>
 </div>
-<p></p>
+<p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
     titol = u"Rob Theme - Banner Text Link - Icona Info - fons GRIS"
     resum = u""
     cos = u"""
-
-
         <a class="link-banner-minimal" href="../" data-linktype="internal">
             <i class="fa fa-info-circle fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
-        <p></p>
+       <p>&nbsp;</p>
      """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
     titol = u"Rob Theme - Banner Text Link - Icona Arxiu - fons GRIS"
     resum = u""
     cos = u"""
-
         <a class="link-banner-minimal" href="../" data-linktype="internal">
             <i class="fa fa-archive fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
-        <p></p>
+        <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -68,7 +65,7 @@ def get_plantilles():
         <a class="link-banner-minimal-blue" href="../" data-linktype="internal">
             <i class="fa fa-info-circle fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
-        <p></p>
+       <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -78,7 +75,7 @@ def get_plantilles():
         <a class="link-banner-minimal-blue" href="../" data-linktype="internal">
             <i class="fa fa-archive fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
-        <p></p>
+       <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -88,7 +85,7 @@ def get_plantilles():
         <a class="link-banner-minimal-nolink" data-linktype="internal">
             <i class="fa fa-info-circle fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
-        <p></p>
+        <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -98,7 +95,7 @@ def get_plantilles():
         <a class="link-banner-minimal-nolink" data-linktype="internal">
             <i class="fa fa-archive fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
-        <p></p>
+        <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -108,7 +105,7 @@ def get_plantilles():
         <a class="link-banner-minimal-nolink-blue" data-linktype="internal">
             <i class="fa fa-info-circle fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
-        <p></p>
+       <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -118,7 +115,7 @@ def get_plantilles():
         <a class="link-banner-minimal-nolink-blue" data-linktype="internal">
             <i class="fa fa-archive fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
-        <p></p>
+        <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -130,7 +127,7 @@ def get_plantilles():
             <br />
             <span class="btnsubtitolblau">It is a long established fact that a reader will ...</span>
           </a>
-          <p></p>
+          <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -142,7 +139,7 @@ def get_plantilles():
             <br />
             <span class="btnsubtitol">It is a long established fact that a reader will ...</span>
           </a>
-      <p></p>
+          <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -154,7 +151,7 @@ def get_plantilles():
             <br />
             <span class="btnsubtitoldanger">It is a long established fact that a reader will ...</span>
           </a>
-        <p></p>
+        <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -166,7 +163,7 @@ def get_plantilles():
             <br />
             <span class="btnsubtitolwarning">It is a long established fact that a reader will ...</span>
           </a>
-      <p></p>
+          <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -178,7 +175,7 @@ def get_plantilles():
             <br />
             <span class="btnsubtitolsuccess">It is a long established fact that a reader will ...</span>
           </a>
-      <p></p>
+          <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -195,7 +192,7 @@ def get_plantilles():
         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
     </ul>
 </ul>
-<p></p>
+<p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -225,7 +222,7 @@ def get_plantilles():
         </li>
     </ul>
 </div>
-<p></p>
+<p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -254,7 +251,7 @@ def get_plantilles():
             <strong>lorem ipcum</strong> there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
         </p>
     </div>
-    <p></p>
+    <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -283,7 +280,7 @@ def get_plantilles():
             <strong>lorem ipcum</strong> there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
         </p>
     </div>
-    <p></p>
+   <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -335,7 +332,7 @@ def get_plantilles():
         </div>
     </div>
 </div>
-<p></p>
+<p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -415,7 +412,7 @@ def get_plantilles():
         </ul>
     </div>
 </div>
-<p></p>
+<p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -472,7 +469,7 @@ def get_plantilles():
         </div>
     </div>
 </div>
-<p></p>
+<p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -506,7 +503,7 @@ def get_plantilles():
         <p><i>Lorem Ipsum</i></p>
     </div>
 </div>
-<p></p>
+<p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
