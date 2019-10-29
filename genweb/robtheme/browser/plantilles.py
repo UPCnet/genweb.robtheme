@@ -35,6 +35,7 @@ def get_plantilles():
         </div>
     </div>
 </div>
+<p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -55,6 +56,7 @@ def get_plantilles():
         </a>
     </div>
 </div>
+<p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -75,6 +77,7 @@ def get_plantilles():
         </a>
     </div>
 </div>
+<p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -95,6 +98,7 @@ def get_plantilles():
         </a>
     </div>
 </div>
+<p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -115,6 +119,7 @@ def get_plantilles():
         </a>
     </div>
 </div>
+<p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -150,6 +155,7 @@ def get_plantilles():
       </p>
     </div>
 </div>
+<p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -185,6 +191,7 @@ def get_plantilles():
       </p>
     </div>
 </div>
+<p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -220,6 +227,7 @@ def get_plantilles():
       </p>
     </div>
 </div>
+<p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -255,6 +263,7 @@ def get_plantilles():
       </p>
     </div>
 </div>
+<p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -290,6 +299,7 @@ def get_plantilles():
       </p>
     </div>
 </div>
+<p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -306,6 +316,7 @@ def get_plantilles():
         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
     </ul>
 </ul>
+<p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -335,6 +346,7 @@ def get_plantilles():
         </li>
     </ul>
 </div>
+<p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -365,6 +377,7 @@ def get_plantilles():
         </p>
     </div>
 </div>
+<p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -395,6 +408,7 @@ def get_plantilles():
         </p>
     </div>
 </div>
+<p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -446,6 +460,7 @@ def get_plantilles():
         </div>
     </div>
 </div>
+<p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -525,6 +540,7 @@ def get_plantilles():
         </ul>
     </div>
 </div>
+<p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -581,6 +597,7 @@ def get_plantilles():
         </div>
     </div>
 </div>
+<p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -597,6 +614,7 @@ def get_plantilles():
         <img alt="" class="image-inline" title="" width="100%"
              src="https://www.jqueryscript.net/images/Universal-Placeholder-Text-Lorem-Ipsum-Generator-getlorem.jpg" /></div>
 </div>
+<p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
@@ -613,6 +631,7 @@ def get_plantilles():
         <p><i>Lorem Ipsum</i></p>
     </div>
 </div>
+<p></p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
