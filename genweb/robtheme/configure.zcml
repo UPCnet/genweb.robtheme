@@ -37,6 +37,14 @@
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
 
+    <genericsetup:registerProfile
+        name="uninstall"
+        title="Uninstall Rob Theme"
+        directory="profiles/uninstall"
+        description="Uninstall base setup for genweb.robtheme."
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
     <plone:static
         directory="stylesheets"
         type="genweb"
