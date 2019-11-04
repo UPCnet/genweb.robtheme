@@ -20,7 +20,7 @@ def get_plantilles():
     </div>
     <div class="accordion-group">
         <div class="accordion-heading">
-            <a class="accordion-toggle  fright" href="#collapseTwo" data-toggle="collapse" data-parent="#accordion2"> Collapsible Group Item #2 </a>
+            <a class="accordion-toggle collapsed fright" href="#collapseTwo" data-toggle="collapse" data-parent="#accordion2"> Collapsible Group Item #2 </a>
         </div>
         <div class="accordion-body collapse" id="collapseTwo">
             <div class="accordion-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat ac neque hendrerit varius. Etiam a viverra dolor. Duis vitae ex sed tortor elementum egestas. Proin efficitur lacus ac porttitor condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus velit magna, accumsan id arcu quis, laoreet maximus est. Nullam suscipit augue eget posuere convallis. Morbi cursus sagittis nisl at varius. Vestibulum lacinia sem consectetur, accumsan est et, feugiat urna. Vivamus sit amet eros a diam sodales vestibulum.</div>
@@ -28,7 +28,7 @@ def get_plantilles():
     </div>
     <div class="accordion-group">
         <div class="accordion-heading">
-            <a class="accordion-toggle  fright" href="#collapseThree" data-toggle="collapse" data-parent="#accordion2"> Collapsible Group Item #3 </a>
+            <a class="accordion-toggle collapsed fright" href="#collapseThree" data-toggle="collapse" data-parent="#accordion2"> Collapsible Group Item #3 </a>
         </div>
         <div class="accordion-body collapse" id="collapseThree">
             <div class="accordion-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat ac neque hendrerit varius. Etiam a viverra dolor. Duis vitae ex sed tortor elementum egestas. Proin efficitur lacus ac porttitor condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus velit magna, accumsan id arcu quis, laoreet maximus est. Nullam suscipit augue eget posuere convallis. Morbi cursus sagittis nisl at varius. Vestibulum lacinia sem consectetur, accumsan est et, feugiat urna. Vivamus sit amet eros a diam sodales vestibulum.</div>

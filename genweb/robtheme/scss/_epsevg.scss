@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'upc-icones';
+    src: url("++genweb++robtheme/fonts/upc-icones.woff") format("woff"), url("++genweb++robtheme/fonts/upc-icones.ttf") format("truetype"), url("++genweb++robtheme/fonts/upc-icones.svg#upc-icones") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #636363;
@@ -494,17 +500,22 @@ div#llegenda {
     float: right;
     width: 50%;
 }
-.fright::before {
-    background: url('++genweb++static/images/gh-c.png?1485760075') no-repeat;
-    background-position-x: -460px;
-    background-position-y: -75px;
-    display: inline-block;
-    width: 14px;
-    height: 14px;
-    content: " ";
-    margin-right: 0px;
-    top: 2px;
+.accordion-heading .accordion-toggle {
     position: relative;
+}
+.fright::before {
+    content: "\e919";
+    position: absolute;
+    right: 18px;
+    font-family: "upc-icones";
+    transition: all .25s ease;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fright:not(.collapsed)::before {
+    transform: rotate(180deg) translateY(50%);
+    transition: all .25s ease;
 }
 /*Adaptacions dins la graella de porlets */
 .portlet h2 {
@@ -930,12 +941,6 @@ label {
     overflow: visible;
 }
 /* Botons UPC */
-@font-face {
-    font-family: 'upc-icones';
-    src: url("++genweb++robtheme/fonts/upc-icones.woff") format("woff"), url("++genweb++robtheme/fonts/upc-icones.ttf") format("truetype"), url("++genweb++robtheme/fonts/upc-icones.svg#upc-icones") format("svg");
-    font-weight: normal;
-    font-style: normal;
-}
 [class^="icona-upc"] {
     font-family: 'upc-icones' !important;
     speak: none;
