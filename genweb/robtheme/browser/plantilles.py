@@ -119,6 +119,28 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
+    titol = u"Rob Theme - Banner Text Link - Imatge"
+    resum = u""
+    cos = u"""
+        <a class="link-banner-minimal" href="../" data-linktype="internal">
+            <img alt="" src="../capcalera.jpg" />
+            <span>LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.</span>
+        </a>
+       <p>&nbsp;</p>
+     """
+    plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
+
+    titol = u"Rob Theme - Banner Text No Link - Imatge"
+    resum = u""
+    cos = u"""
+        <a class="link-banner-minimal-nolink" data-linktype="internal">
+            <img alt="" src="../capcalera.jpg" />
+            <span>LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.</span>
+        </a>
+        <p>&nbsp;</p>
+    """
+    plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
+
     titol = u"Rob Theme - Botó Destacat BLAU"
     resum = u""
     cos = u"""
