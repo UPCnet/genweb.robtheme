@@ -39,7 +39,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text Link - Icona Info - fons GRIS"
+    titol = u"Rob Theme - Banner Text Link - Icona Info - GRIS"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal" href="../" data-linktype="internal">
@@ -49,7 +49,7 @@ def get_plantilles():
      """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text Link - Icona Arxiu - fons GRIS"
+    titol = u"Rob Theme - Banner Text Link - Icona Arxiu - GRIS"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal" href="../" data-linktype="internal">
@@ -59,7 +59,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text Link - Icona Info - fons BLAU"
+    titol = u"Rob Theme - Banner Text Link - Icona Info - BLAU"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-blue" href="../" data-linktype="internal">
@@ -69,7 +69,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text Link - Icona Arxiu - fons BLAU"
+    titol = u"Rob Theme - Banner Text Link - Icona Arxiu - BLAU"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-blue" href="../" data-linktype="internal">
@@ -79,7 +79,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text No Link - Icona Info - fons GRIS"
+    titol = u"Rob Theme - Banner Text No Link - Icona Info - GRIS"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-nolink" data-linktype="internal">
@@ -89,7 +89,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text No Link - Icona Arxiu - fons GRIS"
+    titol = u"Rob Theme - Banner Text No Link - Icona Arxiu - GRIS"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-nolink" data-linktype="internal">
@@ -99,17 +99,17 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text No Link - Icona Info - fons BLAU"
+    titol = u"Rob Theme - Banner Text No Link - Icona Info - BLAU"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-nolink-blue" data-linktype="internal">
             <i class="fa fa-info-circle fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
-       <p>&nbsp;</p>
+        <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text No Link - Icona Arxiu - fons BLAU"
+    titol = u"Rob Theme - Banner Text No Link - Icona Arxiu - BLAU"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-nolink-blue" data-linktype="internal">
