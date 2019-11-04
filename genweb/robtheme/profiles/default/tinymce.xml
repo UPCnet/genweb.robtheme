@@ -109,7 +109,7 @@
     <element value="header6|h6"/>
   </formats> -->
 
-  <content_css value="++genweb++stylesheets/robtheme_tiny.css"/>
+  <content_css value="++genweb++robtheme/robtheme_tiny.min.css"/>
   <editor_height value="400"/>
   <editor_width value="100%"/>
   <contextmenu value="True"/>
