@@ -43,7 +43,7 @@ def get_plantilles():
     resum = u""
     cos = u"""
         <a class="link-banner-minimal" href="../" data-linktype="internal">
-            <i class="fa fa-info-circle fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
+            <span class="fa fa-info-circle fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
        <p>&nbsp;</p>
      """
@@ -53,7 +53,7 @@ def get_plantilles():
     resum = u""
     cos = u"""
         <a class="link-banner-minimal" href="../" data-linktype="internal">
-            <i class="fa fa-archive fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
+            <span class="fa fa-archive fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
         <p>&nbsp;</p>
     """
@@ -63,7 +63,7 @@ def get_plantilles():
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-blue" href="../" data-linktype="internal">
-            <i class="fa fa-info-circle fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
+            <span class="fa fa-info-circle fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
        <p>&nbsp;</p>
     """
@@ -73,7 +73,7 @@ def get_plantilles():
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-blue" href="../" data-linktype="internal">
-            <i class="fa fa-archive fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
+            <span class="fa fa-archive fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
        <p>&nbsp;</p>
     """
@@ -83,7 +83,7 @@ def get_plantilles():
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-nolink" data-linktype="internal">
-            <i class="fa fa-info-circle fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
+            <span class="fa fa-info-circle fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
         <p>&nbsp;</p>
     """
@@ -93,7 +93,7 @@ def get_plantilles():
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-nolink" data-linktype="internal">
-            <i class="fa fa-archive fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
+            <span class="fa fa-archive fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
         <p>&nbsp;</p>
     """
@@ -103,7 +103,7 @@ def get_plantilles():
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-nolink-blue" data-linktype="internal">
-            <i class="fa fa-info-circle fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
+            <span class="fa fa-info-circle fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
         <p>&nbsp;</p>
     """
@@ -113,7 +113,7 @@ def get_plantilles():
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-nolink-blue" data-linktype="internal">
-            <i class="fa fa-archive fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
+            <span class="fa fa-archive fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
         <p>&nbsp;</p>
     """
@@ -263,7 +263,7 @@ def get_plantilles():
                 <strong>Lorem Ipsum.</strong>
             </li>
             <li>
-                <i class="far fa-file-pdf"> </i> Contrary to popular belief, Lorem Ipsum is not simply random text.
+                <span class="far fa-file-pdf"> </span> Contrary to popular belief, Lorem Ipsum is not simply random text.
                 <strong>
                 <a href="../">Lorem Ipsum!</a>
               </strong>
@@ -292,7 +292,7 @@ def get_plantilles():
                 <strong>Lorem Ipsum.</strong>
             </li>
             <li>
-                <i class="far fa-file-pdf"> </i> Contrary to popular belief, Lorem Ipsum is not simply random text.
+                <span class="far fa-file-pdf"> </span> Contrary to popular belief, Lorem Ipsum is not simply random text.
                 <strong>
                 <a href="../">Lorem Ipsum!</a>
               </strong>
@@ -518,11 +518,11 @@ def get_plantilles():
 <div class="hidden-phone">
     <div class="box">
         <h2 class="align-center">
-            <i class="fa fa-quote-left"></i>
+            <span class="fa fa-quote-left"></span>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry
-            <i class="fa fa-quote-right"></i>
+            <span class="fa fa-quote-right"></span>
         </h2>
-        <p><i>Lorem Ipsum</i></p>
+        <p><span>Lorem Ipsum</span></p>
     </div>
 </div>
 <p>&nbsp;</p>
