@@ -284,7 +284,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Graella imatges"
+    titol = u"Rob Theme - Graella imatges amb enllaços"
     resum = u""
     cos = u"""
 <h2 class="titling-line">Lorem Ipsum</h2>
