@@ -1,10 +1,14 @@
 # -*- coding: utf-8 -*-
+from plone import api
 
 
 def get_plantilles():
     """
     Declaració de les pàgines que es faràn servir com plantilles
     """
+    portal = api.portal.get()
+    absolute_url = portal.absolute_url()
+
     plantilles = []
     titol = u"Rob Theme - Acordió"
     resum = u""
@@ -39,7 +43,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text Link - Icona Info - GRIS"
+    titol = u"Rob Theme - Banner Text Enllaços - Icona Info - GRIS"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal" href="../" data-linktype="internal">
@@ -49,7 +53,7 @@ def get_plantilles():
      """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text Link - Icona Arxiu - GRIS"
+    titol = u"Rob Theme - Banner Text Enllaços - Icona Arxiu - GRIS"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal" href="../" data-linktype="internal">
@@ -59,7 +63,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text Link - Icona Info - BLAU"
+    titol = u"Rob Theme - Banner Text Enllaços - Icona Info - BLAU"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-blue" href="../" data-linktype="internal">
@@ -69,7 +73,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text Link - Icona Arxiu - BLAU"
+    titol = u"Rob Theme - Banner Text Enllaços - Icona Arxiu - BLAU"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-blue" href="../" data-linktype="internal">
@@ -79,7 +83,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text No Link - Icona Info - GRIS"
+    titol = u"Rob Theme - Banner Text No Enllaços - Icona Info - GRIS"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-nolink" data-linktype="internal">
@@ -89,7 +93,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text No Link - Icona Arxiu - GRIS"
+    titol = u"Rob Theme - Banner Text No Enllaços - Icona Arxiu - GRIS"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-nolink" data-linktype="internal">
@@ -99,7 +103,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text No Link - Icona Info - BLAU"
+    titol = u"Rob Theme - Banner Text No Enllaços - Icona Info - BLAU"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-nolink-blue" data-linktype="internal">
@@ -109,7 +113,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text No Link - Icona Arxiu - BLAU"
+    titol = u"Rob Theme - Banner Text No Enllaços - Icona Arxiu - BLAU"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-nolink-blue" data-linktype="internal">
@@ -119,7 +123,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text Link - Imatge"
+    titol = u"Rob Theme - Banner Text Enllaços - Imatge"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal" href="../" data-linktype="internal">
@@ -130,7 +134,7 @@ def get_plantilles():
      """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text No Link - Imatge"
+    titol = u"Rob Theme - Banner Text No Enllaços - Imatge"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-nolink" data-linktype="internal">
@@ -317,37 +321,37 @@ def get_plantilles():
                 <div class="span2 gellery-bottom">
                     <a href="https://www.upc.edu" target="_blank" title="lorem">
                         <img alt="" class="logo" height="90" title="lorem" width="140"
-                             src="https://www.jqueryscript.net/images/Universal-Placeholder-Text-Lorem-Ipsum-Generator-getlorem.jpg" />
+                             src="{0}/example-owl.jpeg" />
                     </a>
                 </div>
                 <div class="span2 gellery-bottom">
                     <a href="https://www.upc.edu" target="_blank" title="lorem">
                         <img alt="" class="logo" height="90" title="lorem" width="140"
-                             src="https://www.jqueryscript.net/images/Universal-Placeholder-Text-Lorem-Ipsum-Generator-getlorem.jpg" />
+                             src="{0}/example-owl.jpeg" />
                     </a>
                 </div>
                 <div class="span2 gellery-bottom">
                     <a href="https://www.upc.edu" target="_blank" title="lorem">
                         <img alt="" class="logo" height="90" title="lorem" width="140"
-                             src="https://www.jqueryscript.net/images/Universal-Placeholder-Text-Lorem-Ipsum-Generator-getlorem.jpg" />
+                             src="{0}/example-owl.jpeg" />
                     </a>
                 </div>
                 <div class="span2 gellery-bottom">
                     <a href="https://www.upc.edu" target="_blank" title="lorem">
                         <img alt="" class="logo" height="90" title="lorem" width="140"
-                             src="https://www.jqueryscript.net/images/Universal-Placeholder-Text-Lorem-Ipsum-Generator-getlorem.jpg" />
+                             src="{0}/example-owl.jpeg" />
                     </a>
                 </div>
                 <div class="span2 gellery-bottom">
                     <a href="https://www.upc.edu" target="_blank" title="lorem">
                         <img alt="" class="logo" height="90" title="lorem" width="140"
-                             src="https://www.jqueryscript.net/images/Universal-Placeholder-Text-Lorem-Ipsum-Generator-getlorem.jpg" />
+                             src="{0}/example-owl.jpeg" />
                     </a>
                 </div>
                 <div class="span2 gellery-bottom">
                     <a href="https://www.upc.edu" target="_blank" title="lorem">
                         <img alt="" class="logo" height="90" title="lorem" width="140"
-                             src="https://www.jqueryscript.net/images/Universal-Placeholder-Text-Lorem-Ipsum-Generator-getlorem.jpg" />
+                             src="{0}/example-owl.jpeg" />
                     </a>
                 </div>
             </div>
@@ -355,7 +359,7 @@ def get_plantilles():
     </div>
 </div>
 <p>&nbsp;</p>
-    """
+    """.format(absolute_url)
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
     titol = u"Rob Theme - llistat opcions- icones lletres - 2 cols"
@@ -446,7 +450,7 @@ def get_plantilles():
         <div class="thumbnails">
             <a class="hidden-phone" href="#">
                 <img alt="" class="image-inline" title="" width="100%"
-                     src="https://www.jqueryscript.net/images/Universal-Placeholder-Text-Lorem-Ipsum-Generator-getlorem.jpg" />
+                     src="{0}/example-fox.jpeg" />
             </a>
             <div class="caption">
                 <h2 class="h224">Lorem Ipsum</h2>
@@ -462,7 +466,7 @@ def get_plantilles():
         <div class="thumbnails">
             <a class="hidden-phone" href="#">
                 <img alt="" class="image-inline" title="" width="100%"
-                     src="https://www.jqueryscript.net/images/Universal-Placeholder-Text-Lorem-Ipsum-Generator-getlorem.jpg" />
+                     src="{0}/example-fox.jpeg" />
             </a>
             <div class="caption">
                 <h2 class="h224">Lorem Ipsum</h2>
@@ -478,7 +482,7 @@ def get_plantilles():
         <div class="thumbnails">
             <a class="hidden-phone" href="#">
                 <img alt="" class="image-inline" title="" width="100%"
-                     src="https://www.jqueryscript.net/images/Universal-Placeholder-Text-Lorem-Ipsum-Generator-getlorem.jpg" />
+                     src="{0}/example-fox.jpeg" />
             </a>
             <div class="caption">
                 <h2 class="h224">Lorem Ipsum</h2>
@@ -492,7 +496,7 @@ def get_plantilles():
     </div>
 </div>
 <p>&nbsp;</p>
-    """
+    """.format(absolute_url)
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
     titol = u"Rob Theme - Destacat amb imatge"
@@ -506,10 +510,10 @@ def get_plantilles():
     </div>
     <div class="destacat-imatge hidden-phone">
         <img alt="" class="image-inline" title="" width="100%"
-             src="https://www.jqueryscript.net/images/Universal-Placeholder-Text-Lorem-Ipsum-Generator-getlorem.jpg" /></div>
+             src="{0}/example-artic-fox.jpeg" /></div>
 </div>
 <p></p>
-    """
+    """.format(absolute_url)
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
     titol = u"Rob Theme - Frase destacada"
