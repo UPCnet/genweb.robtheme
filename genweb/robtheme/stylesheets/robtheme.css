@@ -1,3 +1,2011 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'upc-icones';
+  src: url("++genweb++robtheme/fonts/upc-icones.woff") format("woff"), url("++genweb++robtheme/fonts/upc-icones.ttf") format("truetype"), url("++genweb++robtheme/fonts/upc-icones.svg#upc-icones") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 7, ../scss/_epsevg.scss */
+body {
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #636363;
+  font-weight: 300px;
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+/* line 14, ../scss/_epsevg.scss */
+body h2 {
+  color: #0077C8;
+}
+
+/* line 17, ../scss/_epsevg.scss */
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.1;
+  font-size: 26;
+}
+
+/* line 25, ../scss/_epsevg.scss */
+ul {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
+
+/* line 34, ../scss/_epsevg.scss */
+ul li,
+ol li {
+  font-weight: 300;
+  color: #111;
+  font-size: 1em;
+}
+
+/* line 40, ../scss/_epsevg.scss */
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-left: 0px;
+}
+
+/* line 46, ../scss/_epsevg.scss */
+a {
+  color: #007BC1;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* line 51, ../scss/_epsevg.scss */
+h3,
+.h3 {
+  font-size: 20px;
+}
+
+/* line 55, ../scss/_epsevg.scss */
+h3 {
+  color: #4A4A4A;
+  font-weight: 500;
+}
+
+/* line 59, ../scss/_epsevg.scss */
+p {
+  font-weight: 100;
+  color: #636363;
+  font-size: 16px;
+}
+
+/* line 64, ../scss/_epsevg.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/* line 68, ../scss/_epsevg.scss */
+.list-section {
+  padding-left: 0;
+  margin-bottom: 40px;
+}
+
+/* line 72, ../scss/_epsevg.scss */
+.list-sections li {
+  list-style: none;
+  border-top: 1px solid #D1D1D1;
+  border-bottom: 1px solid #D1D1D1;
+  margin-bottom: -1px;
+  display: block;
+  position: relative;
+  transition: all 1s ease;
+  padding: 18px 0;
+}
+
+/* line 82, ../scss/_epsevg.scss */
+.list-sections li.primera {
+  border-top: 0px solid #D1D1D1;
+}
+
+/* line 85, ../scss/_epsevg.scss */
+.list-sections li > :last-child {
+  margin-bottom: 0;
+}
+
+/* line 88, ../scss/_epsevg.scss */
+.list-sections li > img:first-child ~ *,
+.list-sections li > .lletra-cercle:first-child ~ * {
+  margin-left: 66px;
+  max-width: calc(100% - 66px);
+}
+
+/* line 93, ../scss/_epsevg.scss */
+.list-sections li p {
+  color: #4A4A4A;
+  line-height: 1.45em;
+}
+
+/* line 97, ../scss/_epsevg.scss */
+.list-sections li h2 {
+  font-size: 1.125rem;
+  font-weight: 500 !important;
+  padding-right: 36px;
+  margin-top: 0;
+}
+
+/* line 103, ../scss/_epsevg.scss */
+#content-core #parent-fieldname-text .list-sections li h2 {
+  font-weight: 500 !important;
+}
+
+/* line 106, ../scss/_epsevg.scss */
+.modal-header {
+  line-height: 1.45em;
+}
+
+/* line 109, ../scss/_epsevg.scss */
+.unstyled li {
+  line-height: 1.45em;
+}
+
+/* line 112, ../scss/_epsevg.scss */
+.thumbnail ul li,
+.thumbnails ul li {
+  line-height: 1.45em;
+  color: #016ab1;
+  font-size: 1.2em;
+}
+
+/* line 118, ../scss/_epsevg.scss */
+.box > .list {
+  margin-bottom: 0;
+}
+
+/* line 121, ../scss/_epsevg.scss */
+.lletra-cercle {
+  float: left;
+  font-size: 3rem;
+  margin-top: 5px;
+}
+
+/* line 126, ../scss/_epsevg.scss */
+.numero-cercle {
+  font-size: 3rem;
+}
+
+/* line 129, ../scss/_epsevg.scss */
+.lletra-cercle-petita {
+  font-size: 0.9rem !important;
+}
+
+/* line 132, ../scss/_epsevg.scss */
+.lletra-cercle-petita:before {
+  font-size: 1rem !important;
+  font-weight: 400;
+  margin-right: 0.2rem;
+}
+
+/* line 137, ../scss/_epsevg.scss */
+.color-blau {
+  color: #089FE4;
+}
+
+/* line 140, ../scss/_epsevg.scss */
+.color-blaucel {
+  color: #1FBDEE;
+}
+
+/* line 143, ../scss/_epsevg.scss */
+.color-verd {
+  color: #069182;
+}
+
+/* line 146, ../scss/_epsevg.scss */
+.color-vermell {
+  color: #D01157;
+}
+
+/* line 149, ../scss/_epsevg.scss */
+.color-groc {
+  color: #f6a808;
+}
+
+/* line 152, ../scss/_epsevg.scss */
+.color-morat {
+  color: #622AD9;
+}
+
+/* line 155, ../scss/_epsevg.scss */
+.color-violeta {
+  color: #023470;
+}
+
+/* line 158, ../scss/_epsevg.scss */
+.color-carbassa {
+  color: #ED4033;
+}
+
+/* line 161, ../scss/_epsevg.scss */
+.color-lila {
+  color: #A71FAF;
+}
+
+/* line 164, ../scss/_epsevg.scss */
+.color-taronja {
+  color: #fa5c2a;
+}
+
+/* line 167, ../scss/_epsevg.scss */
+.lletra-cercle-a:before {
+  content: "ⓐ" !important;
+}
+
+/* line 170, ../scss/_epsevg.scss */
+.lletra-cercle-b:before {
+  content: "ⓑ" !important;
+}
+
+/* line 173, ../scss/_epsevg.scss */
+.lletra-cercle-c:before {
+  content: "ⓒ" !important;
+}
+
+/* line 176, ../scss/_epsevg.scss */
+.lletra-cercle-d:before {
+  content: "ⓓ" !important;
+}
+
+/* line 179, ../scss/_epsevg.scss */
+.lletra-cercle-e:before {
+  content: "ⓔ" !important;
+}
+
+/* line 182, ../scss/_epsevg.scss */
+.lletra-cercle-f:before {
+  content: "ⓕ" !important;
+}
+
+/* line 185, ../scss/_epsevg.scss */
+.lletra-cercle-g:before {
+  content: "ⓖ" !important;
+}
+
+/* line 188, ../scss/_epsevg.scss */
+.lletra-cercle-h:before {
+  content: "ⓗ" !important;
+}
+
+/* line 191, ../scss/_epsevg.scss */
+.lletra-cercle-i:before {
+  content: "ⓘ" !important;
+}
+
+/* line 194, ../scss/_epsevg.scss */
+.lletra-cercle-j:before {
+  content: "ⓙ" !important;
+}
+
+/* line 197, ../scss/_epsevg.scss */
+.lletra-cercle-k:before {
+  content: "ⓚ" !important;
+}
+
+/* line 200, ../scss/_epsevg.scss */
+.lletra-cercle-l:before {
+  content: "ⓛ" !important;
+}
+
+/* line 203, ../scss/_epsevg.scss */
+.lletra-cercle-m:before {
+  content: "ⓜ" !important;
+}
+
+/* line 206, ../scss/_epsevg.scss */
+.lletra-cercle-n:before {
+  content: "ⓝ" !important;
+}
+
+/* line 209, ../scss/_epsevg.scss */
+.lletra-cercle-o:before {
+  content: "ⓞ" !important;
+}
+
+/* line 212, ../scss/_epsevg.scss */
+.lletra-cercle-p:before {
+  content: "ⓟ" !important;
+}
+
+/* line 215, ../scss/_epsevg.scss */
+.lletra-cercle-q:before {
+  content: "ⓠ" !important;
+}
+
+/* line 218, ../scss/_epsevg.scss */
+.lletra-cercle-r:before {
+  content: "ⓡ" !important;
+}
+
+/* line 221, ../scss/_epsevg.scss */
+.lletra-cercle-s:before {
+  content: "ⓢ" !important;
+}
+
+/* line 224, ../scss/_epsevg.scss */
+.lletra-cercle-t:before {
+  content: "ⓣ" !important;
+}
+
+/* line 227, ../scss/_epsevg.scss */
+.lletra-cercle-u:before {
+  content: "ⓤ" !important;
+}
+
+/* line 230, ../scss/_epsevg.scss */
+.lletra-cercle-v:before {
+  content: "ⓥ" !important;
+}
+
+/* line 233, ../scss/_epsevg.scss */
+.lletra-cercle-w:before {
+  content: "ⓦ" !important;
+}
+
+/* line 236, ../scss/_epsevg.scss */
+.lletra-cercle-x:before {
+  content: "ⓧ" !important;
+}
+
+/* line 239, ../scss/_epsevg.scss */
+.lletra-cercle-y:before {
+  content: "ⓨ" !important;
+}
+
+/* line 242, ../scss/_epsevg.scss */
+.lletra-cercle-z:before {
+  content: "ⓩ" !important;
+}
+
+/* line 245, ../scss/_epsevg.scss */
+.lletra-cercle-1:before {
+  content: "➊" !important;
+}
+
+/* line 248, ../scss/_epsevg.scss */
+.lletra-cercle-2:before {
+  content: "➋" !important;
+}
+
+/* line 251, ../scss/_epsevg.scss */
+.lletra-cercle-3:before {
+  content: "➌" !important;
+}
+
+/* line 254, ../scss/_epsevg.scss */
+.lletra-cercle-4:before {
+  content: "➍" !important;
+}
+
+/* line 257, ../scss/_epsevg.scss */
+.lletra-cercle-5:before {
+  content: "➎" !important;
+}
+
+/* line 260, ../scss/_epsevg.scss */
+.lletra-cercle-6:before {
+  content: "➏" !important;
+}
+
+/* line 263, ../scss/_epsevg.scss */
+.lletra-cercle-7:before {
+  content: "➐" !important;
+}
+
+/* line 266, ../scss/_epsevg.scss */
+.lletra-cercle-8:before {
+  content: "➑" !important;
+}
+
+/* line 269, ../scss/_epsevg.scss */
+.lletra-cercle-9:before {
+  content: "➒" !important;
+}
+
+/* line 272, ../scss/_epsevg.scss */
+.lletra-cercle-10:before {
+  content: "➓" !important;
+}
+
+/* line 275, ../scss/_epsevg.scss */
+.fletxa-dreta:before {
+  content: "🡺" !important;
+}
+
+/* line 278, ../scss/_epsevg.scss */
+.fletxa-esquerra:before {
+  content: "🡸" !important;
+}
+
+/* line 281, ../scss/_epsevg.scss */
+.fletxa-adalt:before {
+  content: "🡹" !important;
+}
+
+/* line 284, ../scss/_epsevg.scss */
+.fletxa-abaix:before {
+  content: "🡻" !important;
+}
+
+/* line 287, ../scss/_epsevg.scss */
+.titling-line::after {
+  content: "";
+  position: absolute;
+  margin-left: 12px;
+  background: #d1d1d1;
+  height: 1px;
+  box-shadow: 1000px 0 0 -1000px #d1d1d1;
+  width: 100%;
+  top: 50%;
+}
+
+/* line 297, ../scss/_epsevg.scss */
+.titling-line {
+  font-size: 1.5rem;
+  color: #0077C8;
+  position: relative;
+  overflow: hidden;
+  padding: 6px 0;
+  margin-top: 0;
+}
+
+/* line 305, ../scss/_epsevg.scss */
+.titling-lineg::after {
+  content: "";
+  position: absolute;
+  margin-left: 12px;
+  background: #d1d1d1;
+  height: 1px;
+  box-shadow: 1000px 0 0 -1000px #d1d1d1;
+  width: 100%;
+  top: 50%;
+}
+
+/* line 315, ../scss/_epsevg.scss */
+.titling-lineg {
+  font-size: 1.5rem;
+  color: #636363;
+  position: relative;
+  overflow: hidden;
+  padding: 6px 0;
+  margin-top: 0;
+}
+
+/* Imatge mÃ©s text fitxa */
+/* line 324, ../scss/_epsevg.scss */
+.destacat {
+  height: 400px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  /* line 330, ../scss/_epsevg.scss */
+  .destacat {
+    height: auto;
+  }
+}
+/* line 334, ../scss/_epsevg.scss */
+.destacat-contingut {
+  width: 340px;
+  padding: 0px 20px;
+  position: absolute;
+  z-index: 1;
+  background: #F2F5F6;
+  height: 100%;
+}
+
+/* line 342, ../scss/_epsevg.scss */
+.destacat-contingut h2 {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  /* line 346, ../scss/_epsevg.scss */
+  .destacat-contingut {
+    width: 100%;
+    position: relative;
+    padding: 10px 0;
+  }
+
+  /* line 351, ../scss/_epsevg.scss */
+  .destacat-contingut h2,
+  .destacat-contingut p {
+    padding: 0px 20px;
+  }
+}
+/* line 356, ../scss/_epsevg.scss */
+.destacat-imatge img {
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  border-radius: 0;
+}
+
+@media (max-width: 768px) {
+  /* line 366, ../scss/_epsevg.scss */
+  .destacat-imatge img {
+    position: relative;
+    padding: 0;
+    width: 100%;
+  }
+}
+/* line 372, ../scss/_epsevg.scss */
+.destacat-imatge.compat-object-fit {
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 376, ../scss/_epsevg.scss */
+.destacat-dreta .destacat-contingut {
+  right: 0;
+  left: auto;
+}
+
+/* line 380, ../scss/_epsevg.scss */
+.destacat-dreta .destacat-imatge img {
+  padding-left: 0;
+  padding-right: 340px;
+}
+
+@media (max-width: 768px) {
+  /* line 385, ../scss/_epsevg.scss */
+  .destacat-dreta .destacat-imatge img {
+    position: relative;
+    padding: 0;
+  }
+}
+/* line 390, ../scss/_epsevg.scss */
+.image-line {
+  float: none;
+}
+
+/* line 393, ../scss/_epsevg.scss */
+.well::after {
+  clear: both;
+}
+
+/*Modificació acordió titulacions -> pla d'estudis*/
+/* line 397, ../scss/_epsevg.scss */
+.accordion-group {
+  background: #fff;
+  border: 0px;
+  border-bottom: 1px solid #b2b2b2;
+}
+
+/* line 402, ../scss/_epsevg.scss */
+.accordion-group1 {
+  background: #fff;
+  border: 0px;
+  border-bottom: 1px solid #b2b2b2;
+  border-top: 1px solid #b2b2b2;
+  margin-bottom: 2px;
+}
+
+/* line 409, ../scss/_epsevg.scss */
+.accordion-toggle {
+  line-height: 2.8em;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+/* line 414, ../scss/_epsevg.scss */
+.accordion p {
+  text-align: justify;
+}
+
+/* line 417, ../scss/_epsevg.scss */
+#accordionsp ul li {
+  list-style-type: none;
+  line-height: 22px;
+}
+
+/* line 421, ../scss/_epsevg.scss */
+dt {
+  padding-top: 18px;
+}
+
+/* line 424, ../scss/_epsevg.scss */
+dt {
+  font-weight: bold;
+}
+
+/* line 427, ../scss/_epsevg.scss */
+dt,
+dd {
+  line-height: 1.25;
+  font-size: 16px;
+}
+
+/* line 432, ../scss/_epsevg.scss */
+dd {
+  font-weight: 300;
+}
+
+/* line 435, ../scss/_epsevg.scss */
+div.pla-estudis-quadrimestre h3 {
+  font-size: 120%;
+}
+
+/* line 438, ../scss/_epsevg.scss */
+ul.pla-estudis-assignatures {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+/* line 442, ../scss/_epsevg.scss */
+ul.pla-estudis-assignatures li {
+  border-right-width: 10px;
+  border-right-style: solid;
+  padding-right: 5px;
+  padding-left: 0px;
+  line-height: 24px;
+}
+
+/* line 449, ../scss/_epsevg.scss */
+.Obligatòria,
+.Obligatoria,
+.Compulsory {
+  border-right-color: salmon;
+}
+
+/* line 454, ../scss/_epsevg.scss */
+.recomanacions {
+  border-right-color: #FFF;
+}
+
+/* line 457, ../scss/_epsevg.scss */
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+/* line 461, ../scss/_epsevg.scss */
+ul.pla-estudis-assignatures {
+  list-style-type: none;
+}
+
+/* line 464, ../scss/_epsevg.scss */
+ul.pla-estudis-assignatures li a {
+  display: inline !important;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 10px;
+}
+
+/* line 470, ../scss/_epsevg.scss */
+.nolink-right {
+  margin-left: 18px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* line 475, ../scss/_epsevg.scss */
+.Optativa,
+.Optional {
+  border-right-color: khaki;
+}
+
+/* line 479, ../scss/_epsevg.scss */
+.ObligatoriaEspecialitat {
+  border-right-color: steelblue;
+}
+
+/* line 482, ../scss/_epsevg.scss */
+.Projecte,
+.Proyecto,
+.Project {
+  border-right-color: darkseagreen;
+}
+
+/* line 487, ../scss/_epsevg.scss */
+.pla-estudis {
+  padding-left: 18px;
+  border-top: 1px solid #b2b2b2;
+}
+
+/* line 491, ../scss/_epsevg.scss */
+div#llegenda .well {
+  padding: 18px;
+  background-color: #F2F5F6;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  margin-bottom: 40px;
+}
+
+/* line 499, ../scss/_epsevg.scss */
+div#llegenda {
+  float: right;
+  width: 50%;
+}
+
+/* line 503, ../scss/_epsevg.scss */
+.accordion-heading .accordion-toggle {
+  position: relative;
+}
+
+/* line 506, ../scss/_epsevg.scss */
+.fright::before {
+  content: "\e919";
+  position: absolute;
+  right: 18px;
+  font-family: "upc-icones";
+  transition: all .25s ease;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 516, ../scss/_epsevg.scss */
+.fright:not(.collapsed)::before {
+  transform: rotate(180deg) translateY(50%);
+  transition: all .25s ease;
+}
+
+/*Adaptacions dins la graella de porlets */
+/* line 521, ../scss/_epsevg.scss */
+.portlet h2 {
+  border-bottom: 0px solid #0077C8;
+}
+
+/* a:not([class])[href$=".pdf"]::after {
+    content: "\1F5BA";
+    font-size: 100%;
+    color: #ED4033;
+    position: relative;
+    margin-left: 3px;
+}
+
+ a:not([class])[href$=".docx"]::after {
+    content: "\1F5CE";
+    font-size: 100%;
+    color: #ED4033;
+    position: relative;
+    margin-left: 3px;
+}
+
+
+a:not([class])[href$=".doc"]::after {
+    content: "\1F5CE";
+    font-size: 100%;
+    color: #ED4033;
+    position: relative;
+    margin-left: 3px;
+}
+*/
+/* line 549, ../scss/_epsevg.scss */
+.pdfb::before {
+  background: url("++genweb++static/images/gh-c.png?1485760075") no-repeat;
+  background-position: -432px -194px;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  content: " ";
+  margin-right: 26px;
+  top: 2px;
+  position: relative;
+}
+
+/*Adaptacions formularis estudis graus */
+/* line 561, ../scss/_epsevg.scss */
+.field {
+  margin-bottom: 5px;
+}
+
+/* line 564, ../scss/_epsevg.scss */
+.ArchetypesMultiSelectionValue {
+  line-height: 25px;
+  padding-left: 15px;
+}
+
+/* line 568, ../scss/_epsevg.scss */
+.formQuestion {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* line 572, ../scss/_epsevg.scss */
+#fg-base-edit {
+  padding: 16px;
+  background-color: #f2f5f6;
+}
+
+/* line 576, ../scss/_epsevg.scss */
+div.label {
+  background-color: #f2f5f6;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+/* line 581, ../scss/_epsevg.scss */
+label {
+  font-size: 14px;
+}
+
+/* line 584, ../scss/_epsevg.scss */
+#archetypes-fieldname-selecciona-estudis-dinteres {
+  padding-bottom: 15px;
+}
+
+/* line 587, ../scss/_epsevg.scss */
+#fg-base-edit p {
+  color: #0077C8;
+}
+
+/* line 590, ../scss/_epsevg.scss */
+.infoform {
+  margin-bottom: 0px;
+}
+
+/* line 593, ../scss/_epsevg.scss */
+.txtinfo {
+  font-size: 1.6em;
+  font-weight: 400;
+}
+
+/* line 597, ../scss/_epsevg.scss */
+.list-links > li {
+  font-size: 16px;
+  font-weight: 300;
+  color: #636363;
+  line-height: 1.45em;
+}
+
+/* line 603, ../scss/_epsevg.scss */
+.list-links > li > ul > li {
+  font-size: 16px;
+  font-weight: 300;
+  color: #636363;
+  line-height: 1.45em;
+}
+
+/* line 609, ../scss/_epsevg.scss */
+.accordion-inner ol li p {
+  line-height: 1.45em;
+}
+
+/* CSS de botons de diferents llocs*/
+/*pàgina curs actual, btn matricula*/
+/* line 614, ../scss/_epsevg.scss */
+.btnp15 {
+  padding: 15px;
+  font-size: 1.2em;
+}
+
+/* pàgina grau, btn descarrega't la fitxa */
+/* line 619, ../scss/_epsevg.scss */
+.mldiptic {
+  padding-left: 10px;
+}
+
+/* line 622, ../scss/_epsevg.scss */
+.pad0 {
+  padding-left: 0;
+}
+
+/* line 625, ../scss/_epsevg.scss */
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/*pàgina curs actual, botons atenea, demana... */
+/* line 630, ../scss/_epsevg.scss */
+.primary h2 a,
+.primary p {
+  color: #fff;
+  font-size: 1.3em;
+}
+
+/* CSS de footer*/
+/* line 636, ../scss/_epsevg.scss */
+#footercontacta {
+  background-color: #f2f2f2;
+  padding-top: 20px;
+}
+
+/* line 640, ../scss/_epsevg.scss */
+#footercontacta li {
+  line-height: 1.5rem;
+}
+
+/* line 643, ../scss/_epsevg.scss */
+.botons4 {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/* line 647, ../scss/_epsevg.scss */
+.botofooter {
+  margin-right: 20px;
+  margin-left: 0px;
+}
+
+/* line 651, ../scss/_epsevg.scss */
+.h224 {
+  font-size: 24px;
+}
+
+/* line 654, ../scss/_epsevg.scss */
+.info-seccio {
+  float: left;
+  margin-right: 10px;
+}
+
+/* Slider Carousel*/
+/* line 659, ../scss/_epsevg.scss */
+.carousel-indicators .active,
+.carousel-indicators .selected,
+.carousel-indicators .contentViews .selected:hover,
+.contentViews .carousel-indicators .selected:hover {
+  background-color: #2196F3;
+}
+
+/* line 665, ../scss/_epsevg.scss */
+.carousel-indicators li {
+  background-color: rgba(153, 153, 153, 0.25);
+}
+
+/*Botons navegaciÃ³*/
+/* line 669, ../scss/_epsevg.scss */
+.btnnav {
+  background-color: #f2ad2e;
+}
+
+/* line 672, ../scss/_epsevg.scss */
+.btnnav h2 a {
+  font-size: 1.3em;
+  color: #000;
+}
+
+/* line 676, ../scss/_epsevg.scss */
+.btnnav p {
+  color: #fff;
+}
+
+/* xifres de colors */
+/* line 680, ../scss/_epsevg.scss */
+.well {
+  padding: 18px;
+  background-color: #F2F5F6;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  margin-bottom: 40px;
+}
+
+/* line 688, ../scss/_epsevg.scss */
+.list-numeral {
+  margin: 20px 0;
+  margin-top: 20px;
+  -moz-column-count: 6;
+  -webkit-column-count: 6;
+  column-count: 6;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+/* line 698, ../scss/_epsevg.scss */
+.list-numeral li {
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  font-size: 1.5rem;
+  display: block;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  /* line 708, ../scss/_epsevg.scss */
+  .list-numeral {
+    column-count: 3;
+    -moz-column-count: 3;
+  }
+}
+@media (max-width: 480px) {
+  /* line 714, ../scss/_epsevg.scss */
+  .list-numeral {
+    column-count: 2;
+    -moz-column-count: 2;
+  }
+}
+/* line 719, ../scss/_epsevg.scss */
+.list-numeral strong {
+  font-size: 200%;
+  display: block;
+  font-weight: lighter;
+}
+
+/* line 724, ../scss/_epsevg.scss */
+.list-numeral :nth-child(1) strong {
+  color: #6734BA;
+}
+
+/* line 727, ../scss/_epsevg.scss */
+.list-numeral :nth-child(2) strong {
+  color: #9D1CB2;
+}
+
+/* line 730, ../scss/_epsevg.scss */
+.list-numeral :nth-child(3) strong {
+  color: #DA125F;
+}
+
+/* line 733, ../scss/_epsevg.scss */
+.list-numeral :nth-child(4) strong {
+  color: #F6412D;
+}
+
+/* line 736, ../scss/_epsevg.scss */
+.list-numeral :nth-child(5) strong {
+  color: #FF5606;
+}
+
+/* line 739, ../scss/_epsevg.scss */
+.list-numeral :nth-child(6) strong {
+  color: #FF9800;
+}
+
+/* line 742, ../scss/_epsevg.scss */
+.accordion-inner ol li,
+.accordion-inner ul li {
+  padding-top: 10px;
+}
+
+/* line 746, ../scss/_epsevg.scss */
+.box .row-fluid .span9 h2 {
+  line-height: 24px;
+}
+
+/* Pàgina projectes singulars - 4 opcions full */
+/* line 750, ../scss/_epsevg.scss */
+.full4 {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* line 754, ../scss/_epsevg.scss */
+.xarxessocials > a {
+  font-size: 1.3em;
+  color: #4e9f5b;
+}
+
+/* line 758, ../scss/_epsevg.scss */
+.xarxessocials > a > span,
+.xarxessocials > a > i {
+  padding-left: 5px;
+}
+
+/* Grups de recerca*/
+/* line 763, ../scss/_epsevg.scss */
+.flex-container {
+  display: flex;
+}
+
+/* line 766, ../scss/_epsevg.scss */
+.show-grid:hover [class*="span1 "] {
+  background: #ddd;
+}
+
+/* line 769, ../scss/_epsevg.scss */
+.show-grid [class*="span1 "] {
+  background-color: #eee;
+  text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  min-height: 40px;
+  line-height: 40px;
+}
+
+/* line 778, ../scss/_epsevg.scss */
+.nobg {
+  background: #FFF;
+}
+
+/* line 781, ../scss/_epsevg.scss */
+.nobg:hover {
+  background: #FFF;
+}
+
+/* line 784, ../scss/_epsevg.scss */
+.llistagr h3 {
+  margin-top: 40px;
+}
+
+/* line 787, ../scss/_epsevg.scss */
+.ir-arriba {
+  display: none;
+  padding: 20px;
+  background: #006699;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  z-index: 3;
+}
+
+/* line 799, ../scss/_epsevg.scss */
+.btn-blau {
+  padding: 14px 50px;
+  font-size: 1.1em;
+  background: #0077C8;
+  color: #fff;
+  text-shadow: 0 0 0;
+}
+
+/* line 806, ../scss/_epsevg.scss */
+.btn-blau:hover {
+  background-color: #FFFFFF;
+}
+
+/*Futurs estudiants*/
+/* line 810, ../scss/_epsevg.scss */
+.neteja {
+  clear: both;
+}
+
+/* line 813, ../scss/_epsevg.scss */
+.gris {
+  background: #edefef;
+}
+
+/* line 816, ../scss/_epsevg.scss */
+.padd {
+  padding: 20px 20px 0px 20px;
+}
+
+/* line 819, ../scss/_epsevg.scss */
+.mb0 {
+  margin-bottom: 0px;
+}
+
+/* line 822, ../scss/_epsevg.scss */
+#pair-news h3,
+#odd-news h3 {
+  font-size: 1.2em;
+  line-height: 1.3em;
+  font-weight: 200;
+}
+
+/* line 828, ../scss/_epsevg.scss */
+.span6 .list-sections {
+  padding-left: 0px;
+}
+
+/* line 831, ../scss/_epsevg.scss */
+.span3 .ihistoria {
+  margin-top: 20px;
+}
+
+/* line 834, ../scss/_epsevg.scss */
+#footercontacta ul,
+.thumbnails ul,
+.llistaesquerra {
+  padding-left: 24px;
+}
+
+/* line 839, ../scss/_epsevg.scss */
+.blauUPC {
+  color: #007BC0;
+  float: left;
+}
+
+/* line 843, ../scss/_epsevg.scss */
+.blauUPC > span,
+.blauUPC > i {
+  vertical-align: middle;
+}
+
+/* line 847, ../scss/_epsevg.scss */
+.titol-interesa {
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+/* line 851, ../scss/_epsevg.scss */
+.numeros {
+  line-height: 2.5em;
+}
+
+/* Pàgina concurs logo EPS */
+/* line 855, ../scss/_epsevg.scss */
+.icoblanc {
+  color: #FFFFFF;
+  padding-right: 10px;
+}
+
+/* line 859, ../scss/_epsevg.scss */
+.noborder li {
+  border: 0px;
+}
+
+/* line 862, ../scss/_epsevg.scss */
+.llistaeps {
+  padding-left: 35px;
+}
+
+/* line 865, ../scss/_epsevg.scss */
+.topinici {
+  margin-top: 10px;
+}
+
+/* banner footer mòbil */
+@media (min-width: 768px) {
+  /* line 870, ../scss/_epsevg.scss */
+  #floating-footer {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  /* line 875, ../scss/_epsevg.scss */
+  #floating-footer {
+    color: white;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+  }
+
+  /* line 883, ../scss/_epsevg.scss */
+  #floating-footer div {
+    float: left;
+    border: 0px solid #000000;
+    padding-top: 15px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    color: white;
+  }
+
+  /* line 894, ../scss/_epsevg.scss */
+  #floating-footer a {
+    color: white !important;
+    display: inline;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 0.8em;
+  }
+
+  /* line 901, ../scss/_epsevg.scss */
+  #floating-footer a:hover {
+    text-decoration: none;
+  }
+
+  /* line 904, ../scss/_epsevg.scss */
+  #floating-footer span {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  /* line 908, ../scss/_epsevg.scss */
+  #floating-footer .left {
+    background: #009AD0;
+  }
+
+  /* line 911, ../scss/_epsevg.scss */
+  #floating-footer .right {
+    background: #60B51A;
+  }
+}
+@media (max-width: 400px) {
+  /* line 916, ../scss/_epsevg.scss */
+  #floating-footer div {
+    font-size: 20px;
+    padding-top: 22px;
+  }
+}
+@media (max-width: 979px) {
+  /* line 922, ../scss/_epsevg.scss */
+  .documentFirstHeading {
+    display: -webkit-inline-box;
+  }
+}
+/* Grid imatges amb recuadre */
+/* line 927, ../scss/_epsevg.scss */
+#gallery-grid .logo {
+  border-color: #e1e1e1;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 3px;
+  position: relative;
+  -webkit-perspective: 1000px;
+  -webkit-backface-visibility: hidden;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  image-rendering: optimizeQuality;
+}
+
+/* line 939, ../scss/_epsevg.scss */
+#gallery-grip a {
+  text-decoration: none;
+  outline: 0;
+  max-width: 100%;
+  overflow: visible;
+}
+
+/* Botons UPC */
+/* line 946, ../scss/_epsevg.scss */
+[class^="icona-upc"] {
+  font-family: 'upc-icones' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 965, ../scss/_epsevg.scss */
+.link-banner[target="_blank"]::after,
+.link-bannerblau[target="_blank"]::after,
+.link-bannerdanger[target="_blank"]::after,
+.link-bannerwarning[target="_blank"]::after,
+.link-bannersuccess[target="_blank"]::after {
+  content: "\e91c";
+}
+
+/* line 972, ../scss/_epsevg.scss */
+.link-banner::after,
+.link-bannerblau::after,
+.link-bannerdanger::after,
+.link-bannerwarning::after,
+.link-bannersuccess::after {
+  content: "\e902";
+  font-family: upc-icones;
+  border: 2px solid #FFFFFF;
+  position: absolute;
+  font-size: 1.125rem;
+  right: 24px;
+  top: 50%;
+  margin-top: -18px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50% !important;
+  text-align: center;
+  padding-top: 7px;
+  color: #FFFFFF;
+  z-index: 0;
+}
+
+/* line 993, ../scss/_epsevg.scss */
+.link-banner::after {
+  border: 2px solid #007BC1;
+  color: #007BC1;
+}
+
+/* line 997, ../scss/_epsevg.scss */
+.link-banner,
+.link-bannerblau,
+.link-bannerdanger,
+.link-bannerwarning,
+.link-bannersuccess {
+  font-size: 1.125rem;
+  font-weight: 500;
+  display: block;
+  padding: 10px 24px;
+  color: #FFFFFF;
+  position: relative;
+  transition: all .25s ease-out;
+  border-radius: 2px;
+  padding-right: 72px;
+}
+
+/* line 1012, ../scss/_epsevg.scss */
+.link-banner {
+  background: #F2F5F6;
+  padding: 30px 24px;
+}
+
+/* line 1016, ../scss/_epsevg.scss */
+.link-bannerblau {
+  background: #007BC1;
+}
+
+/* line 1019, ../scss/_epsevg.scss */
+.link-bannerdanger {
+  background: #d01157;
+}
+
+/* line 1022, ../scss/_epsevg.scss */
+.link-bannerwarning {
+  background: #f6a808;
+}
+
+/* line 1025, ../scss/_epsevg.scss */
+.link-bannersuccess {
+  background: #069182;
+}
+
+/* line 1028, ../scss/_epsevg.scss */
+.link-banner:hover,
+.link-banner:focus,
+.link-bannerblau:hover,
+.link-bannerblau:focus,
+.link-bannerdanger:hover,
+.link-bannerdanger:focus,
+.link-bannerwarning:hover,
+.link-bannerwarning:focus,
+.link-bannersuccess:hover,
+.link-bannersuccess:focus {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 5px 10px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.05) !important;
+  color: #252525;
+  transition: all .25s ease-in;
+  text-decoration: none;
+  transform: perspective(1px) scale(1.00775, 1.00775) translateZ(0px);
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+/* line 1045, ../scss/_epsevg.scss */
+.btntitol {
+  color: #005a8d;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+/* line 1050, ../scss/_epsevg.scss */
+.btntitolblau,
+.btntitoldanger,
+.btntitolwarning,
+.btntitolsuccess {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+/* line 1058, ../scss/_epsevg.scss */
+.btnsubtitol {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+/* line 1062, ../scss/_epsevg.scss */
+.btnsubtitolblau,
+.btnsubtitoldanger,
+.btnsubtitolwarning,
+.btnsubtitolsuccess {
+  color: #FFFFFF;
+  font-size: 1.0rem;
+  font-weight: 100;
+}
+
+/* Missatges destacats pàgines interior */
+/* line 1071, ../scss/_epsevg.scss */
+.link-banner-minimal-nolink {
+  background: #F2F5F6;
+  text-decoration: none;
+}
+
+/* line 1075, ../scss/_epsevg.scss */
+.link-banner-minimal-nolink-blue {
+  background: #007BC1;
+  text-decoration: none;
+  color: #FFF;
+}
+
+/* line 1080, ../scss/_epsevg.scss */
+.link-banner-minimal {
+  background: #F2F5F6;
+}
+
+/* line 1083, ../scss/_epsevg.scss */
+.link-banner-minimal-blue {
+  background: #007BC1;
+  color: #FFF;
+}
+
+/* line 1087, ../scss/_epsevg.scss */
+.link-banner-minimal,
+.link-banner-minimal-blue,
+.link-banner-minimal-nolink,
+.link-banner-minimal-nolink-blue {
+  display: block;
+  padding: 20px 24px;
+  position: relative;
+  transition: all .25s ease-out;
+  border-radius: 2px;
+  padding-right: 72px;
+  font-weight: 100;
+  font-size: 1.1rem;
+}
+
+/* line 1100, ../scss/_epsevg.scss */
+.link-banner-minimal::after {
+  border: 2px solid #007BC1;
+  color: #007BC1;
+}
+
+/* line 1104, ../scss/_epsevg.scss */
+.link-banner-minimal-blue::after {
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+/* line 1108, ../scss/_epsevg.scss */
+.link-banner-minimal::after,
+.link-banner-minimal-blue::after {
+  content: "\e902";
+  font-family: upc-icones;
+  position: absolute;
+  font-size: 1.125rem;
+  right: 24px;
+  top: 50%;
+  margin-top: -18px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50% !important;
+  text-align: center;
+  padding-top: 3px;
+  z-index: 0;
+}
+
+/* line 1124, ../scss/_epsevg.scss */
+.link-banner-minimal[target="_blank"]:after,
+.link-banner-minimal-blue[target="_blank"]:after {
+  content: "\e91c";
+}
+
+/* line 1128, ../scss/_epsevg.scss */
+.link-banner-minimal:hover,
+.link-banner-minimal:focus,
+.link-banner-minimal-blue:hover,
+.link-banner-minimal-blue:focus,
+.link-banner-minimal-nolink:hover,
+.link-banner-minimal-nolink:focus,
+.link-banner-minimal-nolink-blue:hover,
+.link-banner-minimal-nolink-blue:focus {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 5px 10px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.05) !important;
+  transition: all .25s ease-in;
+  text-decoration: none;
+  transform: perspective(1px) scale(1.00775, 1.00775) translateZ(0px);
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+/* line 1142, ../scss/_epsevg.scss */
+.link-banner-minimal-blue:hover,
+.link-banner-minimal-nolink-blue:hover {
+  color: #FFFFFF;
+}
+
+/* line 1146, ../scss/_epsevg.scss */
+body .box h2 {
+  color: #0077C8 !important;
+}
+
+/* LLista UPC fons color blanc */
+/* line 1150, ../scss/_epsevg.scss */
+.boxbg-gray {
+  background-color: #F2F5F6;
+}
+
+/* line 1153, ../scss/_epsevg.scss */
+.boxbg-green {
+  background-color: #e5f5ca;
+}
+
+/* line 1156, ../scss/_epsevg.scss */
+.boxbg-white {
+  background-color: #FFFFFF;
+}
+
+/* line 1159, ../scss/_epsevg.scss */
+.boxbg-gray h2,
+.boxbg-green h2,
+.boxbg-white h2,
+.boxbg-gray h3,
+.boxbg-green h3,
+.boxbg-white h3,
+.boxbg-gray p,
+.boxbg-green p,
+.boxbg-white p {
+  padding-left: 20px;
+}
+
+/* line 1170, ../scss/_epsevg.scss */
+.boxbg-gray,
+.boxbg-green,
+.boxbg-white {
+  padding: 10px 0px 10px 0px;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  margin-bottom: 0px;
+  outline-style: none;
+}
+
+/* line 1180, ../scss/_epsevg.scss */
+.well-upc {
+  padding: 18px;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  margin-bottom: 0px;
+  outline-style: none;
+}
+
+/* line 1188, ../scss/_epsevg.scss */
+.well-upc > img + *,
+.well-upc > :first-child {
+  margin-top: 0;
+}
+
+/* line 1192, ../scss/_epsevg.scss */
+.well-upc > :last-child {
+  margin-bottom: 0;
+}
+
+/* line 1195, ../scss/_epsevg.scss */
+ul.list-links-upc,
+ol.list-links-upc {
+  padding-left: 24px !important;
+  margin-left: 0;
+}
+
+/* line 1200, ../scss/_epsevg.scss */
+.list-links-upc li {
+  list-style: none;
+  padding: 5px 0;
+  font-size: 1.0rem;
+  line-height: 1.4rem;
+}
+
+/* line 1206, ../scss/_epsevg.scss */
+.list-links-upc li:before {
+  content: "\e922";
+  font-family: "upc-icones";
+  margin-left: -5px;
+  font-size: .75rem;
+  margin-right: 6px;
+  color: #1FBDEE;
+  line-height: 0;
+}
+
+/* line 1215, ../scss/_epsevg.scss */
+.list-links-upc li a {
+  color: #007BC1;
+  text-decoration: none;
+}
+
+/* Destacados principales homepage con icono*/
+/* line 1220, ../scss/_epsevg.scss */
+.btn-banner-large {
+  height: 280px;
+  padding: 0;
+  justify-content: flex-end;
+}
+
+/* line 1225, ../scss/_epsevg.scss */
+.btn-banner-large div {
+  padding: 2px 72px 2px 20px;
+  background: rgba(255, 255, 255, 0.95);
+  z-index: 0;
+  height: 80px;
+  bottom: 0;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: all .25s ease-out;
+}
+
+/* line 1238, ../scss/_epsevg.scss */
+.btn-banner-large::before,
+.btn-banner-large::after {
+  bottom: 20px;
+  top: auto;
+}
+
+/* line 1243, ../scss/_epsevg.scss */
+.btn-banner-large::after {
+  border-color: #007BC1;
+}
+
+/* line 1246, ../scss/_epsevg.scss */
+.link-banner {
+  font-size: 1.125rem;
+  font-weight: 500;
+  background: #F2F5F6;
+  display: block;
+  padding: 30px 24px;
+  color: #636363;
+  position: relative;
+  transition: all .25s ease-out;
+  border-radius: 2px;
+  padding-right: 72px;
+}
+
+/* line 1258, ../scss/_epsevg.scss */
+.btn-banner {
+  align-items: flex-start;
+  background: #fff;
+  padding: 2px 72px 2px 20px;
+  min-height: 80px;
+  color: #4a4a4a;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: all .25s ease-out;
+  margin: 0 0 24px;
+  transform: scale(1, 1) perspective(1px) translateZ(0px);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
+}
+
+/* line 1274, ../scss/_epsevg.scss */
+.btn-banner.btn-banner-stretch {
+  align-items: stretch;
+}
+
+/* line 1277, ../scss/_epsevg.scss */
+.btn-banner:before {
+  content: "";
+  border: 1.5px solid #007BC1;
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  margin-top: -18px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 5px;
+  z-index: 0;
+}
+
+/* line 1291, ../scss/_epsevg.scss */
+.btn-banner img {
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  transition: all .5s ease;
+}
+
+/* line 1301, ../scss/_epsevg.scss */
+.btn-banner.compat-object-fit {
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 1305, ../scss/_epsevg.scss */
+.btn-banner h2 {
+  font-size: 1.125rem;
+  font-weight: 900;
+  margin: 0;
+  margin: -3px -6px -6px;
+  padding: 3px 6px;
+  z-index: 1;
+  display: inline-table;
+  position: relative;
+  color: #4a4a4a;
+}
+
+/* line 1316, ../scss/_epsevg.scss */
+.btn-banner p {
+  font-size: .875rem;
+  font-weight: 300;
+  margin: 6px -6px -3px;
+  padding: 3px 6px;
+  display: inline-table;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 1325, ../scss/_epsevg.scss */
+.btn-banner p,
+.btn-banner:hover p {
+  -webkit-font-smoothing: subpixel-antialiased;
+  transform: translateZ(0px);
+}
+
+/* line 1330, ../scss/_epsevg.scss */
+.btn-banner img + h2,
+.btn-banner img ~ p {
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-backdrop-filter: blur(1px);
+  transition: all .25s ease-in;
+}
+
+/* line 1336, ../scss/_epsevg.scss */
+.btn-banner:hover,
+.btn-banner:focus {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 5px 10px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.05);
+  color: #252525;
+  transition: all .25s ease-in;
+  text-decoration: none;
+  transform: perspective(1px) scale(1.00775, 1.00775) translateZ(0px);
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+/* line 1345, ../scss/_epsevg.scss */
+.btn-banner:hover img + h2,
+.btn-banner:hover img ~ p,
+.btn-banner:focus img + h2,
+.btn-banner:focus img ~ p {
+  background: rgba(255, 255, 255, 0.85);
+  -webkit-backdrop-filter: blur(3px);
+  transition: all .25s ease-in;
+}
+
+/* line 1353, ../scss/_epsevg.scss */
+.btn-banner:hover img,
+.btn-banner:focus img {
+  width: 101%;
+  height: 101%;
+  transition: all .5s ease;
+}
+
+/* line 1359, ../scss/_epsevg.scss */
+.btn-banner-large div {
+  padding: 2px 72px 2px 20px;
+  background: rgba(255, 255, 255, 0.95);
+  z-index: 0;
+  height: 80px;
+  bottom: 0;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 0.25s ease-out;
+}
+
+/* line 1372, ../scss/_epsevg.scss */
+.btn-banner:after {
+  content: "\e902";
+  font-family: upc-icones;
+  border: 1.5px solid rgba(255, 255, 255, 0);
+  position: absolute;
+  font-size: 1.125rem;
+  right: 18px;
+  top: 50%;
+  margin-top: -18px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 5px;
+  color: #007BC1;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 0;
+}
+
+/* line 1390, ../scss/_epsevg.scss */
+.btn-banner[target="_blank"]:after {
+  content: "\e91c";
+}
+
+/******* Cercles UPC  *******/
+/* line 1394, ../scss/_epsevg.scss */
+.list-top-stories {
+  list-style: none;
+  padding: 0;
+  margin-top: 24px;
+  display: flex;
+}
+
+/* line 1400, ../scss/_epsevg.scss */
+.list-top-stories li:not(:last-child) {
+  margin-right: 18px;
+  width: 50%;
+}
+
+/* line 1404, ../scss/_epsevg.scss */
+.list-top-stories li:not(:first-child) {
+  margin-left: 18px;
+  width: 50%;
+}
+
+/* line 1408, ../scss/_epsevg.scss */
+.list-top-stories a {
+  display: flex;
+  transform: perspective(0px) scale(1, 1) translateZ(0px);
+  transition: transform 0.5s ease;
+}
+
+@media (max-width: 768px) {
+  /* line 1414, ../scss/_epsevg.scss */
+  .list-top-stories a {
+    display: block;
+  }
+}
+/* line 1418, ../scss/_epsevg.scss */
+.list-top-stories a:hover {
+  text-decoration: none;
+  transform: perspective(1px) scale(1.00775, 1.00775) translateZ(0px);
+  transition: transform 0.5s ease;
+}
+
+/* line 1423, ../scss/_epsevg.scss */
+.list-top-stories span.compat-object-fit {
+  width: 200px;
+  height: 200px;
+  padding: 85px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 1431, ../scss/_epsevg.scss */
+.list-top-stories img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  min-width: 200px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  /* line 1439, ../scss/_epsevg.scss */
+  .list-top-stories img {
+    height: 150px;
+    width: 150px;
+    min-width: 150px;
+    margin: 0 auto;
+    display: block;
+  }
+}
+/* line 1447, ../scss/_epsevg.scss */
+.list-top-stories div *:first-child {
+  margin-top: 0;
+}
+
+/* line 1450, ../scss/_epsevg.scss */
+.list-top-stories div {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+
+@media (max-width: 768px) {
+  /* line 1457, ../scss/_epsevg.scss */
+  .list-top-stories div {
+    margin-left: 0;
+  }
+}
+/* line 1461, ../scss/_epsevg.scss */
+.list-top-stories div > * {
+  font-weight: 300;
+}
+
 /* cyrillic-ext */
 @font-face {
   font-family: 'Roboto';

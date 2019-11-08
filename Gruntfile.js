@@ -26,21 +26,37 @@ module.exports = function (grunt) {
                 src: ['stylesheets/robtheme.css',
                       'stylesheets/sharedRobtheme.css'],
                 dest: 'stylesheets/robtheme-concat.css',
+            },
+            robtheme_tiny: {
+                src: ['stylesheets/robtheme_tiny.css',
+                      'stylesheets/sharedRobtheme.css'],
+                dest: 'stylesheets/robtheme_tiny-concat.css',
             }
         },
         cssmin: {
-            target : {
+            robtheme : {
                 src : ["stylesheets/robtheme-concat.css"],
                 dest : "stylesheets/robtheme.min.css",
+            },
+            robtheme_tiny : {
+                src : ["stylesheets/robtheme_tiny-concat.css"],
+                dest : "stylesheets/robtheme_tiny.min.css",
             }
         },
         watch: {
-            ulearn: {
+            robtheme: {
                 files: [
                     'scss/*.scss',
                     'scss/Dropbox/sharedRobtheme/*.scss'
                 ],
-                tasks: ['compass:robtheme', 'compass:sharedRobtheme', 'concat:robtheme', 'cssmin']
+                tasks: ['compass:robtheme', 'compass:sharedRobtheme', 'concat:robtheme', 'cssmin:robtheme']
+            },
+            robtheme_tiny: {
+                files: [
+                    'scss/*.scss',
+                    'scss/Dropbox/sharedRobtheme/*.scss'
+                ],
+                tasks: ['compass:robtheme', 'compass:sharedRobtheme', 'concat:robtheme_tiny', 'cssmin:robtheme_tiny']
             }
         },
         browserSync: {

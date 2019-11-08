@@ -20,7 +20,7 @@ def get_plantilles():
     </div>
     <div class="accordion-group">
         <div class="accordion-heading">
-            <a class="accordion-toggle  fright" href="#collapseTwo" data-toggle="collapse" data-parent="#accordion2"> Collapsible Group Item #2 </a>
+            <a class="accordion-toggle collapsed fright" href="#collapseTwo" data-toggle="collapse" data-parent="#accordion2"> Collapsible Group Item #2 </a>
         </div>
         <div class="accordion-body collapse" id="collapseTwo">
             <div class="accordion-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat ac neque hendrerit varius. Etiam a viverra dolor. Duis vitae ex sed tortor elementum egestas. Proin efficitur lacus ac porttitor condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus velit magna, accumsan id arcu quis, laoreet maximus est. Nullam suscipit augue eget posuere convallis. Morbi cursus sagittis nisl at varius. Vestibulum lacinia sem consectetur, accumsan est et, feugiat urna. Vivamus sit amet eros a diam sodales vestibulum.</div>
@@ -28,7 +28,7 @@ def get_plantilles():
     </div>
     <div class="accordion-group">
         <div class="accordion-heading">
-            <a class="accordion-toggle  fright" href="#collapseThree" data-toggle="collapse" data-parent="#accordion2"> Collapsible Group Item #3 </a>
+            <a class="accordion-toggle collapsed fright" href="#collapseThree" data-toggle="collapse" data-parent="#accordion2"> Collapsible Group Item #3 </a>
         </div>
         <div class="accordion-body collapse" id="collapseThree">
             <div class="accordion-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat ac neque hendrerit varius. Etiam a viverra dolor. Duis vitae ex sed tortor elementum egestas. Proin efficitur lacus ac porttitor condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus velit magna, accumsan id arcu quis, laoreet maximus est. Nullam suscipit augue eget posuere convallis. Morbi cursus sagittis nisl at varius. Vestibulum lacinia sem consectetur, accumsan est et, feugiat urna. Vivamus sit amet eros a diam sodales vestibulum.</div>
@@ -39,81 +39,103 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text Link - Icona Info - fons GRIS"
+    titol = u"Rob Theme - Banner Text Link - Icona Info - GRIS"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal" href="../" data-linktype="internal">
-            <i class="fa fa-info-circle fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
+            <span class="fa fa-info-circle fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
        <p>&nbsp;</p>
      """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text Link - Icona Arxiu - fons GRIS"
+    titol = u"Rob Theme - Banner Text Link - Icona Arxiu - GRIS"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal" href="../" data-linktype="internal">
-            <i class="fa fa-archive fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
+            <span class="fa fa-archive fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
         <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text Link - Icona Info - fons BLAU"
+    titol = u"Rob Theme - Banner Text Link - Icona Info - BLAU"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-blue" href="../" data-linktype="internal">
-            <i class="fa fa-info-circle fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
+            <span class="fa fa-info-circle fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
        <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text Link - Icona Arxiu - fons BLAU"
+    titol = u"Rob Theme - Banner Text Link - Icona Arxiu - BLAU"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-blue" href="../" data-linktype="internal">
-            <i class="fa fa-archive fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
+            <span class="fa fa-archive fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
        <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text No Link - Icona Info - fons GRIS"
+    titol = u"Rob Theme - Banner Text No Link - Icona Info - GRIS"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-nolink" data-linktype="internal">
-            <i class="fa fa-info-circle fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
+            <span class="fa fa-info-circle fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
         <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text No Link - Icona Arxiu - fons GRIS"
+    titol = u"Rob Theme - Banner Text No Link - Icona Arxiu - GRIS"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-nolink" data-linktype="internal">
-            <i class="fa fa-archive fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
+            <span class="fa fa-archive fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
         <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text No Link - Icona Info - fons BLAU"
+    titol = u"Rob Theme - Banner Text No Link - Icona Info - BLAU"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-nolink-blue" data-linktype="internal">
-            <i class="fa fa-info-circle fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
+            <span class="fa fa-info-circle fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
+        </a>
+        <p>&nbsp;</p>
+    """
+    plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
+
+    titol = u"Rob Theme - Banner Text No Link - Icona Arxiu - BLAU"
+    resum = u""
+    cos = u"""
+        <a class="link-banner-minimal-nolink-blue" data-linktype="internal">
+            <span class="fa fa-archive fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
+        </a>
+        <p>&nbsp;</p>
+    """
+    plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
+
+    titol = u"Rob Theme - Banner Text Link - Imatge"
+    resum = u""
+    cos = u"""
+        <a class="link-banner-minimal" href="../" data-linktype="internal">
+            <img alt="" src="capcalera.jpg" />
+            <span>LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.</span>
         </a>
        <p>&nbsp;</p>
-    """
+     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text No Link - Icona Arxiu - fons BLAU"
+    titol = u"Rob Theme - Banner Text No Link - Imatge"
     resum = u""
     cos = u"""
-        <a class="link-banner-minimal-nolink-blue" data-linktype="internal">
-            <i class="fa fa-archive fa-2x"></i> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
+        <a class="link-banner-minimal-nolink" data-linktype="internal">
+            <img alt="" src="capcalera.jpg" />
+            <span>LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.</span>
         </a>
         <p>&nbsp;</p>
     """
@@ -241,7 +263,7 @@ def get_plantilles():
                 <strong>Lorem Ipsum.</strong>
             </li>
             <li>
-                <i class="far fa-file-pdf"> </i> Contrary to popular belief, Lorem Ipsum is not simply random text.
+                <span class="far fa-file-pdf"> </span> Contrary to popular belief, Lorem Ipsum is not simply random text.
                 <strong>
                 <a href="../">Lorem Ipsum!</a>
               </strong>
@@ -270,7 +292,7 @@ def get_plantilles():
                 <strong>Lorem Ipsum.</strong>
             </li>
             <li>
-                <i class="far fa-file-pdf"> </i> Contrary to popular belief, Lorem Ipsum is not simply random text.
+                <span class="far fa-file-pdf"> </span> Contrary to popular belief, Lorem Ipsum is not simply random text.
                 <strong>
                 <a href="../">Lorem Ipsum!</a>
               </strong>
@@ -496,11 +518,11 @@ def get_plantilles():
 <div class="hidden-phone">
     <div class="box">
         <h2 class="align-center">
-            <i class="fa fa-quote-left"></i>
+            <span class="fa fa-quote-left"></span>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry
-            <i class="fa fa-quote-right"></i>
+            <span class="fa fa-quote-right"></span>
         </h2>
-        <p><i>Lorem Ipsum</i></p>
+        <p><span>Lorem Ipsum</span></p>
     </div>
 </div>
 <p>&nbsp;</p>

@@ -1,7 +1,7 @@
-<?xml version="1.0"?>
 <metadata>
-  <version>1</version>
-  <dependencies>
+ <version>0001</version>
+ <dependencies>
+    <dependency>profile-genweb.theme:default</dependency>
     <dependency>profile-genweb.cleantheme:default</dependency>
   </dependencies>
 </metadata>
