@@ -20,7 +20,7 @@ p {
 h1 {
     font-weight: 500;
 }
-#content-core #parent-fieldname-text h2, body.mceContentBody h2, 
+#content-core #parent-fieldname-text h2, body.mceContentBody h2,
 .h2, h2{
     line-height: initial;
     font-size: 24px;
@@ -1226,7 +1226,6 @@ body.mceContentBody h2,
 }
 #menu-1 ul li:first-child:nth-last-child(8) a,
 #menu-1 ul li:first-child:nth-last-child(8) ~ li a {
-    text-align: left;
     padding-left: 0% !important;
 }
 li.plain a.state-private {
@@ -1480,7 +1479,7 @@ body.mceContentBody:not(#mceTemplatePreview) {
 /* Cambios 12/11/2019 */
 .subnavbar .nav-list .active ul a:before,
 .subnavbar .nav-list .selected ul a:before {
-   top: 3px; 
+   top: 3px;
    font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -1515,11 +1514,11 @@ section#content-area {
 }
 
 /* Meter dentro del iframe */
-body.mceContentBody	 .destacat.destacat-dreta.hidden-phone .visible-phone, 
-body.mceContentBody	 .destacat.destacat-dreta.hidden-phone .visible-tablet, 
-body.mceContentBody	 .destacat.destacat-dreta.hidden-phone .visible-desktop, 
-body.mceContentBody	 .destacat.destacat-dreta.hidden-phone .hidden-phone, 
-body.mceContentBody	 .destacat.destacat-dreta.hidden-phone .hidden-tablet, 
+body.mceContentBody	 .destacat.destacat-dreta.hidden-phone .visible-phone,
+body.mceContentBody	 .destacat.destacat-dreta.hidden-phone .visible-tablet,
+body.mceContentBody	 .destacat.destacat-dreta.hidden-phone .visible-desktop,
+body.mceContentBody	 .destacat.destacat-dreta.hidden-phone .hidden-phone,
+body.mceContentBody	 .destacat.destacat-dreta.hidden-phone .hidden-tablet,
 body.mceContentBody	 .destacat.destacat-dreta.hidden-phone .hidden-desktop {
     background: #f2f5f6 !important;
 }
