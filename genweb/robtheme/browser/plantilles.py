@@ -145,61 +145,74 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Botó Destacat BLAU"
+    titol = u"Rob Theme - Banner Destacat BLAU"
     resum = u""
     cos = u"""
         <a class="link-bannerblau" href="../">
-            <span class="btntitolblau">Lorem Ipsum</span>
+            <span class="btntitolblau">Títol del banner</span>
             <br />
-            <span class="btnsubtitolblau">It is a long established fact that a reader will ...</span>
+            <span class="btnsubtitolblau">Text descriptiu del banner</span>
           </a>
           <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Botó Destacat GRIS"
+    titol = u"Rob Theme - Banner Destacat GRIS"
     resum = u""
     cos = u"""
          <a class="link-banner" href="../">
-            <span class="btntitol">Lorem Ipsum</span>
+            <span class="btntitol">Títol del banner</span>
             <br />
-            <span class="btnsubtitol">It is a long established fact that a reader will ...</span>
+            <span class="btnsubtitol">Text descriptiu del banner</span>
           </a>
           <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Botó Destacat DANGER"
+    titol = u"Rob Theme - Banner Destacat DANGER"
     resum = u""
     cos = u"""
           <a class="link-bannerdanger" href="../">
-            <span class="btntitoldanger">Lorem Ipsum</span>
+            <span class="btntitoldanger">Títol del banner</span>
             <br />
-            <span class="btnsubtitoldanger">It is a long established fact that a reader will ...</span>
+            <span class="btnsubtitoldanger">Text descriptiu del banner</span>
           </a>
         <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Botó Destacat WARNING"
+    titol = u"Rob Theme - Banner Destacat WARNING"
     resum = u""
     cos = u"""
           <a class="link-bannerwarning" href="../">
-            <span class="btntitolwarning">Lorem Ipsum</span>
+            <span class="btntitolwarning">Títol del banner</span>
             <br />
-            <span class="btnsubtitolwarning">It is a long established fact that a reader will ...</span>
+            <span class="btnsubtitolwarning">Text descriptiu del banner</span>
           </a>
           <p>&nbsp;</p>
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Botó Destacat SUCCESS"
+    titol = u"Rob Theme - Banner Destacat SUCCESS"
     resum = u""
     cos = u"""
           <a class="link-bannersuccess" href="../">
-            <span class="btntitolsuccess">Lorem Ipsum</span>
+            <span class="btntitolsuccess">Títol del banner</span>
             <br />
-            <span class="btnsubtitolsuccess">It is a long established fact that a reader will ...</span>
+            <span class="btnsubtitolsuccess">Text descriptiu del banner</span>
+          </a>
+          <p>&nbsp;</p>
+    """
+    plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
+
+    titol = u"Rob Theme - Banner Destacat IMATGE"
+    resum = u""
+    cos = u"""
+          <a class="link-bannerimg" href="../">
+            <img alt="" src="capcalera.jpg" />
+            <span class="btntitol">Títol del banner</span>
+            <br />
+            <span class="btnsubtitol">Text descriptiu del banner</span>
           </a>
           <p>&nbsp;</p>
     """
@@ -373,32 +386,32 @@ def get_plantilles():
         <ul class="list-sections">
             <li>
                 <div class="lletra-cercle-p lletra-cercle color-blau"></div>
-                <h2><a href="upc">LOREM IPSUM</a></h2>
+                <h2><a href="#">LOREM IPSUM</a></h2>
                 <p class="hidden-phone">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</p>
             </li>
             <li>
                 <div class="lletra-cercle-a lletra-cercle color-carbassa"></div>
-                <h2><a href="upc">LOREM IPSUM</a></h2>
+                <h2><a href="#">LOREM IPSUM</a></h2>
                 <p class="hidden-phone">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </li>
             <li>
                 <div class="lletra-cercle-a lletra-cercle color-verd"></div>
-                <h2><a class="internal-link" href="upc" target="_self" title="">LOREM IPSUM</a></h2>
+                <h2><a class="internal-link" href="#" target="_self" title="">LOREM IPSUM</a></h2>
                 <p class="hidden-phone" style="text-align: justify; ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
             </li>
             <li>
                 <div class="lletra-cercle-u lletra-cercle color-morat"></div>
-                <h2><a href="upc">LOREM IPSUM</a></h2>
+                <h2><a href="#">LOREM IPSUM</a></h2>
                 <p class="hidden-phone">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
             </li>
             <li>
                 <div class="lletra-cercle-c lletra-cercle color-blau"></div>
-                <h2><a href="upc" target="_blank">LOREM IPSUM</a></h2>
+                <h2><a href="#" target="_blank">LOREM IPSUM</a></h2>
                 <p class="hidden-phone">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
             </li>
             <li>
                 <div class="lletra-cercle-m lletra-cercle color-lila"></div>
-                <h2><a href="upc" target="_blank">LOREM IPSUM</a></h2>
+                <h2><a href="#" target="_blank">LOREM IPSUM</a></h2>
                 <p class="hidden-phone">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
             </li>
         </ul>
@@ -407,32 +420,32 @@ def get_plantilles():
         <ul class="list-sections">
             <li>
                 <div class="lletra-cercle-d lletra-cercle color-verd"></div>
-                <h2><a class="external-link" href="upc" target="_blank">LOREM IPSUM</a></h2>
+                <h2><a class="external-link" href="#" target="_blank">LOREM IPSUM</a></h2>
                 <p class="hidden-phone">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
             </li>
             <li>
                 <div class="lletra-cercle-i lletra-cercle color-morat"></div>
-                <h2><a href="upc">LOREM IPSUM</a></h2>
+                <h2><a href="#">LOREM IPSUM</a></h2>
                 <p class="hidden-phone">Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
             </li>
             <li>
                 <div class="lletra-cercle-i lletra-cercle color-blau"></div>
-                <h2><a href="upc">LOREM IPSUM</a></h2>
+                <h2><a href="#">LOREM IPSUM</a></h2>
                 <p class="hidden-phone">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
             </li>
             <li>
                 <div class="lletra-cercle-q lletra-cercle color-carbassa"></div>
-                <h2><a href="upc">LOREM IPSUM</a></h2>
+                <h2><a href="#">LOREM IPSUM</a></h2>
                 <p class="hidden-phone">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
             </li>
             <li>
                 <div class="lletra-cercle-e lletra-cercle color-lila"></div>
-                <h2><a href="upc">LOREM IPSUM</a></h2>
+                <h2><a href="#">LOREM IPSUM</a></h2>
                 <p class="hidden-phone">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
             </li>
             <li>
                 <div class="lletra-cercle-a lletra-cercle color-verd"></div>
-                <h2><a class="internal-link" href="upc" target="_self">LOREM IPSUM</a></h2>
+                <h2><a class="internal-link" href="#" target="_self">LOREM IPSUM</a></h2>
                 <p class="hidden-phone">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
             </li>
         </ul>
@@ -527,6 +540,43 @@ def get_plantilles():
             <span class="fa fa-quote-right"></span>
         </h2>
         <p><span>Lorem Ipsum</span></p>
+    </div>
+</div>
+<p>&nbsp;</p>
+    """
+    plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
+
+    titol = u"Rob Theme - Columna de support"
+    resum = u""
+    cos = u"""
+<h2>Titular del bloc de text</h2>
+<div class="row-fluid">
+    <div class="span8">
+        <div class="well">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis tellus. Donec ante dolor, iaculis nec, gravida ac, cursus in, eros. Mauris vestibulum, felis et egestas ullamcorper, <a href="javascript: ;">purus nibh vehicula sem</a>, eu egestas ante nisl non justo. Fusce tincidunt, lorem nec dapibus consectetuer, leo orci mollis ipsum, eget suscipit eros purus in ante.</p>
+        </div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+    </div>
+    <div class="span4">
+        <div class="box pull-right">
+            <h3>Enllaços relacionats</h3>
+            <ul class="list list-links">
+                <li><a href="#">JDuis tellus</a></li>
+                <li><a href="#">Maecenas elit orci</a></li>
+                <li><a href="#">At ipsum vitae est lacinia tincidunt</a></li>
+            </ul>
+            <h3>Bàners</h3>
+            <p>
+                <a class="link-banner-minimal" href="#" data-linktype="internal">
+                    <img alt="" src="capcalera.jpg" title="etsab" />
+                    <span>Bàner mostra</span>
+                </a>
+            </p>
+            <p><a class="link-banner-minimal" href="#" data-linktype="internal">Bàner mostra</a></p>
+            <p><a class="link-banner-minimal-blue" href="#" data-linktype="internal">Bàner mostra </a></p>
+            <p>&nbsp;</p>
+        </div>
     </div>
 </div>
 <p>&nbsp;</p>

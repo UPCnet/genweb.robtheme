@@ -1440,6 +1440,7 @@ ul {
 
 /* Baners amb imatge */
 
+.link-bannerimg img,
 .link-banner-minimal-nolink img,
 .link-banner-minimal img {
     object-fit: cover;
@@ -1452,6 +1453,7 @@ ul {
     transition: all .5s ease;
 }
 
+.link-bannerimg span,
 .link-banner-minimal-nolink img + span,
 .link-banner-minimal img + span {
     background: rgba(255,255,255,0.8);
@@ -1459,4 +1461,18 @@ ul {
     padding: 3px 6px;
     display: inline-table;
     position: relative;
+}
+
+/* Tiny links arrow */
+
+body.mceContentBody:not(#mceTemplatePreview) {
+
+    .link-banner::after,
+    .link-bannerimg::after,
+    .link-bannerblau::after,
+    .link-bannerdanger::after,
+    .link-bannerwarning::after,
+    .link-bannersuccess::after {
+        padding-top: 7px;
+    }
 }

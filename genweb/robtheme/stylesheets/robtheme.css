@@ -1368,8 +1368,9 @@ label {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 965, ../scss/_epsevg.scss */
+/* line 966, ../scss/_epsevg.scss */
 .link-banner[target="_blank"]::after,
+.link-bannerimg[target="_blank"]::after,
 .link-bannerblau[target="_blank"]::after,
 .link-bannerdanger[target="_blank"]::after,
 .link-bannerwarning[target="_blank"]::after,
@@ -1377,8 +1378,9 @@ label {
   content: "\e91c";
 }
 
-/* line 972, ../scss/_epsevg.scss */
+/* line 974, ../scss/_epsevg.scss */
 .link-banner::after,
+.link-bannerimg::after,
 .link-bannerblau::after,
 .link-bannerdanger::after,
 .link-bannerwarning::after,
@@ -1395,19 +1397,21 @@ label {
   height: 36px;
   border-radius: 50% !important;
   text-align: center;
-  padding-top: 7px;
+  padding-top: 3px;
   color: #FFFFFF;
   z-index: 0;
 }
 
-/* line 993, ../scss/_epsevg.scss */
+/* line 996, ../scss/_epsevg.scss */
+.link-bannerimg::after,
 .link-banner::after {
   border: 2px solid #007BC1;
   color: #007BC1;
 }
 
-/* line 997, ../scss/_epsevg.scss */
+/* line 1001, ../scss/_epsevg.scss */
 .link-banner,
+.link-bannerimg,
 .link-bannerblau,
 .link-bannerdanger,
 .link-bannerwarning,
@@ -1423,35 +1427,36 @@ label {
   padding-right: 72px;
 }
 
-/* line 1012, ../scss/_epsevg.scss */
+/* line 1017, ../scss/_epsevg.scss */
 .link-banner {
   background: #F2F5F6;
-  padding: 30px 24px;
 }
 
-/* line 1016, ../scss/_epsevg.scss */
+/* line 1020, ../scss/_epsevg.scss */
 .link-bannerblau {
   background: #007BC1;
 }
 
-/* line 1019, ../scss/_epsevg.scss */
+/* line 1023, ../scss/_epsevg.scss */
 .link-bannerdanger {
   background: #d01157;
 }
 
-/* line 1022, ../scss/_epsevg.scss */
+/* line 1026, ../scss/_epsevg.scss */
 .link-bannerwarning {
   background: #f6a808;
 }
 
-/* line 1025, ../scss/_epsevg.scss */
+/* line 1029, ../scss/_epsevg.scss */
 .link-bannersuccess {
   background: #069182;
 }
 
-/* line 1028, ../scss/_epsevg.scss */
+/* line 1032, ../scss/_epsevg.scss */
 .link-banner:hover,
 .link-banner:focus,
+.link-bannerimg:hover,
+.link-bannerimg:focus,
 .link-bannerblau:hover,
 .link-bannerblau:focus,
 .link-bannerdanger:hover,
@@ -1468,14 +1473,14 @@ label {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
-/* line 1045, ../scss/_epsevg.scss */
+/* line 1051, ../scss/_epsevg.scss */
 .btntitol {
   color: #005a8d;
   font-weight: 500;
   font-size: 1.2rem;
 }
 
-/* line 1050, ../scss/_epsevg.scss */
+/* line 1056, ../scss/_epsevg.scss */
 .btntitolblau,
 .btntitoldanger,
 .btntitolwarning,
@@ -1485,13 +1490,13 @@ label {
   font-size: 1.2rem;
 }
 
-/* line 1058, ../scss/_epsevg.scss */
+/* line 1064, ../scss/_epsevg.scss */
 .btnsubtitol {
   font-size: 1rem;
   font-weight: 100;
 }
 
-/* line 1062, ../scss/_epsevg.scss */
+/* line 1068, ../scss/_epsevg.scss */
 .btnsubtitolblau,
 .btnsubtitoldanger,
 .btnsubtitolwarning,
@@ -1502,31 +1507,31 @@ label {
 }
 
 /* Missatges destacats pàgines interior */
-/* line 1071, ../scss/_epsevg.scss */
+/* line 1077, ../scss/_epsevg.scss */
 .link-banner-minimal-nolink {
   background: #F2F5F6;
   text-decoration: none;
 }
 
-/* line 1075, ../scss/_epsevg.scss */
+/* line 1081, ../scss/_epsevg.scss */
 .link-banner-minimal-nolink-blue {
   background: #007BC1;
   text-decoration: none;
   color: #FFF;
 }
 
-/* line 1080, ../scss/_epsevg.scss */
+/* line 1086, ../scss/_epsevg.scss */
 .link-banner-minimal {
   background: #F2F5F6;
 }
 
-/* line 1083, ../scss/_epsevg.scss */
+/* line 1089, ../scss/_epsevg.scss */
 .link-banner-minimal-blue {
   background: #007BC1;
   color: #FFF;
 }
 
-/* line 1087, ../scss/_epsevg.scss */
+/* line 1093, ../scss/_epsevg.scss */
 .link-banner-minimal,
 .link-banner-minimal-blue,
 .link-banner-minimal-nolink,
@@ -1541,19 +1546,19 @@ label {
   font-size: 1.1rem;
 }
 
-/* line 1100, ../scss/_epsevg.scss */
+/* line 1106, ../scss/_epsevg.scss */
 .link-banner-minimal::after {
   border: 2px solid #007BC1;
   color: #007BC1;
 }
 
-/* line 1104, ../scss/_epsevg.scss */
+/* line 1110, ../scss/_epsevg.scss */
 .link-banner-minimal-blue::after {
   border: 2px solid #FFFFFF;
   color: #FFFFFF;
 }
 
-/* line 1108, ../scss/_epsevg.scss */
+/* line 1114, ../scss/_epsevg.scss */
 .link-banner-minimal::after,
 .link-banner-minimal-blue::after {
   content: "\e902";
@@ -1571,13 +1576,13 @@ label {
   z-index: 0;
 }
 
-/* line 1124, ../scss/_epsevg.scss */
+/* line 1130, ../scss/_epsevg.scss */
 .link-banner-minimal[target="_blank"]:after,
 .link-banner-minimal-blue[target="_blank"]:after {
   content: "\e91c";
 }
 
-/* line 1128, ../scss/_epsevg.scss */
+/* line 1134, ../scss/_epsevg.scss */
 .link-banner-minimal:hover,
 .link-banner-minimal:focus,
 .link-banner-minimal-blue:hover,
@@ -1593,34 +1598,34 @@ label {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
-/* line 1142, ../scss/_epsevg.scss */
+/* line 1148, ../scss/_epsevg.scss */
 .link-banner-minimal-blue:hover,
 .link-banner-minimal-nolink-blue:hover {
   color: #FFFFFF;
 }
 
-/* line 1146, ../scss/_epsevg.scss */
+/* line 1152, ../scss/_epsevg.scss */
 body .box h2 {
   color: #0077C8 !important;
 }
 
 /* LLista UPC fons color blanc */
-/* line 1150, ../scss/_epsevg.scss */
+/* line 1156, ../scss/_epsevg.scss */
 .boxbg-gray {
   background-color: #F2F5F6;
 }
 
-/* line 1153, ../scss/_epsevg.scss */
+/* line 1159, ../scss/_epsevg.scss */
 .boxbg-green {
   background-color: #e5f5ca;
 }
 
-/* line 1156, ../scss/_epsevg.scss */
+/* line 1162, ../scss/_epsevg.scss */
 .boxbg-white {
   background-color: #FFFFFF;
 }
 
-/* line 1159, ../scss/_epsevg.scss */
+/* line 1165, ../scss/_epsevg.scss */
 .boxbg-gray h2,
 .boxbg-green h2,
 .boxbg-white h2,
@@ -1633,7 +1638,7 @@ body .box h2 {
   padding-left: 20px;
 }
 
-/* line 1170, ../scss/_epsevg.scss */
+/* line 1176, ../scss/_epsevg.scss */
 .boxbg-gray,
 .boxbg-green,
 .boxbg-white {
@@ -1645,7 +1650,7 @@ body .box h2 {
   outline-style: none;
 }
 
-/* line 1180, ../scss/_epsevg.scss */
+/* line 1186, ../scss/_epsevg.scss */
 .well-upc {
   padding: 18px;
   border: 0;
@@ -1655,25 +1660,25 @@ body .box h2 {
   outline-style: none;
 }
 
-/* line 1188, ../scss/_epsevg.scss */
+/* line 1194, ../scss/_epsevg.scss */
 .well-upc > img + *,
 .well-upc > :first-child {
   margin-top: 0;
 }
 
-/* line 1192, ../scss/_epsevg.scss */
+/* line 1198, ../scss/_epsevg.scss */
 .well-upc > :last-child {
   margin-bottom: 0;
 }
 
-/* line 1195, ../scss/_epsevg.scss */
+/* line 1201, ../scss/_epsevg.scss */
 ul.list-links-upc,
 ol.list-links-upc {
   padding-left: 24px !important;
   margin-left: 0;
 }
 
-/* line 1200, ../scss/_epsevg.scss */
+/* line 1206, ../scss/_epsevg.scss */
 .list-links-upc li {
   list-style: none;
   padding: 5px 0;
@@ -1681,7 +1686,7 @@ ol.list-links-upc {
   line-height: 1.4rem;
 }
 
-/* line 1206, ../scss/_epsevg.scss */
+/* line 1212, ../scss/_epsevg.scss */
 .list-links-upc li:before {
   content: "\e922";
   font-family: "upc-icones";
@@ -1692,21 +1697,21 @@ ol.list-links-upc {
   line-height: 0;
 }
 
-/* line 1215, ../scss/_epsevg.scss */
+/* line 1221, ../scss/_epsevg.scss */
 .list-links-upc li a {
   color: #007BC1;
   text-decoration: none;
 }
 
 /* Destacados principales homepage con icono*/
-/* line 1220, ../scss/_epsevg.scss */
+/* line 1226, ../scss/_epsevg.scss */
 .btn-banner-large {
   height: 280px;
   padding: 0;
   justify-content: flex-end;
 }
 
-/* line 1225, ../scss/_epsevg.scss */
+/* line 1231, ../scss/_epsevg.scss */
 .btn-banner-large div {
   padding: 2px 72px 2px 20px;
   background: rgba(255, 255, 255, 0.95);
@@ -1721,25 +1726,24 @@ ol.list-links-upc {
   transition: all .25s ease-out;
 }
 
-/* line 1238, ../scss/_epsevg.scss */
+/* line 1244, ../scss/_epsevg.scss */
 .btn-banner-large::before,
 .btn-banner-large::after {
   bottom: 20px;
   top: auto;
 }
 
-/* line 1243, ../scss/_epsevg.scss */
+/* line 1249, ../scss/_epsevg.scss */
 .btn-banner-large::after {
   border-color: #007BC1;
 }
 
-/* line 1246, ../scss/_epsevg.scss */
+/* line 1252, ../scss/_epsevg.scss */
 .link-banner {
   font-size: 1.125rem;
   font-weight: 500;
   background: #F2F5F6;
   display: block;
-  padding: 30px 24px;
   color: #636363;
   position: relative;
   transition: all .25s ease-out;
@@ -1747,7 +1751,7 @@ ol.list-links-upc {
   padding-right: 72px;
 }
 
-/* line 1258, ../scss/_epsevg.scss */
+/* line 1263, ../scss/_epsevg.scss */
 .btn-banner {
   align-items: flex-start;
   background: #fff;
@@ -1765,12 +1769,12 @@ ol.list-links-upc {
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
 }
 
-/* line 1274, ../scss/_epsevg.scss */
+/* line 1279, ../scss/_epsevg.scss */
 .btn-banner.btn-banner-stretch {
   align-items: stretch;
 }
 
-/* line 1277, ../scss/_epsevg.scss */
+/* line 1282, ../scss/_epsevg.scss */
 .btn-banner:before {
   content: "";
   border: 1.5px solid #007BC1;
@@ -1786,7 +1790,7 @@ ol.list-links-upc {
   z-index: 0;
 }
 
-/* line 1291, ../scss/_epsevg.scss */
+/* line 1296, ../scss/_epsevg.scss */
 .btn-banner img {
   object-fit: cover;
   left: 0;
@@ -1798,13 +1802,13 @@ ol.list-links-upc {
   transition: all .5s ease;
 }
 
-/* line 1301, ../scss/_epsevg.scss */
+/* line 1306, ../scss/_epsevg.scss */
 .btn-banner.compat-object-fit {
   background-size: cover;
   background-position: center;
 }
 
-/* line 1305, ../scss/_epsevg.scss */
+/* line 1310, ../scss/_epsevg.scss */
 .btn-banner h2 {
   font-size: 1.125rem;
   font-weight: 900;
@@ -1817,7 +1821,7 @@ ol.list-links-upc {
   color: #4a4a4a;
 }
 
-/* line 1316, ../scss/_epsevg.scss */
+/* line 1321, ../scss/_epsevg.scss */
 .btn-banner p {
   font-size: .875rem;
   font-weight: 300;
@@ -1828,14 +1832,14 @@ ol.list-links-upc {
   z-index: 1;
 }
 
-/* line 1325, ../scss/_epsevg.scss */
+/* line 1330, ../scss/_epsevg.scss */
 .btn-banner p,
 .btn-banner:hover p {
   -webkit-font-smoothing: subpixel-antialiased;
   transform: translateZ(0px);
 }
 
-/* line 1330, ../scss/_epsevg.scss */
+/* line 1335, ../scss/_epsevg.scss */
 .btn-banner img + h2,
 .btn-banner img ~ p {
   background: rgba(255, 255, 255, 0.8);
@@ -1843,7 +1847,7 @@ ol.list-links-upc {
   transition: all .25s ease-in;
 }
 
-/* line 1336, ../scss/_epsevg.scss */
+/* line 1341, ../scss/_epsevg.scss */
 .btn-banner:hover,
 .btn-banner:focus {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 5px 10px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.05);
@@ -1854,7 +1858,7 @@ ol.list-links-upc {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
-/* line 1345, ../scss/_epsevg.scss */
+/* line 1350, ../scss/_epsevg.scss */
 .btn-banner:hover img + h2,
 .btn-banner:hover img ~ p,
 .btn-banner:focus img + h2,
@@ -1864,7 +1868,7 @@ ol.list-links-upc {
   transition: all .25s ease-in;
 }
 
-/* line 1353, ../scss/_epsevg.scss */
+/* line 1358, ../scss/_epsevg.scss */
 .btn-banner:hover img,
 .btn-banner:focus img {
   width: 101%;
@@ -1872,7 +1876,7 @@ ol.list-links-upc {
   transition: all .5s ease;
 }
 
-/* line 1359, ../scss/_epsevg.scss */
+/* line 1364, ../scss/_epsevg.scss */
 .btn-banner-large div {
   padding: 2px 72px 2px 20px;
   background: rgba(255, 255, 255, 0.95);
@@ -1887,7 +1891,7 @@ ol.list-links-upc {
   transition: all 0.25s ease-out;
 }
 
-/* line 1372, ../scss/_epsevg.scss */
+/* line 1377, ../scss/_epsevg.scss */
 .btn-banner:after {
   content: "\e902";
   font-family: upc-icones;
@@ -1907,13 +1911,13 @@ ol.list-links-upc {
   z-index: 0;
 }
 
-/* line 1390, ../scss/_epsevg.scss */
+/* line 1395, ../scss/_epsevg.scss */
 .btn-banner[target="_blank"]:after {
   content: "\e91c";
 }
 
 /******* Cercles UPC  *******/
-/* line 1394, ../scss/_epsevg.scss */
+/* line 1399, ../scss/_epsevg.scss */
 .list-top-stories {
   list-style: none;
   padding: 0;
@@ -1921,19 +1925,19 @@ ol.list-links-upc {
   display: flex;
 }
 
-/* line 1400, ../scss/_epsevg.scss */
+/* line 1405, ../scss/_epsevg.scss */
 .list-top-stories li:not(:last-child) {
   margin-right: 18px;
   width: 50%;
 }
 
-/* line 1404, ../scss/_epsevg.scss */
+/* line 1409, ../scss/_epsevg.scss */
 .list-top-stories li:not(:first-child) {
   margin-left: 18px;
   width: 50%;
 }
 
-/* line 1408, ../scss/_epsevg.scss */
+/* line 1413, ../scss/_epsevg.scss */
 .list-top-stories a {
   display: flex;
   transform: perspective(0px) scale(1, 1) translateZ(0px);
@@ -1941,19 +1945,19 @@ ol.list-links-upc {
 }
 
 @media (max-width: 768px) {
-  /* line 1414, ../scss/_epsevg.scss */
+  /* line 1419, ../scss/_epsevg.scss */
   .list-top-stories a {
     display: block;
   }
 }
-/* line 1418, ../scss/_epsevg.scss */
+/* line 1423, ../scss/_epsevg.scss */
 .list-top-stories a:hover {
   text-decoration: none;
   transform: perspective(1px) scale(1.00775, 1.00775) translateZ(0px);
   transition: transform 0.5s ease;
 }
 
-/* line 1423, ../scss/_epsevg.scss */
+/* line 1428, ../scss/_epsevg.scss */
 .list-top-stories span.compat-object-fit {
   width: 200px;
   height: 200px;
@@ -1963,7 +1967,7 @@ ol.list-links-upc {
   background-position: center;
 }
 
-/* line 1431, ../scss/_epsevg.scss */
+/* line 1436, ../scss/_epsevg.scss */
 .list-top-stories img {
   border-radius: 50%;
   width: 200px;
@@ -1973,7 +1977,7 @@ ol.list-links-upc {
 }
 
 @media (max-width: 768px) {
-  /* line 1439, ../scss/_epsevg.scss */
+  /* line 1444, ../scss/_epsevg.scss */
   .list-top-stories img {
     height: 150px;
     width: 150px;
@@ -1982,12 +1986,12 @@ ol.list-links-upc {
     display: block;
   }
 }
-/* line 1447, ../scss/_epsevg.scss */
+/* line 1452, ../scss/_epsevg.scss */
 .list-top-stories div *:first-child {
   margin-top: 0;
 }
 
-/* line 1450, ../scss/_epsevg.scss */
+/* line 1455, ../scss/_epsevg.scss */
 .list-top-stories div {
   justify-content: center;
   display: flex;
@@ -1996,12 +2000,12 @@ ol.list-links-upc {
 }
 
 @media (max-width: 768px) {
-  /* line 1457, ../scss/_epsevg.scss */
+  /* line 1462, ../scss/_epsevg.scss */
   .list-top-stories div {
     margin-left: 0;
   }
 }
-/* line 1461, ../scss/_epsevg.scss */
+/* line 1466, ../scss/_epsevg.scss */
 .list-top-stories div > * {
   font-weight: 300;
 }

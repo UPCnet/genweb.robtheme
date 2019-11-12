@@ -962,7 +962,9 @@ label {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
 .link-banner[target="_blank"]::after,
+.link-bannerimg[target="_blank"]::after,
 .link-bannerblau[target="_blank"]::after,
 .link-bannerdanger[target="_blank"]::after,
 .link-bannerwarning[target="_blank"]::after,
@@ -970,6 +972,7 @@ label {
     content: "\e91c";
 }
 .link-banner::after,
+.link-bannerimg::after,
 .link-bannerblau::after,
 .link-bannerdanger::after,
 .link-bannerwarning::after,
@@ -986,15 +989,17 @@ label {
     height: 36px;
     border-radius: 50% !important;
     text-align: center;
-    padding-top: 7px;
+    padding-top: 3px;
     color: #FFFFFF;
     z-index: 0;
 }
+.link-bannerimg::after,
 .link-banner::after {
     border: 2px solid #007BC1;
     color: #007BC1;
 }
 .link-banner,
+.link-bannerimg,
 .link-bannerblau,
 .link-bannerdanger,
 .link-bannerwarning,
@@ -1011,7 +1016,6 @@ label {
 }
 .link-banner {
     background: #F2F5F6;
-    padding: 30px 24px;
 }
 .link-bannerblau {
     background: #007BC1;
@@ -1027,6 +1031,8 @@ label {
 }
 .link-banner:hover,
 .link-banner:focus,
+.link-bannerimg:hover,
+.link-bannerimg:focus,
 .link-bannerblau:hover,
 .link-bannerblau:focus,
 .link-bannerdanger:hover,
@@ -1248,7 +1254,6 @@ ol.list-links-upc {
     font-weight: 500;
     background: #F2F5F6;
     display: block;
-    padding: 30px 24px;
     color: #636363;
     position: relative;
     transition: all .25s ease-out;

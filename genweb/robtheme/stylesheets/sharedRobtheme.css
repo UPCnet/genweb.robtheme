@@ -1895,6 +1895,7 @@ ul {
 
 /* Baners amb imatge */
 /* line 1443, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.link-bannerimg img,
 .link-banner-minimal-nolink img,
 .link-banner-minimal img {
   object-fit: cover;
@@ -1907,7 +1908,8 @@ ul {
   transition: all .5s ease;
 }
 
-/* line 1455, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1456, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.link-bannerimg span,
 .link-banner-minimal-nolink img + span,
 .link-banner-minimal img + span {
   background: rgba(255, 255, 255, 0.8);
@@ -1915,4 +1917,15 @@ ul {
   padding: 3px 6px;
   display: inline-table;
   position: relative;
+}
+
+/* Tiny links arrow */
+/* line 1470, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+body.mceContentBody:not(#mceTemplatePreview) .link-banner::after,
+body.mceContentBody:not(#mceTemplatePreview) .link-bannerimg::after,
+body.mceContentBody:not(#mceTemplatePreview) .link-bannerblau::after,
+body.mceContentBody:not(#mceTemplatePreview) .link-bannerdanger::after,
+body.mceContentBody:not(#mceTemplatePreview) .link-bannerwarning::after,
+body.mceContentBody:not(#mceTemplatePreview) .link-bannersuccess::after {
+  padding-top: 7px;
 }
