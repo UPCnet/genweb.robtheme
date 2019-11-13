@@ -43,27 +43,18 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text Enllaços - Icona Info - GRIS"
+    titol = u"Rob Theme - Bàner gris amb icona Info"
     resum = u""
     cos = u"""
-        <a class="link-banner-minimal" href="../" data-linktype="internal">
+            <a class="link-banner-minimal" href="../" data-linktype="internal">
             <span class="fa fa-info-circle fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
         </a>
        <p>&nbsp;</p>
      """
+    
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text Enllaços - Icona Arxiu - GRIS"
-    resum = u""
-    cos = u"""
-        <a class="link-banner-minimal" href="../" data-linktype="internal">
-            <span class="fa fa-archive fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
-        </a>
-        <p>&nbsp;</p>
-    """
-    plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
-
-    titol = u"Rob Theme - Banner Text Enllaços - Icona Info - BLAU"
+    titol = u"Rob Theme - Bàner blau amb icona Info"
     resum = u""
     cos = u"""
         <a class="link-banner-minimal-blue" href="../" data-linktype="internal">
@@ -71,81 +62,10 @@ def get_plantilles():
         </a>
        <p>&nbsp;</p>
     """
+    
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Text Enllaços - Icona Arxiu - BLAU"
-    resum = u""
-    cos = u"""
-        <a class="link-banner-minimal-blue" href="../" data-linktype="internal">
-            <span class="fa fa-archive fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
-        </a>
-       <p>&nbsp;</p>
-    """
-    plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
-
-    titol = u"Rob Theme - Banner Text No Enllaços - Icona Info - GRIS"
-    resum = u""
-    cos = u"""
-        <a class="link-banner-minimal-nolink" data-linktype="internal">
-            <span class="fa fa-info-circle fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
-        </a>
-        <p>&nbsp;</p>
-    """
-    plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
-
-    titol = u"Rob Theme - Banner Text No Enllaços - Icona Arxiu - GRIS"
-    resum = u""
-    cos = u"""
-        <a class="link-banner-minimal-nolink" data-linktype="internal">
-            <span class="fa fa-archive fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
-        </a>
-        <p>&nbsp;</p>
-    """
-    plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
-
-    titol = u"Rob Theme - Banner Text No Enllaços - Icona Info - BLAU"
-    resum = u""
-    cos = u"""
-        <a class="link-banner-minimal-nolink-blue" data-linktype="internal">
-            <span class="fa fa-info-circle fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
-        </a>
-        <p>&nbsp;</p>
-    """
-    plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
-
-    titol = u"Rob Theme - Banner Text No Enllaços - Icona Arxiu - BLAU"
-    resum = u""
-    cos = u"""
-        <a class="link-banner-minimal-nolink-blue" data-linktype="internal">
-            <span class="fa fa-archive fa-2x"></span> LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.
-        </a>
-        <p>&nbsp;</p>
-    """
-    plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
-
-    titol = u"Rob Theme - Banner Text Enllaços - Imatge"
-    resum = u""
-    cos = u"""
-        <a class="link-banner-minimal" href="../" data-linktype="internal">
-            <img alt="" src="capcalera.jpg" />
-            <span>LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.</span>
-        </a>
-       <p>&nbsp;</p>
-     """
-    plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
-
-    titol = u"Rob Theme - Banner Text No Enllaços - Imatge"
-    resum = u""
-    cos = u"""
-        <a class="link-banner-minimal-nolink" data-linktype="internal">
-            <img alt="" src="capcalera.jpg" />
-            <span>LOREM IPSUM - Lorem ipsum dolor sit amet consectetur adipiscing elit, eget eros facilisis risus dapibus ante nunc, accumsan libero odio mi porttitor egestas.</span>
-        </a>
-        <p>&nbsp;</p>
-    """
-    plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
-
-    titol = u"Rob Theme - Banner Destacat BLAU"
+    titol = u"Rob Theme - Bàner blau"
     resum = u""
     cos = u"""
         <a class="link-bannerblau" href="../">
@@ -157,7 +77,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Destacat GRIS"
+    titol = u"Rob Theme - Bàner gris"
     resum = u""
     cos = u"""
          <a class="link-banner" href="../">
@@ -169,7 +89,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Destacat DANGER"
+    titol = u"Rob Theme - Bàner vermell danger"
     resum = u""
     cos = u"""
           <a class="link-bannerdanger" href="../">
@@ -181,7 +101,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Destacat WARNING"
+    titol = u"Rob Theme - Bàner groc warning"
     resum = u""
     cos = u"""
           <a class="link-bannerwarning" href="../">
@@ -193,7 +113,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Destacat SUCCESS"
+    titol = u"Rob Theme - Bàner verd success"
     resum = u""
     cos = u"""
           <a class="link-bannersuccess" href="../">
@@ -205,7 +125,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Banner Destacat IMATGE"
+    titol = u"Rob Theme - Bàner amb imatge de fons"
     resum = u""
     cos = u"""
           <a class="link-bannerimg" href="../">
@@ -218,7 +138,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Llista amb subllista UPC"
+    titol = u"Rob Theme - Llista amb subllista"
     resum = u""
     cos = u"""
 <ul class="list-links-upc">
@@ -238,7 +158,7 @@ def get_plantilles():
     titol = u"Rob Theme - Dades numèriques"
     resum = u""
     cos = u"""
-<h2 class="titling-line">LOREM IPSUM</h2>
+<h2 class="titling-line">Lorem ipsum</h2>
 <div class="well">
     <ul class="list-numeral">
         <li>
@@ -265,7 +185,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Caixa amb llista - UPC GRIS"
+    titol = u"Rob Theme - Caixa amb llista amb fons gris"
     resum = u""
     cos = u"""
     <div class="boxbg-gray">
@@ -294,7 +214,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Caixa amb llista - VERD"
+    titol = u"Rob Theme - Caixa amb llista amb fons verd"
     resum = u""
     cos = u"""
     <div class="boxbg-green">
@@ -375,7 +295,7 @@ def get_plantilles():
     """.format(absolute_url)
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - llistat opcions- icones lletres - 2 cols"
+    titol = u"Rob Theme - llistat opcions amb icones lletres - 2 cols"
     resum = u""
     cos = u"""
 <div class="row-fluid">
