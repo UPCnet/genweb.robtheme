@@ -387,32 +387,32 @@ def get_plantilles():
             <li>
                 <div class="lletra-cercle-p lletra-cercle color-blau"></div>
                 <h2><a href="#">LOREM IPSUM</a></h2>
-                <p class="hidden-phone">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</p>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</p>
             </li>
             <li>
                 <div class="lletra-cercle-a lletra-cercle color-carbassa"></div>
                 <h2><a href="#">LOREM IPSUM</a></h2>
-                <p class="hidden-phone">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </li>
             <li>
                 <div class="lletra-cercle-a lletra-cercle color-verd"></div>
                 <h2><a class="internal-link" href="#" target="_self" title="">LOREM IPSUM</a></h2>
-                <p class="hidden-phone" style="text-align: justify; ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                <p style="text-align: justify; ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
             </li>
             <li>
                 <div class="lletra-cercle-u lletra-cercle color-morat"></div>
                 <h2><a href="#">LOREM IPSUM</a></h2>
-                <p class="hidden-phone">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+                <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
             </li>
             <li>
                 <div class="lletra-cercle-c lletra-cercle color-blau"></div>
                 <h2><a href="#" target="_blank">LOREM IPSUM</a></h2>
-                <p class="hidden-phone">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
             </li>
             <li>
                 <div class="lletra-cercle-m lletra-cercle color-lila"></div>
                 <h2><a href="#" target="_blank">LOREM IPSUM</a></h2>
-                <p class="hidden-phone">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+                <p>The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
             </li>
         </ul>
     </div>
@@ -421,32 +421,32 @@ def get_plantilles():
             <li>
                 <div class="lletra-cercle-d lletra-cercle color-verd"></div>
                 <h2><a class="external-link" href="#" target="_blank">LOREM IPSUM</a></h2>
-                <p class="hidden-phone">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+                <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
             </li>
             <li>
                 <div class="lletra-cercle-i lletra-cercle color-morat"></div>
                 <h2><a href="#">LOREM IPSUM</a></h2>
-                <p class="hidden-phone">Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                <p>Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
             </li>
             <li>
                 <div class="lletra-cercle-i lletra-cercle color-blau"></div>
                 <h2><a href="#">LOREM IPSUM</a></h2>
-                <p class="hidden-phone">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
             </li>
             <li>
                 <div class="lletra-cercle-q lletra-cercle color-carbassa"></div>
                 <h2><a href="#">LOREM IPSUM</a></h2>
-                <p class="hidden-phone">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
             </li>
             <li>
                 <div class="lletra-cercle-e lletra-cercle color-lila"></div>
                 <h2><a href="#">LOREM IPSUM</a></h2>
-                <p class="hidden-phone">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
+                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.</p>
             </li>
             <li>
                 <div class="lletra-cercle-a lletra-cercle color-verd"></div>
                 <h2><a class="internal-link" href="#" target="_self">LOREM IPSUM</a></h2>
-                <p class="hidden-phone">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
             </li>
         </ul>
     </div>
@@ -461,7 +461,7 @@ def get_plantilles():
 <div class="row-fluid">
     <div class="span4">
         <div class="thumbnails">
-            <a class="hidden-phone" href="#">
+            <a href="#">
                 <img alt="" class="image-inline" title="" width="100%"
                      src="{0}/example-fox.jpeg" />
             </a>
@@ -477,9 +477,9 @@ def get_plantilles():
     </div>
     <div class="span4">
         <div class="thumbnails">
-            <a class="hidden-phone" href="#">
+            <a href="#">
                 <img alt="" class="image-inline" title="" width="100%"
-                     src="{0}/example-fox.jpeg" />
+                     src="{0}/example-penguin.jpeg" />
             </a>
             <div class="caption">
                 <h2 class="h224">Lorem Ipsum</h2>
@@ -493,9 +493,9 @@ def get_plantilles():
     </div>
     <div class="span4">
         <div class="thumbnails">
-            <a class="hidden-phone" href="#">
+            <a href="#">
                 <img alt="" class="image-inline" title="" width="100%"
-                     src="{0}/example-fox.jpeg" />
+                     src="{0}/example-artic-fox.jpeg" />
             </a>
             <div class="caption">
                 <h2 class="h224">Lorem Ipsum</h2>
@@ -515,24 +515,24 @@ def get_plantilles():
     titol = u"Rob Theme - Destacat amb imatge"
     resum = u""
     cos = u"""
-<div class="destacat destacat-dreta hidden-phone" style="height: 444px;">
-    <div class="destacat-contingut hidden-phone">
+<div class="destacat destacat-dreta" style="height: 444px;">
+    <div class="destacat-contingut">
         <p>It is a <strong>long established</strong> fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use <strong>Lorem Ipsum</strong> as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
         <h2 class="h3" style="text-align: right; "><a href="#"><strong><br />Lorem Ipsum UPC</strong></a></h2>
         <p style="text-align: right; "><strong> Lorem Ipsum Universitat politècnica Catalunya </strong></p>
     </div>
-    <div class="destacat-imatge hidden-phone">
+    <div class="destacat-imatge">
         <img alt="" class="image-inline" title="" width="100%"
-             src="{0}/example-artic-fox.jpeg" /></div>
+             src="{0}/example-penguin.jpeg" /></div>
 </div>
-<p></p>
+<p>&nbsp;</p>
     """.format(absolute_url)
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
     titol = u"Rob Theme - Frase destacada"
     resum = u""
     cos = u"""
-<div class="hidden-phone">
+<div>
     <div class="box">
         <h2 class="align-center">
             <span class="fa fa-quote-left"></span>
