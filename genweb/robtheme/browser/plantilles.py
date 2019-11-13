@@ -155,7 +155,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Dades numèriques"
+    titol = u"Rob Theme - Destacat amb dades numèriques"
     resum = u""
     cos = u"""
 <h2 class="titling-line">Lorem ipsum</h2>
@@ -185,7 +185,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Caixa amb llista amb fons gris"
+    titol = u"Rob Theme - Caixa amb llista - fons gris"
     resum = u""
     cos = u"""
     <div class="boxbg-gray">
@@ -214,7 +214,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Caixa amb llista amb fons verd"
+    titol = u"Rob Theme - Caixa amb llista - fons verd"
     resum = u""
     cos = u"""
     <div class="boxbg-green">
@@ -243,7 +243,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Graella imatges amb enllaços"
+    titol = u"Rob Theme - Graella d'imatges amb enllaços"
     resum = u""
     cos = u"""
 <h2 class="titling-line">Lorem Ipsum</h2>
@@ -466,7 +466,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Columna de support"
+    titol = u"Rob Theme - Columna de suport"
     resum = u""
     cos = u"""
 <h2>Titular del bloc de text</h2>
