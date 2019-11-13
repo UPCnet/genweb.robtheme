@@ -56,7 +56,7 @@ li {
 
 /* Rasgos generales */
 .navbar {
-    border-bottom: 3px solid #666 !important;
+    border-bottom: 1px solid #CCC !important;
     a.state-published span {
         padding-right: 20px !important;
         display: inherit;
@@ -1002,6 +1002,12 @@ div#menu-1 {
     padding-right: 0px;
     text-align: left;
 }
+.plain a.state-pending,
+.plain a.state-draft,
+.plain a.state-restricted-to-managers,
+.plain a.state-private,
+.plain a.state-visible,
+.plain a.state-intranet,
 .plain a.state-published {
     text-decoration: none;
     font-size: 1.125rem;
@@ -1204,25 +1210,11 @@ body.mceContentBody h2,
 .state-visible {
     color: #72a31d !important;
 }
-#portal-globalnav .state-draft,
-#portal-globalnav #workflow-transition-reject,
-#portal-globalnav #workflow-transition-retiraaesborrany,
-#portal-globalnav #workflow-transition-show,
-#portal-globalnav .state-visible {
-    border-bottom: 3px solid #72a31d !important;
-}
 .navbar .nav > li > a:focus,
 .navbar .contentViews > li > a:focus,
 .navbar .configlets > li > a:focus,
 .navbar .formTabs > li > a:focus {
     background-color: white;
-}
-#portal-globalnav .state-intranet,
-#portal-globalnav #workflow-transition-publishtointranet,
-#portal-globalnav #workflow-transition-publicaalaintranet,
-#portal-globalnav #workflow-transition-retracttointranet,
-#portal-globalnav #workflow-transition-retiraalaintranet {
-    border-bottom: 3px solid #8952ab !important;
 }
 #menu-1 ul li:first-child:nth-last-child(8) a,
 #menu-1 ul li:first-child:nth-last-child(8) ~ li a {
@@ -1359,7 +1351,8 @@ body.template-login_failed #portal-header.no-image .container {
 }
 #menu-1 .nav li.active a {
     font-weight: bold !important;
-    color: black !important;
+    /* color: #000 !important; */
+    border-bottom: 1px solid #000 !important;
 }
 #content #content-core ul {
     margin-left: 0px;
@@ -1367,8 +1360,8 @@ body.template-login_failed #portal-header.no-image .container {
 .formTabs > li > a:hover {
     border: 1px solid white;
 }
-#menu-1 ul li {
-    border-bottom: 3px solid #666666;
+#menu-1 ul li a {
+    border-bottom: 0px solid transparent !important;
 }
 #search-results a span {
     display: contents;
@@ -1460,7 +1453,7 @@ ul {
     position: relative;
 }
 
-/* Tiny links arrow */
+/* Tiny */
 
 body.mceContentBody:not(#mceTemplatePreview) {
 
@@ -1474,43 +1467,49 @@ body.mceContentBody:not(#mceTemplatePreview) {
     }
 }
 
+body#mceTemplatePreview {
+    ul.list-index li:before {
+        margin-top: -34px;
+    }
 
-
-/* Cambios 12/11/2019 */
-.subnavbar .nav-list .active ul a:before,
-.subnavbar .nav-list .selected ul a:before {
-   top: 3px;
-   font-family: Arial, Helvetica, sans-serif;
+    ul.list-highlighted li:before {
+        margin-top: -28px;
+    }
 }
 
+/* Cambios 12/11/2019 */
 @media only screen and (max-width: 979px){
     h1.documentFirstHeading {
-       display: block;
+        display: block;
     }
     .lletra-cercle {
-       float: left;
-       font-size: 2rem;
-       margin-top: -5px;
+        float: left;
+        font-size: 2rem;
+        margin-top: -10px;
     }
     #content-core #parent-fieldname-text h2{
-       color: #666;
-       line-height: unset;
-       position: relative;
-       font-family: Roboto,Arial,sans-serif;
-       padding-bottom: 0px!important;
-       overflow: hidden;
+        color: #666;
+        line-height: unset;
+        position: relative;
+        font-family: Roboto,Arial,sans-serif;
+        padding-bottom: 0px!important;
+        overflow: hidden;
     }
     .list-sections li>.lletra-cercle:first-child~*{
-       margin-left: 40px;
-       margin-bottom: 0px;
+        margin-left: 40px;
+        margin-bottom: 0px;
     }
     ul.list-sections p.hidden-phone {
-    display: block;
+        display: block;
     }
 }
 
 section#content-area {
     border-bottom: 0px solid #666!important;
+}
+
+.box.pull-right a[class^='link-banner-']::after {
+    padding-top: 7px;
 }
 
 /* Meter dentro del iframe */
