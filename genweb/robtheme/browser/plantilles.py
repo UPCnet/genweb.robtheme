@@ -51,7 +51,7 @@ def get_plantilles():
         </a>
        <p>&nbsp;</p>
      """
-    
+
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
     titol = u"Rob Theme - Bàner blau amb icona Info"
@@ -62,7 +62,7 @@ def get_plantilles():
         </a>
        <p>&nbsp;</p>
     """
-    
+
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
     titol = u"Rob Theme - Bàner blau"
@@ -295,7 +295,7 @@ def get_plantilles():
     """.format(absolute_url)
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - llistat opcions amb icones lletres - 2 cols"
+    titol = u"Rob Theme - Llistat opcions amb icones lletres - 2 col"
     resum = u""
     cos = u"""
 <div class="row-fluid">
@@ -375,7 +375,7 @@ def get_plantilles():
     """
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
-    titol = u"Rob Theme - Conjunt Imatge amb llista opcions - 3 cols"
+    titol = u"Rob Theme - Conjunt imatge amb llista opcions - 3 col"
     resum = u""
     cos = u"""
 <div class="row-fluid">

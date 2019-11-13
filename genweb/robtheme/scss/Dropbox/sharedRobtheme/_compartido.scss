@@ -1524,3 +1524,21 @@ body.mceContentBody	 .destacat.destacat-dreta.hidden-phone .hidden-desktop {
 .destacat.destacat-dreta.hidden-phone p {
     padding: 20px 0px  !important;
 }
+
+/* IMG carrousel */
+@media (max-width: 768px){
+    .gallery-logos .span2.gellery-bottom {
+        width: 50%;
+        max-width: 50%;
+    }
+    .gallery-logos .gellery-bottom img.logo {
+        width: 100%;
+    }
+    .gallery-logos .span2.gellery-bottom {
+        width: 48%;
+        max-width: 50%;
+        height: auto;
+        float: left;
+        margin: 1% !important;
+    }
+}

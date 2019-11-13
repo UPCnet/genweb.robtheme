@@ -4331,3 +4331,26 @@ body.mceContentBody .destacat.destacat-dreta.hidden-phone .hidden-desktop {
 .destacat.destacat-dreta.hidden-phone p {
   padding: 20px 0px  !important;
 }
+
+/* IMG carrousel */
+@media (max-width: 768px) {
+  /* line 1530, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  .gallery-logos .span2.gellery-bottom {
+    width: 50%;
+    max-width: 50%;
+  }
+
+  /* line 1534, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  .gallery-logos .gellery-bottom img.logo {
+    width: 100%;
+  }
+
+  /* line 1537, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  .gallery-logos .span2.gellery-bottom {
+    width: 48%;
+    max-width: 50%;
+    height: auto;
+    float: left;
+    margin: 1% !important;
+  }
+}
