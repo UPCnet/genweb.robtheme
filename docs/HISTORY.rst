@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-0.3 (unreleased)
+0.3 (2019-11-20)
 ----------------
 
-- Nothing changed yet.
-
+* Estilos [Iago López Fernández]
 
 0.2 (2019-11-20)
 ----------------
