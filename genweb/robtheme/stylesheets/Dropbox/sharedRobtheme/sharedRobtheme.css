@@ -2086,7 +2086,7 @@ body.template-news_listing ul.list-portlet img.image-noticies {
 }
 
 /* line 1607, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
-.documentEditable .nav li a {
+.documentEditable .nav.contentViews li a {
   background: transparent !important;
 }
 
