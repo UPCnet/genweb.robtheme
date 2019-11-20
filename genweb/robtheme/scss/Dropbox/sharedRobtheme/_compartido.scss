@@ -62,7 +62,20 @@ li {
         display: inherit;
     }
 }
+
 #portal-globalnav {
+    border-bottom: 1px solid #ccc !important;
+
+    .navbar,
+    .navbar .nav > li > a,
+    #menu-1 ul li,
+    #menu-1 ul {
+        border-bottom: 0px !important;
+        text-align: center;
+    }
+    #menu-1 ul li {
+        background-color: transparent !important;
+    }
     ul.nav-tabs li a {
         border-left: 0px !important;
         border-top: 0px !important;
@@ -70,7 +83,13 @@ li {
         background: none !important;
     }
     ul.nav-tabs li.active {
-        border-bottom: 2px solid #007ac1 !IMPORTANT;
+        border-bottom: 2px solid #007ac1 !important;
+    }
+    #menu-1 ul li {
+        background-color: transparent !important;
+    }
+    .navbar-inner #menu-1 *:hover {
+        background-color: transparent !important;
     }
 }
 #menu-1 .plain a,
@@ -1013,7 +1032,7 @@ div#menu-1 {
     font-size: 1.125rem;
     padding: 12px;
     margin: 0px;
-    font-weight: 500 !important;
+    font-weight: 400 !important;
 }
 #portal-globalnav .nav > li > a,
 #portal-globalnav .contentViews > li > a,
@@ -1088,6 +1107,7 @@ li.plain a:hover {
 }
 #menu-1 ul {
     border-bottom: 0px solid;
+    padding-bottom: 5px;
 }
 #portal-header.no-image + #portal-globalnav .navbar-inner {
     margin-top: -20px;
@@ -1351,7 +1371,6 @@ body.template-login_failed #portal-header.no-image .container {
 }
 #menu-1 .nav li.active a {
     font-weight: bold !important;
-    /* color: #000 !important; */
     border-bottom: 1px solid #000 !important;
 }
 #content #content-core ul {
@@ -1541,4 +1560,64 @@ body.mceContentBody	 .destacat.destacat-dreta.hidden-phone .hidden-desktop {
         float: left;
         margin: 1% !important;
     }
+}
+
+
+/* Retoques 20/11 */
+
+li.plain a.state-visible {
+    background-color: transparent !important;
+}
+body.template-news_listing ul.list-portlet img.image-noticies {
+    max-width: 75px !important;
+}
+/* Controles de noticias */
+    .listingBar a.previous {
+        width: 49%;
+        float: left;
+        padding: 10px 0px 10px 5px;
+        border: 0px;
+        line-height: unset;
+        text-align: left;
+    }
+    .listingBar a.next {
+        width: 49%;
+        float: right;
+        padding: 10px 0px 10px 5px;
+        border: 0px;
+        line-height: unset;
+        text-align: right;
+    }
+    .discussion .comment {
+        margin-bottom: 1em;
+    }
+    .discussion .commentBody {
+        padding: 5px 10px 5px 10px;
+    }
+    .commentDate {
+        margin: 1px 5px;
+        padding-top: 0px;
+    }
+
+.nav li.active a {
+    border: 0px !important;
+    background: transparent !important;
+    background-image: none;
+}
+.documentEditable .nav li a {
+    background: transparent !important;
+}
+#content #parent-fieldname-text ul {
+    margin-left: 20px;
+}
+#menu-1 ul li:first-child:nth-last-child(9) ~ li a {
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+}
+ul.nav li.plain:last-child a {
+    margin-right: 0px !important;
+}
+ul.nav li.plain:first-child a {
+    margin-left: 0px !important;
+    padding-left: 0px !important;
 }
