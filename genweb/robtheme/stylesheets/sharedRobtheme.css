@@ -2079,7 +2079,7 @@ body.template-news_listing ul.list-portlet img.image-noticies {
 }
 
 /* line 1602, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
-.nav li.active a {
+.nav.contentViews li.active a {
   border: 0px !important;
   background: transparent !important;
   background-image: none;
