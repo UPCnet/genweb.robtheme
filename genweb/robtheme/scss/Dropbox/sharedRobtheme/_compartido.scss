@@ -1607,9 +1607,6 @@ body.template-news_listing ul.list-portlet img.image-noticies {
 .documentEditable .nav.contentViews li a {
     background: transparent !important;
 }
-#content #parent-fieldname-text ul {
-    margin-left: 20px;
-}
 #menu-1 ul li:first-child:nth-last-child(9) ~ li a {
     padding-left: 1% !important;
     padding-right: 1% !important;
@@ -1620,4 +1617,68 @@ ul.nav li.plain:last-child a {
 ul.nav li.plain:first-child a {
     margin-left: 0px !important;
     padding-left: 0px !important;
+}
+
+
+/* Listados */
+
+.list,
+.llistat,
+.list-index,
+.llistatIndex,
+.list-striped,
+.list-hover,
+.list-notebook,
+.portaltype-packet .estudis .llistatEnllacos {
+    padding-left: 10px !important;
+}
+
+.list-links {
+    padding-left: 8px !important;
+}
+
+.list-highlighted {
+    padding-left: 14px !important;
+}
+
+.list-bordered {
+    padding-left: 0px !important;
+
+    li {
+        margin-left: 0px !important;
+    }
+}
+
+.list-portlet {
+    padding-left: 0px !important;
+}
+
+.list-hover,
+.list-striped {
+    margin-left: 10px !important;
+}
+
+.list-notebook {
+    margin-left: 28px !important;
+}
+
+body.mceContentBody:not(#mceTemplatePreview) {
+
+    .list-index li:before,
+    .llistatIndex li:before,
+    .list-striped li:before,
+    .list-hover li:before,
+    .list-notebook li:before,
+    .list-bordered li:before {
+        margin-top: -38px;
+    }
+}
+
+body.mceContentBody:not(#mceTemplatePreview) .list-highlighted li:before {
+    margin-top: -32px;
+}
+
+ol.list-links-upc,
+ul.list-links-upc {
+    padding-left: 3px !important;
 }
