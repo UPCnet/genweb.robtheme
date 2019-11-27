@@ -2,11 +2,12 @@ Changelog
 =========
 
 
-0.4 (unreleased)
+0.4 (2019-11-27)
 ----------------
 
-- Nothing changed yet.
-
+* Estilos [Iago López Fernández]
+* Interliniado título portlets [Iago López Fernández]
+* Estilos listados [Iago López Fernández]
 
 0.3 (2019-11-20)
 ----------------
