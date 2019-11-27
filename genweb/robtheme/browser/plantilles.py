@@ -16,9 +16,9 @@ def get_plantilles():
 <div class="accordion" id="accordion2">
     <div class="accordion-group">
         <div class="accordion-heading">
-            <a class="accordion-toggle collapsed fright" href="#collapseOne" data-toggle="collapse" data-parent="#accordion2"> Collapsible Group Item #1 </a>
+            <a class="accordion-toggle fright" href="#collapseOne" data-toggle="collapse" data-parent="#accordion2"> Collapsible Group Item #1 </a>
         </div>
-        <div class="accordion-body collapse" id="collapseOne">
+        <div class="accordion-body in collapse" id="collapseOne">
             <div class="accordion-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat ac neque hendrerit varius. Etiam a viverra dolor. Duis vitae ex sed tortor elementum egestas. Proin efficitur lacus ac porttitor condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus velit magna, accumsan id arcu quis, laoreet maximus est. Nullam suscipit augue eget posuere convallis. Morbi cursus sagittis nisl at varius. Vestibulum lacinia sem consectetur, accumsan est et, feugiat urna. Vivamus sit amet eros a diam sodales vestibulum.</div>
         </div>
     </div>
