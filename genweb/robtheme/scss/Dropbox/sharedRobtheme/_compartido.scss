@@ -4,7 +4,7 @@
 }
 body {
     font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 16px !important;
     font-weight: 300;
     line-height: 1.45 !important;
     color: #636363;
@@ -1628,6 +1628,10 @@ ul.nav li.plain:first-child a {
 
 /* Listados */
 
+ul:not([class]):not([id]) {
+    padding-left: 16px !important;
+}
+
 .list,
 .llistat,
 .list-index,
@@ -1637,6 +1641,10 @@ ul.nav li.plain:first-child a {
 .list-notebook,
 .portaltype-packet .estudis .llistatEnllacos {
     padding-left: 10px !important;
+
+    li::before {
+        color: #636363 !important;
+    }
 }
 
 .list-links {
