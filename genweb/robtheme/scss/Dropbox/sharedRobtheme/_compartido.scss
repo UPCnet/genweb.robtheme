@@ -2,6 +2,7 @@
 * {
     text-shadow: none !important;
 }
+body.mceContentBody,
 body {
     font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px !important;
@@ -10,6 +11,7 @@ body {
     color: #636363;
     background-color: #fff;
 }
+div,
 p {
     font-weight: 300;
     line-height: normal;
@@ -1237,6 +1239,12 @@ body.mceContentBody h2,
 .state-visible {
     color: #72a31d !important;
 }
+
+form.kssattr-serveraction-foldercontents_update_table td:nth-child(6) .state-draft,
+form.kssattr-serveraction-foldercontents_update_table td:nth-child(6) .state-visible {
+    color: #FFF !important;
+}
+
 .navbar .nav > li > a:focus,
 .navbar .contentViews > li > a:focus,
 .navbar .configlets > li > a:focus,
@@ -1578,6 +1586,10 @@ body.template-news_listing ul.list-portlet img.image-noticies {
     max-width: 75px !important;
 }
 /* Controles de noticias */
+.listingBar ul:not([class]):not([id]) {
+    padding-left: 0px !important;
+}
+
 .listingBar a.previous {
     width: 49%;
     float: left;
@@ -1640,40 +1652,10 @@ ul:not([class]):not([id]) {
 .list-hover,
 .list-notebook,
 .portaltype-packet .estudis .llistatEnllacos {
-    padding-left: 10px !important;
 
     li::before {
         color: #636363 !important;
     }
-}
-
-.list-links {
-    padding-left: 8px !important;
-}
-
-.list-highlighted {
-    padding-left: 14px !important;
-}
-
-.list-bordered {
-    padding-left: 0px !important;
-
-    li {
-        margin-left: 0px !important;
-    }
-}
-
-.list-portlet {
-    padding-left: 0px !important;
-}
-
-.list-hover,
-.list-striped {
-    margin-left: 10px !important;
-}
-
-.list-notebook {
-    margin-left: 28px !important;
 }
 
 body.mceContentBody:not(#mceTemplatePreview) {
