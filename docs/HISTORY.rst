@@ -2,11 +2,13 @@ Changelog
 =========
 
 
-0.5 (unreleased)
+0.5 (2019-12-10)
 ----------------
 
-- Nothing changed yet.
-
+* Estilos, div igual a p, listados dejarlos como antes (padding a la izquierda), color workflow en folder_contents [Iago López Fernández]
+* Estils [Iago López Fernández]
+* Quitar estilo epsevg [Iago López Fernández]
+* Eliminar estilo [Iago López Fernández]
 
 0.4 (2019-11-27)
 ----------------
