@@ -13,28 +13,26 @@ def get_plantilles():
     titol = u"Rob Theme - Acordió"
     resum = u""
     cos = u"""
+<div class="accordion" id="accordion1">
+    <div class="accordion-group">
+        <div class="accordion-heading"><a class="accordion-toggle fright collapsed" href="#collapse1" data-toggle="collapse" data-parent="#accordion1"> Collapsible Item #1 </a></div>
+        <div class="accordion-body collapse" id="collapse1">
+            <div class="accordion-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat ac neque hendrerit varius. Etiam a viverra dolor. Duis vitae ex sed tortor elementum egestas. Proin efficitur lacus ac porttitor condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus velit magna, accumsan id arcu quis, laoreet maximus est. Nullam suscipit augue eget posuere convallis. Morbi cursus sagittis nisl at varius. Vestibulum lacinia sem consectetur, accumsan est et, feugiat urna. Vivamus sit amet eros a diam sodales vestibulum.</div>
+        </div>
+    </div>
+</div>
 <div class="accordion" id="accordion2">
     <div class="accordion-group">
-        <div class="accordion-heading">
-            <a class="accordion-toggle fright" href="#collapseOne" data-toggle="collapse" data-parent="#accordion2"> Collapsible Group Item #1 </a>
-        </div>
-        <div class="accordion-body in collapse" id="collapseOne">
+        <div class="accordion-heading"><a class="accordion-toggle fright collapsed" href="#collapse2" data-toggle="collapse" data-parent="#accordion2"> Collapsible Item #2 </a></div>
+        <div class="accordion-body collapse" id="collapse2">
             <div class="accordion-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat ac neque hendrerit varius. Etiam a viverra dolor. Duis vitae ex sed tortor elementum egestas. Proin efficitur lacus ac porttitor condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus velit magna, accumsan id arcu quis, laoreet maximus est. Nullam suscipit augue eget posuere convallis. Morbi cursus sagittis nisl at varius. Vestibulum lacinia sem consectetur, accumsan est et, feugiat urna. Vivamus sit amet eros a diam sodales vestibulum.</div>
         </div>
     </div>
+</div>
+<div class="accordion" id="accordion3">
     <div class="accordion-group">
-        <div class="accordion-heading">
-            <a class="accordion-toggle collapsed fright" href="#collapseTwo" data-toggle="collapse" data-parent="#accordion2"> Collapsible Group Item #2 </a>
-        </div>
-        <div class="accordion-body collapse" id="collapseTwo">
-            <div class="accordion-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat ac neque hendrerit varius. Etiam a viverra dolor. Duis vitae ex sed tortor elementum egestas. Proin efficitur lacus ac porttitor condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus velit magna, accumsan id arcu quis, laoreet maximus est. Nullam suscipit augue eget posuere convallis. Morbi cursus sagittis nisl at varius. Vestibulum lacinia sem consectetur, accumsan est et, feugiat urna. Vivamus sit amet eros a diam sodales vestibulum.</div>
-        </div>
-    </div>
-    <div class="accordion-group">
-        <div class="accordion-heading">
-            <a class="accordion-toggle collapsed fright" href="#collapseThree" data-toggle="collapse" data-parent="#accordion2"> Collapsible Group Item #3 </a>
-        </div>
-        <div class="accordion-body collapse" id="collapseThree">
+        <div class="accordion-heading"><a class="accordion-toggle fright collapsed" href="#collapse3" data-toggle="collapse" data-parent="#accordion3"> Collapsible Item #3 </a></div>
+        <div class="accordion-body collapse" id="collapse3">
             <div class="accordion-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat ac neque hendrerit varius. Etiam a viverra dolor. Duis vitae ex sed tortor elementum egestas. Proin efficitur lacus ac porttitor condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus velit magna, accumsan id arcu quis, laoreet maximus est. Nullam suscipit augue eget posuere convallis. Morbi cursus sagittis nisl at varius. Vestibulum lacinia sem consectetur, accumsan est et, feugiat urna. Vivamus sit amet eros a diam sodales vestibulum.</div>
         </div>
     </div>
