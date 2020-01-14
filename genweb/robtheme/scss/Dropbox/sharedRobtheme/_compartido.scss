@@ -401,7 +401,6 @@ nav#portal-globalnav {
         }
     }
     .noticia-full-2cols {
-        background-color: #F2F5F6;
         margin-bottom: 20px;
         .noticies-full {
             padding: 0px;
@@ -679,11 +678,12 @@ body.template-edit {
     }
     .noticia-full-2cols {
         .content-noticies {
-            padding-bottom: 5px !important;
+            padding: 0px 0px 5px 0px !important;
         }
         h3,
         p {
-            margin: 10px 10px 0px 10px !important;
+            margin: 10px 0px 0px 0px !important;
+            padding: 0px !important;
         }
     }
     .row-fluid {
