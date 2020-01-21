@@ -2,11 +2,13 @@ Changelog
 =========
 
 
-0.6 (unreleased)
+0.6 (2020-01-21)
 ----------------
 
-- Nothing changed yet.
-
+* Estilos iconos letras [Iago López Fernández]
+* Estilos portlet noticias [Iago López Fernández]
+* Actualitzar html plantilla acordió [Iago López Fernández]
+* Estilos logos footer [Iago López Fernández]
 
 0.5 (2019-12-10)
 ----------------
