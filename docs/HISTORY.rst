@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-0.7 (unreleased)
+0.7 (2020-02-11)
 ----------------
 
-- Nothing changed yet.
-
+* Estilos interlineado + lletra-cercle [Iago López Fernández]
 
 0.6 (2020-01-21)
 ----------------
