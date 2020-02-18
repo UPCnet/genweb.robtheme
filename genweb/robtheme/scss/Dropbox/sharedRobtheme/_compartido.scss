@@ -1241,8 +1241,11 @@ form.kssattr-serveraction-foldercontents_update_table td:nth-child(6) .state-vis
 #menu-1 ul li:first-child:nth-last-child(8) ~ li a {
     padding-left: 0% !important;
 }
-li.plain a.state-private {
-    color: #a62e1f;
+li a.state-private {
+    color: #a62e1f !important;
+}
+li a.state-intranet {
+    color: #8952ab !important;
 }
 #accordionLogin {
     max-width: 100%;
