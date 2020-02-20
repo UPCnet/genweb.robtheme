@@ -372,7 +372,7 @@ nav#portal-globalnav {
     }
     .noticies-full + h3 {
         font-size: 1.125rem;
-        color: #636363;
+        color: #007bc0 !important;
         font-weight: 300;
         margin-top: 15px;
     }
@@ -386,11 +386,6 @@ nav#portal-globalnav {
         hr {
             border-top: 0px solid #b2b2b2;
             border-bottom: 0px solid #fff;
-        }
-    }
-    a {
-        &:hover {
-            text-decoration: none;
         }
     }
     .noticia-full-2cols {
