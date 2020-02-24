@@ -2,11 +2,13 @@ Changelog
 =========
 
 
-0.8 (unreleased)
+0.8 (2020-02-24)
 ----------------
 
-- Nothing changed yet.
-
+* Estilos portlet enlaces [Iago López Fernández]
+* Color de los diferentes estados de workflow en el menu superior [Iago López Fernández]
+* Estilos portlet noticias (ampliat) [Iago López Fernández]
+* Estilos (documentEditable) [Iago López Fernández]
 
 0.7 (2020-02-11)
 ----------------
