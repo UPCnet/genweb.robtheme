@@ -4603,3 +4603,9 @@ body.section-templates .link-banner-minimal::after {
 .navbar .formTabs .dropdown-toggle .caret {
   margin-top: 11px;
 }
+
+/* line 1781, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.existing_content_portlet {
+  display: inline-block;
+  width: 100%;
+}
