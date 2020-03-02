@@ -4610,3 +4610,8 @@ body.section-templates .link-banner-minimal::after {
   display: inline-block;
   width: 100%;
 }
+
+/* line 1786, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.existing_content_portlet_no_border > .portlet-content {
+  display: inline-block;
+}
