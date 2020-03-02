@@ -73,6 +73,7 @@ li {
     #menu-1 ul {
         border-bottom: 0px !important;
         text-align: center;
+        overflow-wrap: normal;
     }
     #menu-1 ul li {
         background-color: transparent !important;
@@ -324,7 +325,6 @@ nav#portal-breadcrumbs {
 nav#portal-globalnav {
     background-color: #ffffff;
     max-width: 100%!important;
-    width: 100%!important;
     .container {
         margin: auto;
     }
@@ -1785,4 +1785,24 @@ body.section-templates {
 
 .existing_content_portlet_no_border > .portlet-content {
     display: inline-block;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .navbar .nav, .navbar .contentViews,
+    .navbar .configlets, .navbar .formTabs{
+        max-width: 1170px;
+        width: 100%;
+    }
+
+    #portal-globalnav #menu-1 ul,
+    #portal-globalnav #menu-1 ul li,
+    #portal-globalnav .navbar,
+     #portal-globalnav .navbar .nav > li > a{
+        word-wrap: normal;
+    }
+
+    #menu-1 ul li:first-child:nth-last-child(9) ~ li a{
+        max-width: 200px;
+        width: 100%;
+    }
 }
