@@ -2,11 +2,12 @@ Changelog
 =========
 
 
-0.9 (unreleased)
+0.9 (2020-03-03)
 ----------------
 
-- Nothing changed yet.
-
+* Estilos Explorer menu superior [Iago López Fernández]
+* Estilo .existing_content_portlet_no_border [Iago López Fernández]
+* Estilo .existing_content_portlet [Iago López Fernández]
 
 0.8 (2020-02-24)
 ----------------
