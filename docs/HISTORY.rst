@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-0.10 (unreleased)
+0.10 (2020-03-05)
 -----------------
 
-- Nothing changed yet.
-
+* Estilo .existing_content_portlet_no_border [Iago López Fernández]
 
 0.9 (2020-03-03)
 ----------------
