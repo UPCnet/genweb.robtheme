@@ -1901,9 +1901,9 @@ ul {
 
 /* Baners amb imatge */
 /* line 1445, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
-.link-bannerimg img,
-.link-banner-minimal-nolink img,
-.link-banner-minimal img {
+.link-bannerimg img:not(.link_blank),
+.link-banner-minimal-nolink img:not(.link_blank),
+.link-banner-minimal img:not(.link_blank) {
   object-fit: cover;
   left: 0;
   top: 0;
