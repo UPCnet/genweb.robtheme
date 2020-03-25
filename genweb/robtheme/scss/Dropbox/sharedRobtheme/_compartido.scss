@@ -1182,9 +1182,11 @@ ul.list-portlet li.clearfix {
     padding: 0px !important;
     margin: 10px 0px !important;
 }
+.portlet-esdeveniments ul li {
+    min-height: 50px;
+}
 .portlet-esdeveniments ul li:first-child {
     border-top: 0;
-    margin: 10px 0px 5px 0px;
 }
 .large-icon.icon-news,
 .large-icon.icon-news-item {
