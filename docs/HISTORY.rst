@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-0.11 (unreleased)
+0.11 (2020-03-26)
 -----------------
 
-- Nothing changed yet.
-
+* Estilos portlet Agenda [Iago López Fernández]
+* Estilos, evitar problema con los baner y el enlace externo (.link_blank) [Iago López Fernández]
 
 0.10 (2020-03-05)
 -----------------
