@@ -4643,3 +4643,7 @@ body.section-templates .link-banner-minimal::after {
     width: 100%;
   }
 }
+/* line 1813, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.destacat-contingut h2 {
+  color: #666 !important;
+}
