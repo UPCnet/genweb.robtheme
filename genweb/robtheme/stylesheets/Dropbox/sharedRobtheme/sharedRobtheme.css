@@ -2312,3 +2312,8 @@ body.section-templates .link-banner-minimal::after {
 .destacat-contingut h2 {
   color: #666 !important;
 }
+
+/* line 1817, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.filtered_contents_search_pretty .span3 h2 {
+  color: #636363 !important;
+}
