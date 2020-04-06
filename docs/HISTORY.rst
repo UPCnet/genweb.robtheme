@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-0.12 (unreleased)
+0.12 (2020-04-06)
 -----------------
 
-- Nothing changed yet.
-
+* Estilo [Iago López Fernández]
+* Color .destacat-contingut h2 [Iago López Fernández]
 
 0.11 (2020-03-26)
 -----------------
