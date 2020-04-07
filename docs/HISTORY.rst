@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-0.13 (unreleased)
+0.13 (2020-04-07)
 -----------------
 
-- Nothing changed yet.
-
+* Estilos template destacat amb imatge [Iago López Fernández]
 
 0.12 (2020-04-06)
 -----------------
