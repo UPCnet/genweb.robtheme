@@ -2317,3 +2317,10 @@ body.section-templates .link-banner-minimal::after {
 .filtered_contents_search_pretty .span3 h2 {
   color: #636363 !important;
 }
+
+@media (max-width: 768px) {
+  /* line 1822, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  .destacat.destacat-dreta {
+    display: inline;
+  }
+}

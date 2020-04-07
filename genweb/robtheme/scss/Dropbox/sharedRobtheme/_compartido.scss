@@ -1817,3 +1817,9 @@ body.section-templates {
 .filtered_contents_search_pretty .span3 h2 {
     color: #636363!important;
 }
+
+@media (max-width: 768px){
+    .destacat.destacat-dreta {
+        display: inline;
+    }
+}
