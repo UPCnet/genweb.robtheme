@@ -4654,3 +4654,7 @@ body.section-templates .link-banner-minimal::after {
     display: inline;
   }
 }
+/* line 1827, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.img-polaroid {
+  width: calc(100% - 10px) !important;
+}

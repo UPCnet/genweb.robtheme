@@ -1823,3 +1823,7 @@ body.section-templates {
         display: inline;
     }
 }
+
+.img-polaroid {
+    width: calc(100% - 10px) !important;
+}
