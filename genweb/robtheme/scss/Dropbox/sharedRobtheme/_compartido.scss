@@ -1825,5 +1825,5 @@ body.section-templates {
 }
 
 .img-polaroid {
-    width: calc(100% - 10px) !important;
+    max-width: calc(100% - 10px) !important;
 }
