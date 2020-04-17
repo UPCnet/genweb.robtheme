@@ -1827,3 +1827,7 @@ body.section-templates {
 .img-polaroid {
     max-width: calc(100% - 10px) !important;
 }
+
+.btn + .link_blank {
+  display: none !important;
+}

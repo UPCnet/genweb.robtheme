@@ -2328,3 +2328,8 @@ body.section-templates .link-banner-minimal::after {
 .img-polaroid {
   max-width: calc(100% - 10px) !important;
 }
+
+/* line 1831, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.btn + .link_blank {
+  display: none !important;
+}
