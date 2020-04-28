@@ -4663,3 +4663,8 @@ body.section-templates .link-banner-minimal::after {
 .btn + .link_blank {
   display: none !important;
 }
+
+/* line 1835, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.beautytab ul#myTab {
+  margin: 0px !important;
+}
