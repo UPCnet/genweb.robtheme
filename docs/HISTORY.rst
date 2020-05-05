@@ -2,11 +2,14 @@ Changelog
 =========
 
 
-0.14 (unreleased)
+0.14 (2020-05-05)
 -----------------
 
-- Nothing changed yet.
-
+* Arreglar conflicto entre estilos [Iago López Fernández]
+* Quitar icono de enlace externo en los botones [Iago López Fernández]
+* Estilo .img-polaroid [Iago López Fernández]
+* Añadir css robtheme a blank_template [Iago López Fernández]
+* Estilo .img-polaroid [Iago López Fernández]
 
 0.13 (2020-04-07)
 -----------------
