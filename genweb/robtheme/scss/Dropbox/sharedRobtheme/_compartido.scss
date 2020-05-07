@@ -699,6 +699,10 @@ body.template-edit {
     }
 }
 .portlet-noticies.portlet-ampliat {
+    .row-fluid {
+        margin-top: 0px !important;
+    }
+
     .noticies-full {
         padding: 0px;
     }

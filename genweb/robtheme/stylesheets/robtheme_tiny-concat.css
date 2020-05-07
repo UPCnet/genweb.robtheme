@@ -3197,94 +3197,98 @@ body.template-edit #content-core {
 }
 
 /* line 702, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.portlet-noticies.portlet-ampliat .row-fluid {
+  margin-top: 0px !important;
+}
+/* line 706, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .portlet-noticies.portlet-ampliat .noticies-full {
   padding: 0px;
 }
 
-/* line 707, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 711, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 ul.list-portlet img.image-noticies {
   display: block;
   max-width: 50% !important;
 }
-/* line 711, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 715, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 ul.list-portlet .content-noticies p {
   font-size: 14px;
 }
 
-/* line 716, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 720, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .portlet.portletRecent .portlet-footer {
   display: unset !important;
 }
-/* line 719, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 723, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .portlet.portletRecent time.smaller {
   display: block;
 }
-/* line 722, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 726, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .portlet.portletRecent li.portletItem.odd,
 .portlet.portletRecent li.portletItem.even {
   margin-left: 0px !important;
 }
 
 /* Calendario */
-/* line 729, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 733, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .portletCalendar h2 {
   border-bottom: 0px;
   color: #023470;
 }
 
 /* Porlet general */
-/* line 736, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 740, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .portlet h2 {
   margin-top: 15px;
 }
-/* line 739, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 743, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .portlet a.portlet-footer {
   display: table;
   position: inherit;
 }
-/* line 743, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 747, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .portlet ul.list-portlet li {
   border: 0;
   padding: 5px 0px !important;
   margin: 0px !important;
 }
 
-/* line 750, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 754, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .portlet.portletStaticText.portlet-static-portlet-estatico-con-contorno p {
   font-size: 14px;
   font-weight: 300;
 }
 
-/* line 755, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 759, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #content-core {
   border-top: 0px;
 }
 
 /* vista rota manage home porlets */
-/* line 760, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 764, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-manage-homeportlets .portletHeader.clearfix.box.box-gradient.padding0:hover {
   margin-bottom: 10px !important;
   background-color: #f4f4f4 !important;
   background-image: none;
 }
-/* line 765, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 769, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-manage-homeportlets button.btn.btn-mini.btn-success,
 body.template-manage-homeportlets button.btn.btn-mini.btn-danger,
 body.template-manage-homeportlets button.btn.btn-mini {
   border: 0px;
   margin: 5px;
 }
-/* line 771, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 775, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-manage-homeportlets button.btn.btn-mini.btn-success:hover,
 body.template-manage-homeportlets button.btn.btn-mini.btn-danger:hover,
 body.template-manage-homeportlets button.btn.btn-mini:hover {
   border: 0px;
 }
-/* line 776, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 780, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-manage-homeportlets .portletHeader strong:hover + span {
   display: block;
 }
-/* line 779, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 783, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-manage-homeportlets .portletHeader strong {
   display: inline-block;
   padding: 2px 0 0 4px;
@@ -3293,26 +3297,26 @@ body.template-manage-homeportlets .portletHeader strong {
   white-space: nowrap;
   width: 100%;
 }
-/* line 787, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 791, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-manage-homeportlets .portletHeader strong:hover {
   padding: 0px !important;
   margin: 0px !important;
 }
-/* line 790, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 794, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-manage-homeportlets .portletHeader strong:hover .clearfix.box.box-gradient.padding0:hover strong {
   color: #636363 !important;
 }
-/* line 794, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 798, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-manage-homeportlets .portletHeader strong {
   padding: 0px;
   display: block;
   color: #007bc1 !important;
 }
-/* line 799, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 803, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-manage-homeportlets .box:hover {
   margin-bottom: 10px !important;
 }
-/* line 802, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 806, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-manage-homeportlets .portletHeader.clearfix.box.box-gradient.padding0 {
   background-color: transparent !important;
   padding: 5px 10px !important;
@@ -3320,70 +3324,70 @@ body.template-manage-homeportlets .portletHeader.clearfix.box.box-gradient.paddi
   border-radius: 4px !important;
   margin-bottom: 10px !important;
 }
-/* line 809, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 813, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-manage-homeportlets span.caret {
   position: absolute;
   right: 10px;
 }
-/* line 813, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 817, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-manage-homeportlets .btn-group.open ul.dropdown-menu {
   width: 100%;
 }
-/* line 816, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 820, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-manage-homeportlets h2.liniaDalt {
   padding-top: 20px;
 }
-/* line 819, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 823, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-manage-homeportlets .input-prepend.pull-right.clearfix input.editable {
   text-align: center;
   width: 20px !important;
   padding: 4px 2px;
 }
-/* line 824, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 828, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-manage-homeportlets #portal-header.no-image .container {
   padding-bottom: 0px;
 }
-/* line 827, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 831, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-manage-homeportlets #eines-menu-boto {
   right: 30px;
   top: 25px;
 }
-/* line 831, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 835, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-manage-homeportlets nav#portal-breadcrumbs .container {
   padding: 0px 20px;
 }
 
-/* line 835, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 839, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .portletAssignments .managedPortlet .box {
   margin-bottom: 0px !important;
 }
 
 /* responsive */
 @media only screen and (max-width: 979px) {
-  /* line 840, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 844, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   nav#portal-breadcrumbs {
     background-color: #f2f5f6;
     padding: 5px;
     margin: 15px 0px;
   }
 
-  /* line 845, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 849, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #gwsearch input.tt-hint {
     position: absolute !important;
     top: 0px;
   }
 
-  /* line 849, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 853, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #eines-menu-boto {
     width: 40px;
   }
 
-  /* line 852, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 856, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portlet-navigation-tree.in {
     margin-bottom: 60px;
   }
 
-  /* line 855, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 859, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portal-personaltools-wrapper .navbar-inner,
   .navbar-fixed-top .navbar-inner,
   .navbar-fixed-bottom .navbar-inner {
@@ -3391,41 +3395,41 @@ body.template-manage-homeportlets nav#portal-breadcrumbs .container {
     padding: 10px !important;
   }
 
-  /* line 861, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 865, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #content-area {
     margin-top: 0.5em;
     padding: 10px 30px !important;
   }
 
-  /* line 865, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 869, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portlet-navigation-tree.in {
     margin-bottom: 00px;
   }
 
-  /* line 868, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 872, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   p {
     font-size: 18px;
     font-weight: 300;
     padding: 5px 0 !important;
   }
 
-  /* line 873, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 877, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   .managePortletsLink {
     margin-top: 10px !important;
     margin-bottom: 20px !important;
   }
 
-  /* line 877, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 881, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   ul#content-views {
     font-size: 20px;
   }
 
-  /* line 880, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 884, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #contentview-SEOProperties a {
     width: 45px;
   }
 
-  /* line 883, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 887, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   ul#contentActionMenus {
     margin: 10px 0px !important;
     font-size: 18px;
@@ -3433,43 +3437,43 @@ body.template-manage-homeportlets nav#portal-breadcrumbs .container {
     font-weight: 400;
   }
 
-  /* line 889, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 893, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   footer#canvia-vista {
     padding: 0px 30px 10px 30px !important;
     font-size: 20px;
   }
 
-  /* line 893, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 897, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #cookies {
     font-size: 18px;
     line-height: normal;
   }
 
-  /* line 897, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 901, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   ul.dropdown-menu.pull-right.actionMenuContent {
     left: 0px !important;
   }
 
-  /* line 900, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 904, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   .dropdown-menu.pull-right,
   .dropdown-menu.newsImageContainer {
     right: auto;
   }
 
-  /* line 904, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 908, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   .row-fluid .span8 p,
   .row-fluid .span8 address {
     font-size: 18px;
     line-height: 35px;
   }
 
-  /* line 909, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 913, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #eines-menu-boto,
   #titol-menu-2-boto {
     width: auto;
   }
 
-  /* line 913, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 917, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   .image-noticies-full {
     border: 0;
     padding: 0px;
@@ -3477,85 +3481,85 @@ body.template-manage-homeportlets nav#portal-breadcrumbs .container {
     width: 100%;
   }
 
-  /* line 919, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 923, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   li.portletItem {
     padding: 15px 0px !important;
   }
 
-  /* line 922, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 926, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   .noticies-full .image-noticies-full {
     width: 100%;
   }
 
-  /* line 925, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 929, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   .container {
     width: 100% !important;
   }
 
-  /* line 928, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 932, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   li {
     line-height: normal;
   }
 
-  /* line 931, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 935, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portal-column-one,
   #portal-column-content {
     position: relative;
     margin: 10px 0px;
   }
 
-  /* line 936, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 940, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   div#content-core a.link-parent {
     margin-bottom: 20px;
   }
 
-  /* line 939, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 943, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   header#portal-header .clearfix {
     padding: 0px;
     margin-top: 10px !important;
   }
 
-  /* line 943, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 947, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portal-header .titol-espai h1 {
     padding: 0px;
   }
 
-  /* line 946, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 950, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   body.template-homepage #content-area,
   footer#canvia-vista,
   #content-area {
     padding: 0px 10px !important;
   }
 
-  /* line 951, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 955, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portlet-navigation-tree.in {
     max-width: 96%;
     padding: 0% 2% !important;
   }
 
-  /* line 955, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 959, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portal-header.no-image .container {
     padding-bottom: 0px;
   }
 
-  /* line 958, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 962, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   nav#portal-breadcrumbs .container {
     padding: 0px !important;
   }
 
-  /* line 961, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 965, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   .formTabs > li > a.selected,
   .formTabs > li > a.selected:hover {
     font-size: 20px;
   }
 
-  /* line 965, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 969, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #plone-document-byline {
     margin: 10px 0 20px 0;
     font-size: 16px;
   }
 
-  /* line 969, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 973, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #viewlet-above-content-title,
   .documentFirstHeading,
   #viewlet-below-content-title,
@@ -3563,18 +3567,18 @@ body.template-manage-homeportlets nav#portal-breadcrumbs .container {
     display: none;
   }
 
-  /* line 975, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 979, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   ul.adjust-langs li {
     font-size: 14px;
   }
 }
-/* line 979, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 983, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 h2#loginModalLabel {
   color: #0077C8;
   font-weight: 300;
 }
 
-/* line 983, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 987, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .modal-body .documentDescription {
   font-size: 107.692308%;
   font-weight: bold;
@@ -3582,35 +3586,35 @@ h2#loginModalLabel {
   margin-bottom: 18px;
 }
 
-/* line 989, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 993, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .titol-espai a span {
   padding: 0px;
 }
 
-/* line 992, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 996, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 header#portal-header .clearfix {
   padding: 5px 20px 0px 20px;
 }
 
-/* line 995, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 999, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #portal-header.no-image + #portal-globalnav #menu-1 ul {
   border-top: 0px solid;
 }
 
-/* line 998, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1002, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #portal-globalnav .container {
   max-width: 100% !IMPORTANT;
   margin: 0px !important;
   width: 100% !important;
 }
 
-/* line 1003, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1007, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 div#menu-1 {
   max-width: 1170px;
   margin: 0 auto;
 }
 
-/* line 1007, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1011, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #menu-1 ul li:first-child:nth-last-child(10) a,
 #menu-1 ul li:first-child:nth-last-child(10) ~ li a {
   border-bottom: 0px !important;
@@ -3619,7 +3623,7 @@ div#menu-1 {
   text-align: left;
 }
 
-/* line 1014, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1018, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .plain a.state-pending,
 .plain a.state-draft,
 .plain a.state-restricted-to-managers,
@@ -3634,7 +3638,7 @@ div#menu-1 {
   font-weight: 400 !important;
 }
 
-/* line 1027, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1031, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #portal-globalnav .nav > li > a,
 #portal-globalnav .contentViews > li > a,
 #portal-globalnav .configlets > li > a,
@@ -3642,13 +3646,13 @@ div#menu-1 {
   border-right: 0px;
 }
 
-/* line 1033, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1037, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .container {
   max-width: 1170px !important;
   width: 100%;
 }
 
-/* line 1037, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1041, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #portal-globalnav .nav > li:first-child > a,
 #portal-globalnav .contentViews > li > a,
 #portal-globalnav .configlets > li:first-child first-child > a,
@@ -3657,7 +3661,7 @@ div#menu-1 {
   background-color: white;
 }
 
-/* line 1044, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1048, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .header-image {
   margin-bottom: -1px;
   box-shadow: none;
@@ -3665,37 +3669,37 @@ div#menu-1 {
   max-width: 100%;
 }
 
-/* line 1050, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1054, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #portal-header .container {
   width: 100%;
   max-width: 100% !important;
 }
 
-/* line 1054, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1058, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 header#portal-header {
   max-width: 1170px;
   margin: 0 auto;
   background-color: white !important;
 }
 
-/* line 1059, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1063, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 header#portal-header .clearfix {
   padding: 0px;
   margin-top: 10px;
 }
 
-/* line 1063, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1067, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 header#portal-header {
   max-width: 100%;
 }
 
-/* line 1066, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1070, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .header-image {
   background-size: cover;
   border-radius: 0px !important;
 }
 
-/* line 1070, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1074, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 p.hiddenStructure,
 header#portal-header .clearfix,
 .titol-espai h1 {
@@ -3703,29 +3707,29 @@ header#portal-header .clearfix,
   margin: 5px auto 0px auto;
 }
 
-/* line 1076, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1080, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #portal-header:not(.no-image) + #portal-globalnav .navbar-inner {
   background-color: white;
 }
 
-/* line 1079, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1083, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #portal-header .container {
   width: 100% !important;
   max-width: 100% !important;
   margin: 0px !IMPORTANT;
 }
 
-/* line 1084, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1088, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 li.plain a:hover {
   color: #333333 !IMPORTANT;
 }
 
-/* line 1087, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1091, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .titol-espai h1 {
   font-weight: 300;
 }
 
-/* line 1090, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1094, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .navbar .nav > li > a,
 .navbar .contentViews > li > a,
 .navbar .configlets > li > a,
@@ -3735,13 +3739,13 @@ li.plain a:hover {
   padding: 9px 0px;
 }
 
-/* line 1098, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1102, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #menu-1 ul {
   border-bottom: 0px solid;
   padding-bottom: 5px;
 }
 
-/* line 1102, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1106, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #portal-header.no-image + #portal-globalnav .navbar-inner {
   margin-top: -20px;
   background-color: white !important;
@@ -3749,12 +3753,12 @@ li.plain a:hover {
   background-image: none;
 }
 
-/* line 1108, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1112, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #portal-header .container {
   border-top: 0px solid;
 }
 
-/* line 1111, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1115, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .navbar .nav > .active > a,
 .navbar .contentViews > .active > a,
 .navbar .configlets > .active > a,
@@ -3762,7 +3766,7 @@ li.plain a:hover {
   color: #666;
 }
 
-/* line 1117, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1121, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .navbar .contentViews > .active > a:hover,
 .navbar .configlets > .active > a:hover,
 .navbar .formTabs > .active > a:hover,
@@ -3773,13 +3777,13 @@ li.plain a:hover {
   color: #555 !important;
 }
 
-/* line 1126, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1130, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #portal-globalnav .navbar .nav > li > a:hover {
   background-color: white;
   box-shadow: none;
 }
 
-/* line 1130, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1134, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #portal-globalnav .navbar .nav > li,
 #portal-globalnav .navbar .contentViews > li,
 #portal-globalnav .navbar .configlets > li,
@@ -3787,7 +3791,7 @@ li.plain a:hover {
   background-color: white;
 }
 
-/* line 1136, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1140, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #portal-header.no-image + #portal-globalnav .navbar-inner {
   margin-top: -20px;
   background-color: white !important;
@@ -3795,42 +3799,42 @@ li.plain a:hover {
   box-shadow: none;
 }
 
-/* line 1142, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1146, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #menu-1 ul li:first-child:nth-last-child(10) a,
 #menu-1 ul li:first-child:nth-last-child(10) ~ li a {
   padding-left: 1% !important;
   padding-right: 1% !important;
 }
 
-/* line 1147, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1151, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .navbar .nav > .active > a {
   background-image: none;
   box-shadow: none;
 }
 
-/* line 1151, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1155, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 a.state-published span:hover,
 #portal-columns .navbar .nav > .active > a {
   text-decoration: none;
 }
 
-/* line 1155, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1159, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #bandaLogos .container {
   border-top: 0px;
 }
 
-/* line 1158, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1162, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 header#portal-header .titol-espai.clearfix h1 {
   margin: 10px 0px !important;
 }
 
-/* line 1161, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1165, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #eines > li > a,
 #eines-mov > li > a {
   font-size: 14px;
 }
 
-/* line 1165, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1169, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .portlet {
   box-shadow: none;
   border-radius: 0px;
@@ -3838,56 +3842,56 @@ header#portal-header .titol-espai.clearfix h1 {
   border: 0px;
 }
 
-/* line 1171, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1175, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .portlet-esdeveniments ul {
   margin-bottom: 0px;
   border: 0px;
 }
 
-/* line 1175, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1179, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 ul.list-portlet li.clearfix {
   margin-bottom: 20px !important;
   border: 0px !important;
   box-shadow: none !important;
 }
 
-/* line 1180, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1184, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .portlet.portlet-noticies.portlet-ampliat li.clearfix h3,
 .portlet.portlet-noticies.portlet-ampliat li.clearfix img {
   padding: 0px !important;
   margin: 10px 0px !important;
 }
 
-/* line 1185, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1189, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .portlet-esdeveniments ul li {
   min-height: 50px;
 }
 
-/* line 1188, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1192, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .portlet-esdeveniments ul li:first-child {
   border-top: 0;
 }
 
-/* line 1191, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1195, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .large-icon.icon-news,
 .large-icon.icon-news-item {
   right: 5px;
 }
 
-/* line 1195, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1199, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #baners ul.unstyled li a img {
   width: 100%;
   height: auto;
 }
 
-/* line 1199, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1203, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 a.summary.url {
   font-weight: 400;
   line-height: initial;
   font-size: 20px;
 }
 
-/* line 1204, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1208, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.mceContentBody h2,
 #content-core #parent-fieldname-text h2 {
   color: #666;
@@ -3898,14 +3902,14 @@ body.mceContentBody h2,
   overflow: hidden;
 }
 
-/* line 1213, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1217, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #menu-1 ul li:first-child:nth-last-child(12) a,
 #menu-1 ul li:first-child:nth-last-child(12) ~ li a {
   padding-left: 0% !important;
   padding-right: 0% !important;
 }
 
-/* line 1218, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1222, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .state-draft,
 #workflow-transition-reject,
 #workflow-transition-retiraaesborrany,
@@ -3914,13 +3918,13 @@ body.mceContentBody h2,
   color: #72a31d !important;
 }
 
-/* line 1226, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1230, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 form.kssattr-serveraction-foldercontents_update_table td:nth-child(6) .state-draft,
 form.kssattr-serveraction-foldercontents_update_table td:nth-child(6) .state-visible {
   color: #FFF !important;
 }
 
-/* line 1231, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1235, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .navbar .nav > li > a:focus,
 .navbar .contentViews > li > a:focus,
 .navbar .configlets > li > a:focus,
@@ -3928,23 +3932,23 @@ form.kssattr-serveraction-foldercontents_update_table td:nth-child(6) .state-vis
   background-color: white;
 }
 
-/* line 1237, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1241, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #menu-1 ul li:first-child:nth-last-child(8) a,
 #menu-1 ul li:first-child:nth-last-child(8) ~ li a {
   padding-left: 0% !important;
 }
 
-/* line 1241, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1245, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 li a.state-private {
   color: #a62e1f !important;
 }
 
-/* line 1244, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1248, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 li a.state-intranet {
   color: #8952ab !important;
 }
 
-/* line 1247, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1251, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #accordionLogin {
   max-width: 100%;
   width: 100%;
@@ -3953,76 +3957,76 @@ li a.state-intranet {
 }
 
 /* footer */
-/* line 1254, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1258, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #bandaLogos {
   border-top: 0px !important;
   background: #F6F7F7;
 }
-/* line 1257, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1261, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #bandaLogos .container {
   border-top: 0px !important;
 }
-/* line 1260, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1264, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #bandaLogos .llistatLogos img {
   max-height: 100px;
 }
 
-/* line 1264, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1268, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 footer#peu {
   padding: 0px 10px !important;
   font-size: 20px;
   background: #F6F7F7;
   border-top: 0px solid;
 }
-/* line 1269, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1273, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 footer#peu p {
   font-size: 16px;
   margin: 6px 0;
 }
-/* line 1273, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1277, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 footer#peu .row-fluid {
   margin-bottom: 20px;
 }
-/* line 1276, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1280, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 footer#peu .amunt {
   margin-left: 15px;
 }
-/* line 1279, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1283, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 footer#peu .container {
   border-top: 0px !important;
 }
-/* line 1282, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1286, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 footer#peu address {
   margin-top: 15px;
 }
 
-/* line 1286, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1290, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 ul.pull-right.sobreElWeb {
   font-size: 16px;
 }
 
-/* line 1289, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1293, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .collage-row:first-child {
   border-top: 0px solid #b2b2b2;
 }
 
-/* line 1292, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1296, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #peu .container {
   border-top: 0px solid #666;
 }
 
-/* line 1295, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1299, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .template-listing_view #content dl dt:before {
   margin-top: -37px;
 }
 
 /* Breadcrum  */
-/* line 1299, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1303, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 div#viewlet-above-content {
   display: none;
 }
 
-/* line 1302, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1306, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-homepage nav#portal-breadcrumbs {
   display: block;
   padding: 0px;
@@ -4030,58 +4034,58 @@ body.template-homepage nav#portal-breadcrumbs {
   margin: 0px;
 }
 
-/* line 1308, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1312, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 nav#portal-breadcrumbs {
   background-color: #F2F5F6;
   padding: 5px;
 }
-/* line 1311, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1315, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 nav#portal-breadcrumbs .container {
   width: 1170px;
   padding: 15px;
 }
-/* line 1315, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1319, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 nav#portal-breadcrumbs ol.breadcrumb li a {
   font-weight: 300;
   line-height: 1.25;
 }
-/* line 1319, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1323, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 nav#portal-breadcrumbs li.active a {
   color: #007BC1;
 }
-/* line 1322, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1326, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 nav#portal-breadcrumbs .breadcrumb .active {
   font-weight: 300;
 }
 
-/* line 1326, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1330, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 nav#portal-breadcrumbs {
   background-color: #ffffff;
   padding: 0px;
 }
 
-/* line 1330, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1334, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 nav#portal-breadcrumbs .container {
   padding: 10px 0px !important;
 }
 
-/* line 1333, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1337, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .template-listing_view #content dt {
   margin-top: 0px;
 }
 
-/* line 1336, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1340, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .alert .close,
 .portalMessage .close {
   right: 5px;
 }
 
-/* line 1340, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1344, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .alert {
   padding: 10px;
 }
 
-/* line 1343, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1347, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .alert.alert-error {
   border-radius: 4px !important;
   margin: 0px !important;
@@ -4090,19 +4094,19 @@ nav#portal-breadcrumbs .container {
   font-size: 14px !important;
 }
 
-/* line 1350, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1354, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #cookies {
   border-bottom: 0px;
   color: #666666;
   font-size: 16px;
 }
 
-/* line 1355, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1359, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #parent-fieldname-text h3:first-child {
   margin-top: 20px;
 }
 
-/* line 1358, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1362, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .accordion-group {
   margin-bottom: 10px;
   background: #fff;
@@ -4110,131 +4114,131 @@ nav#portal-breadcrumbs .container {
   border-radius: 0 !important;
 }
 
-/* line 1364, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1368, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-login_failed #portal-header.no-image .container {
   padding-bottom: 0px;
   border-bottom: 3px solid #666 !important;
 }
 
-/* line 1368, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1372, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #menu-1 .nav li.active a {
   font-weight: bold !important;
   border-bottom: 1px solid #000 !important;
 }
 
-/* line 1372, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1376, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #content #content-core ul {
   margin-left: 0px;
 }
 
-/* line 1375, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1379, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .formTabs > li > a:hover {
   border: 1px solid white;
 }
 
-/* line 1378, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1382, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #menu-1 ul li a {
   border-bottom: 0px solid transparent !important;
 }
 
-/* line 1381, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1385, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #search-results a span {
   display: contents;
 }
 
-/* line 1384, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1388, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 dd.actionMenuContent {
   margin: 10px 0px 0px 0px;
 }
 
-/* line 1387, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1391, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 form.searchPage h1 {
   margin-top: 20px;
 }
 
-/* line 1390, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1394, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .llistatLogos li {
   margin: 0 0 0.7em;
 }
 
-/* line 1393, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1397, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .llistatLogos {
   padding-top: 0.75em;
 }
 
-/* line 1396, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1400, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .contentViews > li > a:hover,
 .formTabs > li > a:hover,
 .nav > li > a:hover {
   border: 0px !important;
 }
 
-/* line 1401, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1405, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .contentViews > li > a:hover,
 .formTabs > li > a:hover {
   background-color: #f2f2f2;
 }
 
-/* line 1405, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1409, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #portal-sitemap ul > li li {
   padding: 15px 0px 0px 0px;
   line-height: 5px;
   font-weight: normal;
 }
 
-/* line 1410, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1414, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #portal-sitemap ul > li li {
   font-weight: 300;
 }
 
-/* line 1413, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1417, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-sitemap #content-area #portal-column-content #content .documentDescription {
   font-weight: 300;
 }
 
-/* line 1416, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1420, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-sitemap ul.navTree ul.navTree {
   margin-bottom: 10px !important;
 }
 
-/* line 1419, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1423, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 footer#peu {
   margin-top: 5px !important;
 }
 
-/* line 1422, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1426, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-sitemap ul#portal-sitemap span {
   display: inherit;
 }
 
-/* line 1426, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1430, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-genweb-controlpanel section#content-area {
   margin: 0px !important;
 }
-/* line 1429, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1433, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-genweb-controlpanel #portal-header.no-image .container {
   padding-bottom: 0px;
 }
 
-/* line 1433, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1437, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-genweb-controlpanel nav#portal-breadcrumbs {
   border-top: 3px solid #666 !important;
 }
 
-/* line 1436, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1440, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #menu-1 ul li:first-child:nth-last-child(10),
 #menu-1 ul li:first-child:nth-last-child(10) ~ li {
   border: 0px;
 }
 
-/* line 1440, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1444, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 ul {
   list-style-type: disc;
   margin-left: 20px;
 }
 
 /* Baners amb imatge */
-/* line 1447, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1451, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .link-bannerimg img:not(.link_blank),
 .link-banner-minimal-nolink img:not(.link_blank),
 .link-banner-minimal img:not(.link_blank) {
@@ -4248,7 +4252,7 @@ ul {
   transition: all .5s ease;
 }
 
-/* line 1460, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1464, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .link-bannerimg span,
 .link-banner-minimal-nolink img + span,
 .link-banner-minimal img + span {
@@ -4260,30 +4264,30 @@ ul {
 }
 
 /* Tiny */
-/* line 1473, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1477, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body#mceTemplatePreview ul.list-index li:before {
   margin-top: -34px;
 }
-/* line 1477, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1481, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body#mceTemplatePreview ul.list-highlighted li:before {
   margin-top: -28px;
 }
 
 /* Cambios 12/11/2019 */
 @media only screen and (max-width: 979px) {
-  /* line 1484, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1488, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   h1.documentFirstHeading {
     display: block;
   }
 
-  /* line 1487, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1491, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   .lletra-cercle {
     float: left;
     font-size: 2rem;
     margin-top: -10px;
   }
 
-  /* line 1492, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1496, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #content-core #parent-fieldname-text h2 {
     color: #666;
     line-height: unset;
@@ -4293,29 +4297,29 @@ body#mceTemplatePreview ul.list-highlighted li:before {
     overflow: hidden;
   }
 
-  /* line 1500, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1504, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   .list-sections li > .lletra-cercle:first-child ~ * {
     margin-left: 40px;
     margin-bottom: 0px;
   }
 
-  /* line 1504, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1508, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   ul.list-sections p.hidden-phone {
     display: block;
   }
 }
-/* line 1509, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1513, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 section#content-area {
   border-bottom: 0px solid #666 !important;
 }
 
-/* line 1513, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1517, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .box.pull-right a[class^='link-banner-']::after {
   padding-top: 7px;
 }
 
 /* Meter dentro del iframe */
-/* line 1518, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1522, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.mceContentBody .destacat.destacat-dreta.hidden-phone .visible-phone,
 body.mceContentBody .destacat.destacat-dreta.hidden-phone .visible-tablet,
 body.mceContentBody .destacat.destacat-dreta.hidden-phone .visible-desktop,
@@ -4325,25 +4329,25 @@ body.mceContentBody .destacat.destacat-dreta.hidden-phone .hidden-desktop {
   background: #f2f5f6 !important;
 }
 
-/* line 1526, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1530, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .destacat.destacat-dreta.hidden-phone p {
   padding: 20px 0px  !important;
 }
 
 /* IMG carrousel */
 @media (max-width: 768px) {
-  /* line 1532, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1536, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   .gallery-logos .span2.gellery-bottom {
     width: 50%;
     max-width: 50%;
   }
 
-  /* line 1536, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1540, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   .gallery-logos .gellery-bottom img.logo {
     width: 100%;
   }
 
-  /* line 1539, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1543, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   .gallery-logos .span2.gellery-bottom {
     width: 48%;
     max-width: 50%;
@@ -4353,23 +4357,23 @@ body.mceContentBody .destacat.destacat-dreta.hidden-phone .hidden-desktop {
   }
 }
 /* Retoques 20/11 */
-/* line 1551, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1555, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 li.plain a.state-visible {
   background-color: transparent !important;
 }
 
-/* line 1554, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1558, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-news_listing ul.list-portlet img.image-noticies {
   max-width: 75px !important;
 }
 
 /* Controles de noticias */
-/* line 1558, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1562, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .listingBar ul:not([class]):not([id]) {
   padding-left: 0px !important;
 }
 
-/* line 1562, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1566, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .listingBar a.previous {
   width: 49%;
   float: left;
@@ -4379,7 +4383,7 @@ body.template-news_listing ul.list-portlet img.image-noticies {
   text-align: left;
 }
 
-/* line 1570, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1574, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .listingBar a.next {
   width: 49%;
   float: right;
@@ -4389,58 +4393,58 @@ body.template-news_listing ul.list-portlet img.image-noticies {
   text-align: right;
 }
 
-/* line 1578, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1582, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .discussion .comment {
   margin-bottom: 1em;
 }
 
-/* line 1581, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1585, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .discussion .commentBody {
   padding: 5px 10px 5px 10px;
 }
 
-/* line 1584, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1588, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .commentDate {
   margin: 1px 5px;
   padding-top: 0px;
 }
 
-/* line 1589, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1593, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .nav.contentViews li.active a {
   border: 0px !important;
   background: transparent !important;
   background-image: none;
 }
 
-/* line 1594, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1598, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .nav.contentViews li a {
   background: transparent !important;
 }
 
-/* line 1597, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1601, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #menu-1 ul li:first-child:nth-last-child(9) ~ li a {
   padding-left: 1% !important;
   padding-right: 1% !important;
 }
 
-/* line 1601, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1605, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 ul.nav li.plain:last-child a {
   margin-right: 0px !important;
 }
 
-/* line 1604, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1608, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 ul.nav li.plain:first-child a {
   margin-left: 0px !important;
   padding-left: 0px !important;
 }
 
 /* Listados */
-/* line 1612, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1616, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 ul:not([class]):not([id]) {
   padding-left: 16px !important;
 }
 
-/* line 1625, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1629, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .list li::before,
 .llistat li::before,
 .list-index li::before,
@@ -4452,7 +4456,7 @@ ul:not([class]):not([id]) {
   color: #636363 !important;
 }
 
-/* line 1632, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1636, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.mceContentBody:not(#mceTemplatePreview) .list-index li:before,
 body.mceContentBody:not(#mceTemplatePreview) .llistatIndex li:before,
 body.mceContentBody:not(#mceTemplatePreview) .list-striped li:before,
@@ -4462,18 +4466,18 @@ body.mceContentBody:not(#mceTemplatePreview) .list-bordered li:before {
   margin-top: -38px;
 }
 
-/* line 1642, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1646, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.mceContentBody:not(#mceTemplatePreview) .list-highlighted li:before {
   margin-top: -32px;
 }
 
-/* line 1646, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1650, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #viewlet-below-content a.btn.btn-small.btn-block {
   display: inline-block;
 }
 
 /* flecha */
-/* line 1653, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1657, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .link-banner::after,
 .link-bannerblau::after,
 .link-bannerdanger::after,
@@ -4505,7 +4509,7 @@ body.section-templates.mceContentBody:not(#mceTemplatePreview) .link-bannerwarni
   box-sizing: border-box !important;
 }
 
-/* line 1685, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1689, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 iframe#templatesrc .link-banner::after,
 iframe#templatesrc .link-bannerblau::after,
 iframe#templatesrc .link-bannerdanger::after,
@@ -4541,18 +4545,18 @@ iframe#templatesrc div#parent-fieldname-text body.mceContentBody:not(#mceTemplat
   padding-top: 5px !important;
 }
 
-/* line 1721, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1725, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 div#content-core form:not(.rowlike) {
   padding: 20px;
 }
 
-/* line 1725, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1729, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.mceContentBody {
   background: #fff;
   margin: 0;
 }
 
-/* line 1731, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1735, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #content .item .link-banner::after,
 #content .item .link-bannerblau::after,
 #content .item .link-bannerdanger::after,
@@ -4572,7 +4576,7 @@ body.mceContentBody {
   padding-top: 3px !important;
 }
 
-/* line 1752, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1756, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body#mceTemplatePreview .link-banner-minimal-blue::after,
 body#mceTemplatePreview .link-banner-minimal::after,
 body#mceTemplatePreview .link-banner::after,
@@ -4584,7 +4588,7 @@ body#mceTemplatePreview .link-bannerwarning::after {
   padding-top: 3px !important;
 }
 
-/* line 1764, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1768, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.section-templates .link-banner::after,
 body.section-templates .link-bannerblau::after,
 body.section-templates .link-bannerdanger::after,
@@ -4596,7 +4600,7 @@ body.section-templates .link-banner-minimal::after {
   padding-top: 3px !important;
 }
 
-/* line 1776, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1780, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .navbar .nav .dropdown-toggle .caret,
 .navbar .contentViews .dropdown-toggle .caret,
 .navbar .configlets .dropdown-toggle .caret,
@@ -4604,27 +4608,27 @@ body.section-templates .link-banner-minimal::after {
   margin-top: 11px;
 }
 
-/* line 1783, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1787, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .existing_content_portlet {
   display: inline-block;
   width: 100%;
 }
 
-/* line 1788, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1792, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .existing_content_portlet_no_border > .portlet-content {
   display: inline-block;
   width: 100%;
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  /* line 1794, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1798, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   .navbar .nav, .navbar .contentViews,
   .navbar .configlets, .navbar .formTabs {
     max-width: 1170px;
     width: 100%;
   }
 
-  /* line 1800, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1804, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portal-globalnav #menu-1 ul,
   #portal-globalnav #menu-1 ul li,
   #portal-globalnav .navbar,
@@ -4632,39 +4636,39 @@ body.section-templates .link-banner-minimal::after {
     word-wrap: normal;
   }
 
-  /* line 1807, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1811, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #menu-1 ul li:first-child:nth-last-child(9) ~ li a {
     max-width: 200px;
     width: 100%;
   }
 }
-/* line 1813, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1817, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .destacat-contingut h2 {
   color: #666 !important;
 }
 
-/* line 1817, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1821, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .filtered_contents_search_pretty .span3 h2 {
   color: #636363 !important;
 }
 
 @media (max-width: 768px) {
-  /* line 1822, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1826, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   .destacat.destacat-dreta {
     display: inline;
   }
 }
-/* line 1827, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1831, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .img-polaroid {
   max-width: calc(100% - 10px) !important;
 }
 
-/* line 1831, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1835, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .btn + .link_blank {
   display: none !important;
 }
 
-/* line 1835, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1839, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .beautytab ul#myTab {
   margin: 0px !important;
 }
