@@ -4315,7 +4315,7 @@ section#content-area {
 
 /* line 1517, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .box.pull-right a[class^='link-banner-']::after {
-  padding-top: 7px;
+  padding-top: 3px;
 }
 
 /* Meter dentro del iframe */
