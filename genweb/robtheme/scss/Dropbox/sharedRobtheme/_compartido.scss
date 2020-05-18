@@ -1212,7 +1212,6 @@ body.mceContentBody h2,
     font-family: Roboto, Arial, sans-serif;
     font-weight: 300!important;
     padding-bottom: 5px!important;
-    overflow: hidden;
 }
 #menu-1 ul li:first-child:nth-last-child(12) a,
 #menu-1 ul li:first-child:nth-last-child(12) ~ li a {
@@ -1359,6 +1358,11 @@ nav#portal-breadcrumbs .container {
 #parent-fieldname-text h3:first-child {
     margin-top: 20px;
 }
+
+#parent-fieldname-text .box > h3:first-child {
+    margin-top: 0px;
+}
+
 .accordion-group {
     margin-bottom: 10px;
     background: #fff;
