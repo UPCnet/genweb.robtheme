@@ -12,7 +12,7 @@ body {
   font-size: 16px !important;
   font-weight: 300;
   line-height: 1.45 !important;
-  color: #636363;
+  color: #4A4A4A;
   background-color: #fff;
 }
 
@@ -24,7 +24,7 @@ p {
 
 /* line 18, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .lead {
-  color: #7F7F7F;
+  color: #666666;
 }
 
 /* line 21, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
@@ -42,7 +42,7 @@ h1 {
 
 /* line 30, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .h3, h3 {
-  color: #636363 !important;
+  color: #4A4A4A !important;
   font-weight: 300;
   font-size: 21px;
   line-height: initial;
@@ -149,7 +149,7 @@ li.active a {
   font-weight: 300 !important;
   padding: 10px 0 !important;
   padding-bottom: 5px !important;
-  border-bottom: 1px solid #b2b2b2 !important;
+  border-bottom: 1px solid #7F7F7F !important;
   overflow: hidden;
   font-size: 24px !important;
   line-height: 22px !important;
@@ -198,8 +198,8 @@ body.template-homepage #content-area {
 
 /* line 147, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
 h1.documentFirstHeading {
-  font-size: 1.8rem;
-  color: #636363;
+  font-size: 1.6rem;
+  color: #4A4A4A;
   background: 0 0;
   margin: 0px 0 12px 0;
   padding: 0px;
@@ -211,7 +211,7 @@ h1.documentFirstHeading {
 /* line 157, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
 h2.row-fluid,
 h2.liniaDalt {
-  color: #636363;
+  color: #4A4A4A;
   position: relative;
   overflow: hidden;
   padding: 6px 0;
@@ -239,7 +239,7 @@ ul.investigadors.pull-left li {
 .nav-list > .active > a:hover,
 .nav-list > .selected > a,
 .nav-list > .selected > a:hover {
-  color: #636363;
+  color: #4A4A4A;
   background-color: #ffffff;
   border-radius: 0px !important;
   text-shadow: none !important;
@@ -287,7 +287,7 @@ ul.investigadors.pull-left li {
 /* line 213, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .anyipsum-form-header {
   font-size: 1.125rem;
-  color: #7F7F7F;
+  color: #666666;
 }
 
 /* line 217, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
@@ -378,7 +378,7 @@ dl.multipleSelectionWidget,
   width: 175px;
   float: left;
   margin-right: 0.5em;
-  border: 1px solid #b2b2b2;
+  border: 1px solid #7F7F7F;
   background-color: #fff;
   cursor: pointer;
   border-radius: 4px !important;
@@ -424,7 +424,7 @@ nav#portal-breadcrumbs .container {
 nav#portal-breadcrumbs ol.breadcrumb li a {
   font-weight: 300;
   line-height: 1.25;
-  color: #636363;
+  color: #4A4A4A;
 }
 /* line 317, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
 nav#portal-breadcrumbs li.active a {
@@ -500,11 +500,11 @@ nav#portal-globalnav #portal-header:not(.no-image) + #portal-globalnav .navbar-i
   margin: 10px;
   font-weight: 300;
   font-size: .8125rem;
-  color: #636363;
+  color: #4A4A4A;
 }
 /* line 386, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .portletWrapper .content-noticies hr {
-  border-top: 0px solid #b2b2b2;
+  border-top: 0px solid #7F7F7F;
   border-bottom: 0px solid #fff;
 }
 /* line 391, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
@@ -624,13 +624,13 @@ article.vevent p.description,
 article.vevent ul.horizontal.metadata {
   font-weight: 300;
   margin: 0 0 10px;
-  color: #636363;
+  color: #4A4A4A;
   font-size: 16px;
 }
 /* line 485, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
 article.vevent .documentByLine {
   font-weight: bolder;
-  color: #636363;
+  color: #4A4A4A;
   font-size: 16px;
 }
 /* line 490, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
@@ -659,7 +659,7 @@ article.vevent ul.horizontal.metadata {
 /* line 509, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .list-agenda ol.row .card .event-title {
   font-size: 1.125rem;
-  color: #636363;
+  color: #4A4A4A;
   height: 84px;
   background: rgba(255, 255, 255, 0.9);
   position: absolute;
@@ -742,7 +742,7 @@ ul.list-portlet .content-noticies p {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.25;
-  color: #636363;
+  color: #4A4A4A;
 }
 
 /* Noticias */
@@ -755,7 +755,7 @@ ul.list-portlet .content-noticies p {
   -webkit-column-gap: 2em;
   -moz-column-gap: 2em;
   column-gap: 2em;
-  color: #636363;
+  color: #4A4A4A;
   float: left;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -974,7 +974,7 @@ body.template-manage-homeportlets .portletHeader strong:hover {
 }
 /* line 794, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-manage-homeportlets .portletHeader strong:hover .clearfix.box.box-gradient.padding0:hover strong {
-  color: #636363 !important;
+  color: #4A4A4A !important;
 }
 /* line 798, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.template-manage-homeportlets .portletHeader strong {
@@ -1676,7 +1676,7 @@ ul.pull-right.sobreElWeb {
 
 /* line 1292, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .collage-row:first-child {
-  border-top: 0px solid #b2b2b2;
+  border-top: 0px solid #7F7F7F;
 }
 
 /* line 1295, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
@@ -1766,7 +1766,7 @@ nav#portal-breadcrumbs .container {
 /* line 1353, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #cookies {
   border-bottom: 0px;
-  color: #666666;
+  color: #636363;
   font-size: 16px;
 }
 
@@ -1784,7 +1784,7 @@ nav#portal-breadcrumbs .container {
 .accordion-group {
   margin-bottom: 10px;
   background: #fff;
-  border: 1px solid #b2b2b2;
+  border: 1px solid #7F7F7F;
   border-radius: 0 !important;
 }
 
@@ -1931,7 +1931,7 @@ ul {
 .link-banner-minimal-nolink img + span,
 .link-banner-minimal img + span {
   background: rgba(255, 255, 255, 0.8);
-  color: #636363;
+  color: #4A4A4A;
   padding: 3px 6px;
   display: inline-table;
   position: relative;
@@ -2127,7 +2127,7 @@ ul:not([class]):not([id]) {
 .list-hover li::before,
 .list-notebook li::before,
 .portaltype-packet .estudis .llistatEnllacos li::before {
-  color: #636363 !important;
+  color: #4A4A4A !important;
 }
 
 /* line 1640, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
@@ -2323,7 +2323,7 @@ body.section-templates .link-banner-minimal::after {
 
 /* line 1825, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .filtered_contents_search_pretty .span3 h2 {
-  color: #636363 !important;
+  color: #4A4A4A !important;
 }
 
 @media (max-width: 768px) {
