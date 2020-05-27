@@ -1577,7 +1577,7 @@ label {
 
 /* line 1133, ../scss/_epsevg.scss */
 body .box h2 {
-  color: #0077C8 !important;
+  color: #A4A4A4 !important;
 }
 
 /* LLista UPC fons color blanc */
@@ -2343,7 +2343,7 @@ p {
 
 /* line 18, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .lead {
-  color: #666666;
+  color: #646464;
 }
 
 /* line 21, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
@@ -2462,7 +2462,7 @@ li.active a {
 /* line 104, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .portlet h2 {
   margin: 0;
-  color: #666;
+  color: #4A4A4A;
   position: relative;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 300 !important;
@@ -3222,7 +3222,7 @@ ul.list-portlet .content-noticies p {
 /* line 733, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .portletCalendar h2 {
   border-bottom: 0px;
-  color: #023470;
+  color: #4A4A4A;
 }
 
 /* Porlet general */
@@ -3563,7 +3563,7 @@ body.template-manage-homeportlets nav#portal-breadcrumbs .container {
 }
 /* line 983, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 h2#loginModalLabel {
-  color: #0077C8;
+  color: #4A4A4A;
   font-weight: 300;
 }
 
@@ -3883,7 +3883,7 @@ a.summary.url {
 /* line 1208, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 body.mceContentBody h2,
 #content-core #parent-fieldname-text h2 {
-  color: #666;
+  color: #4A4A4A;
   position: relative;
   font-family: Roboto, Arial, sans-serif;
   font-weight: 300 !important;
@@ -4085,7 +4085,7 @@ nav#portal-breadcrumbs .container {
 /* line 1353, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 #cookies {
   border-bottom: 0px;
-  color: #636363;
+  color: #4A4A4A;
   font-size: 16px;
 }
 
@@ -4282,7 +4282,7 @@ body#mceTemplatePreview ul.list-highlighted li:before {
 
   /* line 1500, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #content-core #parent-fieldname-text h2 {
-    color: #666;
+    color: #4A4A4A;
     line-height: unset;
     position: relative;
     font-family: Roboto,Arial,sans-serif;
@@ -4637,7 +4637,7 @@ body.section-templates .link-banner-minimal::after {
 }
 /* line 1821, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .destacat-contingut h2 {
-  color: #666 !important;
+  color: #4A4A4A !important;
 }
 
 /* line 1825, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
