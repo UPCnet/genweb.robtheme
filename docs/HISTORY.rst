@@ -2,11 +2,13 @@ Changelog
 =========
 
 
-0.15 (unreleased)
+0.15 (2020-06-03)
 -----------------
 
-- Nothing changed yet.
-
+* Estilos portlet [Iago López Fernández]
+* Estilos contrastes [Iago López Fernández]
+* Estilos [Iago López Fernández]
+* Estilos portlet coleccion multivista [Iago López Fernández]
 
 0.14 (2020-05-05)
 -----------------
