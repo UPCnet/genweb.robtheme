@@ -1664,6 +1664,22 @@ body.mceContentBody:not(#mceTemplatePreview) .list-highlighted li:before {
     display: inline-block;
 }
 
+ul {
+    margin-bottom: 10px !important;
+}
+
+body:not(.mceContentBody) ul:not([class]):not([id]) {
+    padding-left: 29px !important;
+}
+
+body:not(.mceContentBody) .list-condensed li {
+    padding: 0px 22px 0 48px !important;
+}
+
+body.mceContentBody .list-condensed > li:before {
+    margin-top: -37px !important;
+}
+
 
 /* flecha */
 
