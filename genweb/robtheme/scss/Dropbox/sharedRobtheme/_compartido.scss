@@ -101,6 +101,8 @@ li {
 li.active a {
     font-weight: 600;
 }
+
+.existing_content_portlet_no_border h2.portlet-title,
 .portlet h2 {
     margin: 0;
     color: #4A4A4A;
@@ -566,7 +568,14 @@ dl.event.summary.details {
 }
 
 /* Listado de Noticias */
+div.portlet-noticies.portlet-ampliat {
+    ul.list-portlet {
+        margin-top: 5px !important;
+    }
+}
+
 ul.list-portlet {
+
     img.image-noticies {
         display: none;
     }
@@ -1821,6 +1830,7 @@ body.section-templates {
 .existing_content_portlet_no_border > .portlet-content {
     display: inline-block;
     width: 100%;
+    margin-top: 5px;
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
