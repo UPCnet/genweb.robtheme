@@ -1664,7 +1664,7 @@ body.mceContentBody:not(#mceTemplatePreview) .list-highlighted li:before {
     display: inline-block;
 }
 
-ul {
+ul:not(.nav) {
     margin-bottom: 10px !important;
 }
 

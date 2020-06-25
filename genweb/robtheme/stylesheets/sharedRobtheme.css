@@ -2162,7 +2162,7 @@ body.mceContentBody:not(#mceTemplatePreview) .list-highlighted li:before {
 }
 
 /* line 1667, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
-ul {
+ul:not(.nav) {
   margin-bottom: 10px !important;
 }
 
