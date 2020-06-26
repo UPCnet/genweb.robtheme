@@ -1878,3 +1878,9 @@ body.section-templates {
 .beautytab ul#myTab {
     margin: 0px !important;
 }
+
+#portal-header + #portal-globalnav #menu-1 ul {
+    border-top: 0 solid;
+    display: flex;
+    justify-content: space-around;
+}

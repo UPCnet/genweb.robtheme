@@ -4703,3 +4703,10 @@ body.section-templates .link-banner-minimal::after {
 .beautytab ul#myTab {
   margin: 0px !important;
 }
+
+/* line 1882, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+#portal-header + #portal-globalnav #menu-1 ul {
+  border-top: 0 solid;
+  display: flex;
+  justify-content: space-around;
+}
