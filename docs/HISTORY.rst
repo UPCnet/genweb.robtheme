@@ -2,11 +2,14 @@ Changelog
 =========
 
 
-0.16 (unreleased)
+0.16 (2020-06-29)
 -----------------
 
-- Nothing changed yet.
-
+* Estilo IE menu cabecera [Iago López Fernández]
+* Titulos portlets [Iago López Fernández]
+* Estilos listados [Iago López Fernández]
+* Portlet fullnews [Iago López Fernández]
+* Estilo [Iago López Fernández]
 
 0.15 (2020-06-03)
 -----------------
