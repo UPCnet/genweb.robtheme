@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-0.18 (unreleased)
+0.18 (2020-06-29)
 -----------------
 
-- Nothing changed yet.
-
+* Titulos portlets [Iago López Fernández]
 
 0.17 (2020-06-29)
 -----------------
