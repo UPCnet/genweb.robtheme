@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-0.17 (unreleased)
+0.17 (2020-06-29)
 -----------------
 
-- Nothing changed yet.
-
+* Quitar: Estilo IE menu cabecera [Iago López Fernández]
 
 0.16 (2020-06-29)
 -----------------
