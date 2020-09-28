@@ -4709,3 +4709,13 @@ body.section-templates .link-banner-minimal::after {
 .beautytab ul#myTab {
   margin: 0px !important;
 }
+
+/* line 1886, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.portaltype-genweb-tfemarket-market #portal-header .header-image.l3-image,
+.portaltype-genweb-tfemarket-offer #portal-header .header-image.l3-image,
+.portaltype-genweb-tfemarket-application #portal-header .header-image.l3-image {
+  height: 48px !important;
+  max-width: 1170px !important;
+  padding: 0px !important;
+  margin: 0 auto;
+}
