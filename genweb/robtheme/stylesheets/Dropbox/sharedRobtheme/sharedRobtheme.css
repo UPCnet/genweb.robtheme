@@ -148,7 +148,7 @@ li.active a {
 /* line 109, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .existing_content_portlet_no_border h2.portlet-title,
 .portlet h2 {
-  margin: 15px;
+  margin: 15px 0 0 0;
   color: #4A4A4A;
   position: relative;
   font-family: "Roboto", Arial, sans-serif;
@@ -2369,28 +2369,33 @@ body.section-templates .link-banner-minimal::after {
   color: #4A4A4A !important;
 }
 
+/* line 1868, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
+.filtered_contents_search_pretty .tileItem img:not(.img_blank) {
+  margin-left: 10px !important;
+}
+
 @media (max-width: 768px) {
-  /* line 1869, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1873, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
   .destacat.destacat-dreta {
     display: inline;
   }
 }
-/* line 1874, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1878, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .img-polaroid {
   max-width: calc(100% - 10px) !important;
 }
 
-/* line 1878, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1882, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .btn + .link_blank {
   display: none !important;
 }
 
-/* line 1882, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1886, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .beautytab ul#myTab {
   margin: 0px !important;
 }
 
-/* line 1886, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
+/* line 1890, ../../../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .portaltype-genweb-tfemarket-market #portal-header .header-image.l3-image,
 .portaltype-genweb-tfemarket-offer #portal-header .header-image.l3-image,
 .portaltype-genweb-tfemarket-application #portal-header .header-image.l3-image {

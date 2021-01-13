@@ -108,7 +108,7 @@ li.active a {
 
 .existing_content_portlet_no_border h2.portlet-title,
 .portlet h2 {
-    margin: 15px;
+    margin: 15px 0 0 0;
     color: #4A4A4A;
     position: relative;
     font-family: "Roboto", Arial, sans-serif;
@@ -1863,6 +1863,10 @@ body.section-templates {
 
 .filtered_contents_search_pretty .span3 h2 {
     color: #4A4A4A!important;
+}
+
+.filtered_contents_search_pretty .tileItem img:not(.img_blank) {
+    margin-left: 10px !important;
 }
 
 @media (max-width: 768px){
