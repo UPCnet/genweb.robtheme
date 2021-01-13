@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-0.22 (unreleased)
+0.22 (2021-01-13)
 -----------------
 
-- Nothing changed yet.
-
+* Estilos [Iago López Fernández]
 
 0.21 (2021-01-13)
 -----------------
