@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-0.21 (unreleased)
+0.21 (2021-01-13)
 -----------------
 
-- Nothing changed yet.
-
+* Estilo título portlet de contenido existente sin bordes [Iago López Fernández]
 
 0.20 (2020-09-28)
 -----------------
