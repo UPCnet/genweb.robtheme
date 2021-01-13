@@ -148,7 +148,7 @@ li.active a {
 /* line 109, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 .existing_content_portlet_no_border h2.portlet-title,
 .portlet h2 {
-  margin: 0;
+  margin: 15px;
   color: #4A4A4A;
   position: relative;
   font-family: "Roboto", Arial, sans-serif;
