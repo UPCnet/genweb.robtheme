@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-0.25 (unreleased)
+0.25 (2021-02-02)
 -----------------
 
-- Nothing changed yet.
-
+* Cerrar bien tag [Iago López Fernández]
 
 0.24 (2021-02-02)
 -----------------
