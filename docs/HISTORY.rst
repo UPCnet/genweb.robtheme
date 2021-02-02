@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-0.23 (unreleased)
+0.23 (2021-02-02)
 -----------------
 
-- Nothing changed yet.
-
+* Solucionar estilos plantilla datos numericos [Iago López Fernández]
 
 0.22 (2021-01-13)
 -----------------
