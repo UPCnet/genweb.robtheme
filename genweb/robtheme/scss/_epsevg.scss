@@ -689,7 +689,9 @@ label {
     padding-bottom: 20px;
 }
 @supports (-moz-appearance:none) {
-    .list-numeral li { display: inline-block !important;; }
+    .list-numeral li {
+        display: inline-block !important;
+    }
 }
 @media (max-width: 768px) {
     .list-numeral {
