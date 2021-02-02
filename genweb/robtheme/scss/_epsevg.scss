@@ -684,9 +684,12 @@ label {
     page-break-inside: avoid;
     break-inside: avoid;
     font-size: 1.5rem;
-    display: inline-block;
+    display: block;
     line-height: 1;
     padding-bottom: 20px;
+}
+@supports (-moz-appearance:none) {
+    .list-numeral li { display: inline-block !important;; }
 }
 @media (max-width: 768px) {
     .list-numeral {
