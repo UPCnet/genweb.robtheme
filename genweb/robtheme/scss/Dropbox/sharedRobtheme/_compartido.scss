@@ -873,12 +873,6 @@ body.template-manage-homeportlets {
     #portlet-navigation-tree.in {
         margin-bottom: 60px;
     }
-    #portal-personaltools-wrapper .navbar-inner,
-    .navbar-fixed-top .navbar-inner,
-    .navbar-fixed-bottom .navbar-inner {
-        height: 50px !important;
-        padding: 10px !important;
-    }
     #content-area {
         margin-top: 0.5em;
         padding: 10px 30px !important;
@@ -1894,4 +1888,31 @@ body.section-templates {
     max-width: 1170px !important;
     padding: 0px !important;
     margin: 0 auto;
+}
+
+@media
+only screen and (max-width: 979px) and (orientation: portrait),
+only screen and (max-width: 979px) and (orientation: landscape) {
+
+    #portal-globalnav {
+        border-bottom: 0px solid transparent !important;
+
+        .navbar li {
+            float: right !important;
+            padding-right: 20px !important;
+        }
+
+        #menu-1 ul {
+            display: block !important;
+
+            li:first-child {
+                padding-right: 0px !important;
+            }
+
+            a {
+                padding-right: 0px !important;
+                padding-left: 0px !important;
+            }
+        }
+    }
 }
