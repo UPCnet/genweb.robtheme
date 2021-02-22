@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-0.26 (unreleased)
+0.26 (2021-02-22)
 -----------------
 
-- Nothing changed yet.
-
+* Estilos movil nabvar [Iago López Fernández]
+* line-height sitemap [Iago López Fernández]
 
 0.25 (2021-02-02)
 -----------------
