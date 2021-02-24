@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-0.27 (unreleased)
+0.27 (2021-02-24)
 -----------------
 
-- Nothing changed yet.
-
+* Estilos movil nabvar [Iago López Fernández]
 
 0.26 (2021-02-22)
 -----------------
