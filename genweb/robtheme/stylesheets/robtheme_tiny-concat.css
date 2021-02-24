@@ -4731,7 +4731,7 @@ body.section-templates .link-banner-minimal::after {
   /* line 1900, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portal-globalnav .navbar li {
     float: right !important;
-    padding-right: 20px !important;
+    padding-left: 20px !important;
   }
   /* line 1905, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portal-globalnav #menu-1 ul {
