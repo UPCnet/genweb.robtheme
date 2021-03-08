@@ -1898,15 +1898,20 @@ only screen and (max-width: 979px) and (orientation: landscape) {
         border-bottom: 0px solid transparent !important;
 
         .navbar li {
-            float: right !important;
-            padding-left: 20px !important;
+            float: left !important;
+            padding-right: 20px !important;
         }
 
         #menu-1 ul {
             display: block !important;
 
+            li.active a {
+                border-bottom: 0px solid transparent !important;
+                color: #000 !important;
+            }
+
             li:first-child {
-                padding-right: 0px !important;
+                padding-right: 20px !important;
             }
 
             a {

@@ -4729,18 +4729,23 @@ body.section-templates .link-banner-minimal::after {
   }
   /* line 1900, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portal-globalnav .navbar li {
-    float: right !important;
-    padding-left: 20px !important;
+    float: left !important;
+    padding-right: 20px !important;
   }
   /* line 1905, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portal-globalnav #menu-1 ul {
     display: block !important;
   }
   /* line 1908, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
-  #portal-globalnav #menu-1 ul li:first-child {
-    padding-right: 0px !important;
+  #portal-globalnav #menu-1 ul li.active a {
+    border-bottom: 0px solid transparent !important;
+    color: #000 !important;
   }
-  /* line 1912, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1913, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  #portal-globalnav #menu-1 ul li:first-child {
+    padding-right: 20px !important;
+  }
+  /* line 1917, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portal-globalnav #menu-1 ul a {
     padding-right: 0px !important;
     padding-left: 0px !important;
