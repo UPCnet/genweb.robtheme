@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-0.28 (unreleased)
+0.28 (2021-03-08)
 -----------------
 
-- Nothing changed yet.
-
+* Estilos Navbar desplegado en móviles [Iago López Fernández]
 
 0.27 (2021-02-24)
 -----------------
