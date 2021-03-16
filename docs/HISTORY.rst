@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-0.29 (unreleased)
+0.29 (2021-03-16)
 -----------------
 
-- Nothing changed yet.
-
+* Estilos Navbar pills en móviles [Iago López Fernández]
 
 0.28 (2021-03-08)
 -----------------
