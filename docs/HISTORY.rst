@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-0.30 (unreleased)
+0.30 (2021-06-07)
 -----------------
 
-- Nothing changed yet.
-
+* Estilo H2 [Iago López Fernández]
 
 0.29 (2021-03-16)
 -----------------
