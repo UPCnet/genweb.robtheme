@@ -1939,4 +1939,17 @@ only screen and (max-width: 979px) and (orientation: landscape) {
             }
         }
     }
+
+    .list {
+
+        &.list-index li:before {
+            margin-top: -36px;
+        }
+
+        &.list-highlighted li:before {
+            margin-top: -32px;
+        }
+    }
 }
+
+
