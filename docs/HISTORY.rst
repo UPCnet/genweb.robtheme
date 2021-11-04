@@ -2,11 +2,11 @@ Changelog
 =========
 
 
-0.31 (unreleased)
+0.31 (2021-11-04)
 -----------------
 
-- Nothing changed yet.
-
+* Estilos para que se visualicen correctamente los videos de YT [Iago López Fernández]
+* Estilos listados [Iago López Fernández]
 
 0.30 (2021-06-07)
 -----------------
