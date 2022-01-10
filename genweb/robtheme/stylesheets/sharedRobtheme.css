@@ -1496,7 +1496,7 @@ a.state-published span:hover,
 
 /* line 1167, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
 header#portal-header .titol-espai.clearfix h1 {
-  margin: 5px 0 10px 0px !important;
+  margin: 10px 0px !important;
 }
 
 /* line 1170, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
@@ -2380,50 +2380,40 @@ body.section-templates .link-banner-minimal::after {
   margin: 0px !important;
 }
 
-/* line 1877, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
-.portaltype-genweb-tfemarket-market #portal-header .header-image.l3-image,
-.portaltype-genweb-tfemarket-offer #portal-header .header-image.l3-image,
-.portaltype-genweb-tfemarket-application #portal-header .header-image.l3-image {
-  height: 48px !important;
-  max-width: 1170px !important;
-  padding: 0px !important;
-  margin: 0 auto;
-}
-
 @media only screen and (max-width: 979px) and (orientation: portrait), only screen and (max-width: 979px) and (orientation: landscape) {
-  /* line 1890, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1881, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portal-globalnav {
     border-bottom: 0px solid transparent !important;
   }
-  /* line 1895, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1886, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portal-globalnav .container .navbar li {
     float: left !important;
     padding-right: 0px !important;
   }
-  /* line 1900, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1891, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portal-globalnav .container .navbar .navbar-inner #menu-1 {
     border-bottom: 0px solid transparent !important;
   }
-  /* line 1903, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1894, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portal-globalnav .container .navbar .navbar-inner #menu-1 ul {
     display: inline-block !important;
     border-top: 0px solid transparent !important;
   }
-  /* line 1907, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1898, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portal-globalnav .container .navbar .navbar-inner #menu-1 ul li.active a {
     border-bottom: 0px solid transparent !important;
     color: #FFF !important;
     background-color: #007bc1 !important;
   }
-  /* line 1912, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1903, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portal-globalnav .container .navbar .navbar-inner #menu-1 ul li.active a:hover {
     background-color: #005a8d !important;
   }
-  /* line 1917, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1908, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portal-globalnav .container .navbar .navbar-inner #menu-1 ul li:first-child {
     padding-right: 0px !important;
   }
-  /* line 1921, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1912, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portal-globalnav .container .navbar .navbar-inner #menu-1 ul li a {
     background-color: #bdbdbd !important;
     border-radius: 25px !important;
@@ -2431,16 +2421,16 @@ body.section-templates .link-banner-minimal::after {
     padding: 10px 15px !important;
     margin-top: 10px !important;
   }
-  /* line 1928, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1919, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   #portal-globalnav .container .navbar .navbar-inner #menu-1 ul li a:hover {
     background-color: #a2a2a2 !important;
   }
 
-  /* line 1939, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1930, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   .list.list-index li:before {
     margin-top: -36px;
   }
-  /* line 1943, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
+  /* line 1934, ../scss/Dropbox/sharedRobtheme/_compartido.scss */
   .list.list-highlighted li:before {
     margin-top: -32px;
   }
