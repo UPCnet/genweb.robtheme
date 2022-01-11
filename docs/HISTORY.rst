@@ -2,11 +2,10 @@ Changelog
 =========
 
 
-0.32 (unreleased)
+0.32 (2022-01-11)
 -----------------
 
-- Nothing changed yet.
-
+* Quitar logo 50 aniversari UPC [ilopezsmx]
 
 0.31 (2021-11-04)
 -----------------
