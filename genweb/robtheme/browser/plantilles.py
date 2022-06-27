@@ -8,6 +8,7 @@ def get_plantilles():
     """
     portal = api.portal.get()
     absolute_url = portal.absolute_url()
+    example_img_url = absolute_url + '/portal_skins/robtheme_images'
 
     plantilles = []
     titol = u"Rob Theme - Acordió"
@@ -290,7 +291,7 @@ def get_plantilles():
     </div>
 </div>
 <p>&nbsp;</p>
-    """.format(absolute_url)
+    """.format(example_img_url)
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
     titol = u"Rob Theme - Llistat opcions amb icones lletres - 2 col"
@@ -427,7 +428,7 @@ def get_plantilles():
     </div>
 </div>
 <p>&nbsp;</p>
-    """.format(absolute_url)
+    """.format(example_img_url)
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
     titol = u"Rob Theme - Destacat amb imatge"
@@ -444,7 +445,7 @@ def get_plantilles():
              src="{0}/example-penguin.jpeg" /></div>
 </div>
 <p>&nbsp;</p>
-    """.format(absolute_url)
+    """.format(example_img_url)
     plantilles.append({'titol': titol, 'resum': resum, 'cos': cos})
 
     titol = u"Rob Theme - Frase destacada"
