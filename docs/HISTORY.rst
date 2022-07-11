@@ -2,11 +2,12 @@ Changelog
 =========
 
 
-0.33 (unreleased)
+0.33 (2022-07-11)
 -----------------
 
-- Nothing changed yet.
-
+* Estilo movil listados [Iago López]
+* Update grunt [Iago López]
+* Actualizat url imagenes plantillas [Iago López]
 
 0.32 (2022-01-11)
 -----------------
