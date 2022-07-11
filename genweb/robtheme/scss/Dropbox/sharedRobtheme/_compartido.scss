@@ -1680,6 +1680,12 @@ body.mceContentBody .list-condensed > li:before {
     margin-top: -37px !important;
 }
 
+@media only screen and (max-width: 979px) {
+
+    .list-condensed > li:before {
+        margin-top: -37px !important;
+    }
+}
 
 /* flecha */
 
