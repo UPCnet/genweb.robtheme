@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://genweb.upc.edu/++genwebupc++stylesheets/genwebupc.css");
+@import url("++genwebupc++stylesheets/genwebupc.css");
 @font-face {
   font-family: 'upc-icones';
   src: url("++genweb++robtheme/fonts/upc-icones.woff") format("woff"), url("++genweb++robtheme/fonts/upc-icones.ttf") format("truetype"), url("++genweb++robtheme/fonts/upc-icones.svg#upc-icones") format("svg");
